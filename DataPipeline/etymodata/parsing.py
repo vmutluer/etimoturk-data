@@ -224,6 +224,7 @@ class NameEntry:
     related: str
     note: str
     note_en: str
+    disputed: bool = False
     module: str = ""
 
 
@@ -242,6 +243,10 @@ def parse_names(blocks=None) -> List[NameEntry]:
             if len(fields) != 10:
                 raise ValueError(f"Kişi adı satırı 10 alan olmalı (ad|cins|köken|parçalar|anlam|anlam_en|aile|ilgili|not|not_en): {line[:60]}")
             name, gender, origin, parts_raw, meaning, meaning_en, family, related, note, note_en = fields
+            disputed = origin.endswith("?")
+            origin = origin.rstrip("?")
+            if disputed and not (note and note_en):
+                raise ValueError(f"Kişi adı '{name}': tartışmalı (?) ad için not ve not_en zorunlu (öteki açıklamalar)")
             if gender not in ("k", "e", "u"):
                 raise ValueError(f"Kişi adı '{name}': cins k/e/u olmalı, '{gender}' verildi")
             parts = []
@@ -256,7 +261,7 @@ def parse_names(blocks=None) -> List[NameEntry]:
             if key in seen:
                 continue
             seen.add(key)
-            out.append(NameEntry(name, gender, origin, parts, meaning, meaning_en, family, related, note, note_en, module_name))
+            out.append(NameEntry(name, gender, origin, parts, meaning, meaning_en, family, related, note, note_en, disputed, module_name))
     return out
 
 

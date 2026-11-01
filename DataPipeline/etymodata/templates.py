@@ -188,7 +188,8 @@ CREATE TABLE person_names (
     story TEXT NOT NULL,
     story_en TEXT NOT NULL DEFAULT '',
     note TEXT NOT NULL DEFAULT '',
-    note_en TEXT NOT NULL DEFAULT '');
+    note_en TEXT NOT NULL DEFAULT '',
+    is_disputed INTEGER NOT NULL DEFAULT 0);
 CREATE INDEX idx_person_names_normalized ON person_names(normalized_name);
 CREATE INDEX idx_person_names_origin ON person_names(origin_language_code);
 CREATE INDEX idx_person_names_family ON person_names(root_family_id);

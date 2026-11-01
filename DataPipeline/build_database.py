@@ -405,10 +405,10 @@ def build(out_dir: str, data_commit: str = "") -> dict:
     cur.executemany(
         """INSERT INTO person_names (id, name, normalized_name, gender, origin_language_code, origin_language_name,
             origin_language_name_en, source_form, meaning, meaning_en, components_json, root_family_id, related_word_id,
-            related_lemma, story, story_en, note, note_en)
+            related_lemma, story, story_en, note, note_en, is_disputed)
            VALUES (:id,:name,:normalized_name,:gender,:origin_language_code,:origin_language_name,
             :origin_language_name_en,:source_form,:meaning,:meaning_en,:components_json,:root_family_id,:related_word_id,
-            :related_lemma,:story,:story_en,:note,:note_en)""", name_rows)
+            :related_lemma,:story,:story_en,:note,:note_en,:is_disputed)""", name_rows)
     cur.execute("INSERT INTO idioms_fts(rowid, phrase, normalized_phrase, meaning, origin_story, key_words, meaning_en, origin_story_en) "
                 "SELECT id, phrase, normalized_phrase, meaning, origin_story, key_words, meaning_en, origin_story_en FROM idiom_origins")
     meta = {
@@ -439,6 +439,7 @@ def build(out_dir: str, data_commit: str = "") -> dict:
         "person_name_count": str(len(name_rows)),
         "person_name_female_count": str(sum(1 for r in name_rows if r["gender"] == "k")),
         "person_name_male_count": str(sum(1 for r in name_rows if r["gender"] == "e")),
+        "person_name_disputed_count": str(sum(1 for r in name_rows if r["is_disputed"])),
         "idiom_domain_count": str(len({r["domain_code"] for r in idiom_rows})),
         "idiom_word_link_count": str(len(idiom_word_rows)),
         "idiom_confidence_downgraded_by_audit": str(audit_stats["idiom_confidence_downgraded"]),

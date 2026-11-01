@@ -34,7 +34,10 @@ def _is_suffix(form: str) -> bool:
 
 def story_tr(n) -> str:
     origin = lang_tr(n.origin)
-    s = f"{n.name}, {origin} kökenli bir {GENDER_TR[n.gender]}dır. "
+    if getattr(n, "disputed", False):
+        s = f"{n.name}, kökeni kesin olarak bilinmeyen bir {GENDER_TR[n.gender]}dır; en yaygın açıklamaya göre {origin} kökenlidir. "
+    else:
+        s = f"{n.name}, {origin} kökenli bir {GENDER_TR[n.gender]}dır. "
     parts = n.parts
     if len(parts) == 1:
         p = parts[0]
@@ -56,13 +59,16 @@ def story_tr(n) -> str:
         else:
             s += f" Türkçedeki {n.related} sözcüğüyle aynı kökten gelir."
     if n.note:
-        s += " " + n.note
+        s += (" Öteki görüşler: " if getattr(n, "disputed", False) else " ") + n.note
     return s
 
 
 def story_en(n) -> str:
     origin = lang_en(n.origin)
-    s = f"{n.name} is a {GENDER_EN[n.gender]} of {origin} origin. "
+    if getattr(n, "disputed", False):
+        s = f"{n.name} is a {GENDER_EN[n.gender]} whose origin is not firmly established; the most common account makes it {origin}. "
+    else:
+        s = f"{n.name} is a {GENDER_EN[n.gender]} of {origin} origin. "
     parts = n.parts
     if len(parts) == 1:
         p = parts[0]
@@ -82,7 +88,7 @@ def story_en(n) -> str:
         else:
             s += f" It shares its root with the Turkish word {n.related}."
     if n.note_en:
-        s += " " + n.note_en
+        s += (" Other views: " if getattr(n, "disputed", False) else " ") + n.note_en
     return s
 
 
@@ -110,4 +116,5 @@ def make_name_row(i: int, n, family_ids: dict, lexicon_index: dict) -> dict:
         "story_en": story_en(n),
         "note": n.note,
         "note_en": n.note_en,
+        "is_disputed": 1 if getattr(n, "disputed", False) else 0,
     }
