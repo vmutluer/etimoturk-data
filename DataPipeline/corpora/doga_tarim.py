@@ -110,7 +110,7 @@ kaya|n|tr|kaya|büyük taş|DLT||
 kum|n|tr|kum|ince taş|DLT||
 çakıl|n|tr|çakıl|küçük yuvarlak taş|OSM||
 kil|n|fa|gil|balçık|EAT||
-maden|n|ar|maʿdin|yer altı kaynağı|EAT|M-D-N|
+maden|n|ar|maʿdin|yer altı kaynağı|EAT|A-D-N|
 altın|n|tr|altun|değerli maden|ORH||
 gümüş|n|tr|kümüş|değerli maden|ORH||
 bakır|n|tr|bakır|kızıl maden|DLT||
@@ -219,7 +219,7 @@ FAMILIES = r"""
 *tarı-|tr|ekmek, ekip biçmek|Eski Türkçe tarı- "ekmek"; darı (tarıġ: ekin), tarla (tarıġlaġ: ekilen yer) ve Dil Devrimi türetmesi tarım aynı kökten gelir.
 cuft|fa|çift, öküz çifti|Farsça cuft "çift"; çift, çiftçi (çift süren) ve çiftlik aynı kökten türer.
 *koru-|tr|esirgemek|Eski Türkçe korı- "korumak"; koru (korunan ağaçlık), korumak, koruma ve korunak aynı kökten gelir.
-R-A-Y|ar|gütmek, gözetmek|Arapça r-ʿ-y kökü; mera (otlak), riayet (gözetme), raiyet ve reaya (güdülen halk) aynı kökten türer.
+R-A-Y|ar|gütmek, gözetmek|Arapça r-ʿ-y kökü; mera (otlak), riayet (gözetme), raiyet ve reaya (güdülen halk) aynı kökten türer. Riya, mürai ve rüya, r-ʾ-y "görmek" kökünden gelen ayrı bir ailedir.
 *yay|tr|yaz, ilkbahar|Eski Türkçe yay "yaz"; yayla (yaz konağı) aynı kökten gelir; Türk dünyasında yaz anlamı sürer.
 *kış|tr|soğuk mevsim|Eski Türkçe kış; kışlak (kış konağı) ve kışla (asker barınağı) aynı kökten türer.
 *tırma-|tr|tırnakla çizmek|Eski Türkçe tırŋak "tırnak" ile akraba tırma- gövdesi; tırmık, tırmalamak ve tırmanmak aynı kökten gelir.

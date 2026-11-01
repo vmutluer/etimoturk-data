@@ -416,7 +416,7 @@ phōs|el|ışık|Eski Yunanca phôs "ışık"; fotoğraf, foton ve fosfor aynı 
 *tak-|tr|iliştirmek|Eski Türkçe tak- "takmak"; takmak, takı ve takım aynı kökten türer.
 mousa|el|ilham perisi|Eski Yunanca Moûsa "ilham perisi"; müzik, musiki, müze ve mozaik aynı kökten gelir.
 ōidē|el|şarkı|Eski Yunanca ōidḕ "şarkı"; melodi, komedi, trajedi, parodi, rapsodi ve prozodi aynı kökten türer.
-clarus|la|parlak, berrak|Latince clarus "berrak"; klarnet aynı kökten gelir.
+clarus|la|parlak, berrak|Latince clarus "berrak, açık"; klarnet (berrak sesli) ve declarare "açıkça bildirmek" üzerinden deklarasyon aynı kökten gelir.
 K-R-B|ar|yakın olmak|Arapça q-r-b kökü; kurban (yakınlaşma) ve akraba (yakınlar) aynı kökten türer.
 H-C-C|ar|ziyaret etmek|Arapça ḥ-c-c kökü; hac ve hacı aynı kökten gelir.
 A-Z-N|ar|duyurmak, izin vermek|Arapça ʾ-ḏ-n kökü; ezan (duyuru), müezzin ve izin aynı kökten türer.

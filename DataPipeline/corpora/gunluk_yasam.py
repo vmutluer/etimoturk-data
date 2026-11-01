@@ -71,7 +71,7 @@ baca|n|fa|bāce|pencere; baca|EAT||
 dam|n|tr|tam|dam, çatı|DLT||
 kiler odası|n|el|kellári|kiler|OSM||
 ambar|n|fa|anbār|depo|EAT||
-mahzen|n|ar|maḫzan|depo|EAT||
+mahzen|n|ar|maḫzan|depo|EAT|Ḫ-Z-N|
 sığınaklık|n|tr|sığınak|sığınak|MOD|*sığ-|
 bodrum|n|el|ipódromos|yer altı|OSM||grc:hippódromos>el:ipódromos>tr:bodrum
 asma kat|n|tr|asma|ara kat|MOD||
@@ -155,7 +155,7 @@ indirim kuponu|n|tr|indirim|kupon|MOD|*in-|
 kupon|n|fr|coupon|kesilen parça|CUM||fr:coupon>tr:kupon
 kasiyer|n|fr|caissier|kasa görevlisi|CUM||fr:caissier>tr:kasiyer
 tezgâhtar|n|fa|dast-gāh-dār|tezgâh tutan|OSM|dār-|
-müşteri|n|ar|muştarī|satın alan|EAT|Ş-R-K|
+müşteri|n|ar|muştarī|satın alan|EAT|Ş-R-Y|
 veresiye|n|tr|véresiye|sonra ödemeli|OSM|*ver-|
 peşin|n|fa|pīşīn|önden|EAT||
 taksit|n|ar|taqsīṭ|bölüştürme|OSM19||
@@ -163,7 +163,7 @@ kredi|n|fr|crédit|güven|OSM19||la:creditum>fr:crédit>tr:kredi
 borçlu|adj|sog|pwrc|borcu olan|OSM||
 alacak|n|tr|alacak|alınacak para|OSM|*al-|
 kâr payı|n|fa|kār|temettü|MOD|-kār|
-zam|n|ar|ḏamm|ekleme|OSM||
+zam|n|ar|ḍamm|ekleme|OSM|Ḍ-M-M|
 enflasyon|n|fr|inflation|şişme|MOD||la:inflatio>fr:inflation>tr:enflasyon
 pahalılık|n|fa|bahā|fiyat yüksekliği|OSM||
 ucuzluk|n|tr|uçuz|indirim|OSM||
@@ -241,7 +241,7 @@ itfaiyeci|n|ar|iṭfāʾiyya|yangın söndüren|CUM||
 polis memuru|n|fr|police|polis|OSM19|polis|
 jandarma|n|fr|gendarme|silahlı adam|OSM19||fr:gens d'armes>fr:gendarme>tr:jandarma
 zabıta|n|ar|ḏābiṭa|düzen tutan|OSM||
-muhtar|n|ar|muḫtār|seçilmiş|OSM|H-Y-R|
+muhtar|n|ar|muḫtār|seçilmiş|OSM|Ḫ-Y-R|
 muhtarlık|n|ar|muḫtār|muhtar dairesi|OSM19||
 kâhya|n|fa|kad-ḫudā|ev sahibi|EAT||
 kapıcı|n|tr|kapıg|kapı bekleyen|OSM|*kap-|
@@ -359,7 +359,7 @@ bebek|n|tr|bebek|küçük çocuk|DLT||
 çocukluk|n|tr|çocuk|çocuk olma dönemi|OSM||
 gençlik|n|tr|kenç|genç olma|DLT||
 yaşlılık|n|tr|yaşlıg|ihtiyarlık|OSM|*yaş-|
-ihtiyar|adj|ar|iḫtiyār|seçilmiş; yaşlı|EAT||
+ihtiyar|adj|ar|iḫtiyār|seçilmiş; yaşlı|EAT|Ḫ-Y-R|
 kocakarı|n|tr|koca karı|yaşlı kadın|OSM||
 koca|n|tr|koca|büyük; eş|DLT||
 karı|n|tr|karı|yaşlı; eş|DLT||

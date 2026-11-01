@@ -21,9 +21,9 @@ mebni|adj|ar|mabnī|kurulmuş|OSM|B-N-Y|
 sütun|n|fa|sutūn|direk|EAT||
 kolon|n|fr|colonne|direk|CUM|columna|la:columna>fr:colonne>tr:kolon
 kolonad|n|fr|colonnade|sütun dizisi|MOD|columna|
-kubbe|n|ar|qubba|yuvarlak çatı|EAT|K-B-B|
-kebap|n|ar|kabāb|kızartılmış et|EAT|K-B-B|
-kebapçı|n|ar|kabāb|kebap pişiren|OSM|K-B-B|
+kubbe|n|ar|qubba|yuvarlak çatı|EAT|Q-B-B|
+kebap|n|ar|kabāb|kızartılmış et|EAT||
+kebapçı|n|ar|kabāb|kebap pişiren|OSM||
 minare|n|ar|manāra|ışık yeri|EAT|N-W-R|
 nur|n|ar|nūr|ışık|EAT|N-W-R|
 münevver|adj|ar|munawwar|aydınlatılmış|OSM|N-W-R|
@@ -149,9 +149,9 @@ FAMILIES = r"""
 *kat-|tr|eklemek|Eski Türkçe kat- "eklemek, karıştırmak"; kat (katman), katmak, katkı ve katman aynı kökten türer.
 A-M-R|ar|yaşamak; bayındır kılmak|Arapça ʿ-m-r kökü; ömür (yaşam süresi), mimar, mimari, imar, umran, mamur, imaret ve tamir aynı kökten gelir.
 B-N-Y|ar|kurmak|Arapça b-n-y kökü; bina, bünye (yapı) ve mebni aynı kökten türer.
-N-Ş-A|ar|ortaya çıkmak, kurmak|Arapça n-ş-ʾ kökü; inşa, inşaat, menşe (çıkış yeri) ve neşet aynı kökten gelir.
+N-Ş-A|ar|ortaya çıkmak, kurmak|Arapça n-ş-ʾ kökü; inşa, inşaat, menşe (çıkış yeri), neşet ve naşʾa (yetişme; ilk coşku) > neşe, neşeli aynı kökten gelir. Neşe için n-ş-ṭ (neşat) bağlantısı da önerilmiştir.
 columna|la|sütun|Latince columna "sütun"; kolon ve kolonad aynı kökten türer.
-K-B-B|ar|yuvarlamak|Arapça k-b-b kökü; kubbe (yuvarlak çatı) ile kebap (yuvarlanmış et) aynı kökten gelir.
+Q-B-B|ar|kubbe yapmak; yuvarlak olmak|Arapça q-b-b kökü; qubba (kubbe) > kubbe ve kubbealtı aynı kökten gelir. Kebap bu kökten değildir: kabāb, Aramice/Akkadca "yakmak, kavurmak" anlamlı bir köke bağlanır.
 N-W-R|ar|ışık|Arapça n-w-r kökü; nur, minare (ışık yeri), münevver ve tenvir aynı kökten türer.
 H-R-B|ar|savaş|Arapça ḥ-r-b kökü; harp, muharebe, harbiye ve mihrap (savaş yeri; kıble nişi) aynı kökten gelir.
 canalis|la|oluk|Latince canalis "oluk"; kanal ve kanalizasyon aynı kökten türer.

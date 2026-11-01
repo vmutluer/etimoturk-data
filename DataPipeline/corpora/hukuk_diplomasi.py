@@ -61,7 +61,7 @@ hırsız|n|tr|ḫırsız|hırsı olan|EAT||ar:ḥırṣ>tr:hırsız
 dolandırmak|v|tr|tolan-|aldatarak kandırmak|OSM||
 rüşvet|n|ar|rişwa|yem|EAT||
 irtikap|n|ar|irtikāb|kötülük işleme|OSM||
-zimmet|n|ar|ẕimma|borç; koruma yükümü|OSM||
+zimmet|n|ar|ẕimma|borç; koruma yükümü|OSM|Z-M-M|
 kefalet|n|ar|kafāla|üstlenme|OSM|K-F-L|
 kefil|n|ar|kafīl|üstlenen|EAT|K-F-L|
 teminat|n|ar|taʾmīnāt|güvenceler|OSM19|A-M-N|
@@ -86,13 +86,13 @@ zarar|n|ar|ḏarar|kayıp|EAT|D-R-R|
 muzır|adj|ar|muḏirr|zarar veren|OSM|D-R-R|
 zaruret|n|ar|ḏarūra|zorunluluk|OSM|D-R-R|
 zaruri|adj|ar|ḏarūrī|zorunlu|OSM|D-R-R|
-kusur|n|ar|quṣūr|eksiklik|OSM|K-S-R|
+kusur|n|ar|quṣūr|eksiklik|OSM|Q-Ṣ-R|
 kast|n|ar|qaṣd|niyet|OSM|K-S-D|
 maksat|n|ar|maqṣad|hedef|EAT|K-S-D|
 kasıt|n|ar|qaṣd|bile isteye|OSM19|K-S-D|
 kasten|adv|ar|qaṣdan|bilerek|OSM|K-S-D|
 iktisat|n|ar|iqtiṣād|ölçülü harcama|OSM19|K-S-D|
-taksir|n|ar|taqṣīr|kısaltma; ihmal|OSM|K-S-R|
+taksir|n|ar|taqṣīr|kısaltma; ihmal|OSM|Q-Ṣ-R|
 tahliye|n|ar|taḫliya|boşaltma|OSM||
 gözaltı|n|tr|göz altı|geçici tutma|TDK|*kör-|
 hapis|n|ar|ḥabs|kapatma|EAT|H-B-S|
@@ -184,7 +184,7 @@ sulh|n|ar|ṣulḥ|barış|EAT|S-L-H|
 ültimatom|n|fr|ultimatum|son söz|OSM19||la:ultimatum>fr:ultimatum>tr:ültimatom
 delegasyon|n|fr|délégation|gönderilen kurul|CUM|legare|
 delege|n|fr|délégué|gönderilen|CUM|legare|
-lejyon|n|fr|légion|seçilmiş birlik|CUM|legare|
+lejyon|n|fr|légion|seçilmiş birlik|CUM|legere|
 heyet|n|ar|hayʾa|biçim; kurul|OSM|H-Y-A|
 hey'et|n|ar|hayʾa|gök bilimi|OSM|H-Y-A|
 kurul|n|tr|kurul|toplanmış heyet|DD|*kur-|
@@ -227,7 +227,7 @@ senato|n|it|senato|yaşlılar kurulu|OSM19||
 anayasa|n|tr|ana yasa|temel yasa|DD||
 yasama|n|tr|yasa|yasa yapma|DD||
 yürütme|n|tr|yürüt-|uygulama erki|DD|*yürü-|
-sadrazam|n|ar|ṣadr-i aʿẕam|en büyük göğüs (başvezir)|OSM|A-Z-M|
+sadrazam|n|ar|ṣadr-i aʿẕam|en büyük göğüs (başvezir)|OSM|A-Ẕ-M|
 vezir|n|ar|wazīr|yük taşıyan|EAT|W-Z-R|
 vezaret|n|ar|wizāra|vezirlik|OSM|W-Z-R|
 ferman|n|fa|farmān|buyruk|EAT||
@@ -248,10 +248,10 @@ uz|adj|tr|uz|becerikli, iyi|DLT|*uz|
 uzman|n|tr|uzman|işinin ustası|DD|*uz|
 uzluk|n|tr|uzluk|ustalık|DLT|*uz|
 bağımsız|adj|tr|bağımsız|başkasına bağlı olmayan|DD|*bağ-|
-muhtar|n|ar|muḫtār|seçilmiş|OSM|H-Y-R|
-ihtiyar|n|ar|iḫtiyār|seçme; yaşlı|EAT|H-Y-R|
-hayır|n|ar|ḫayr|iyilik|EAT|H-Y-R|
-hayırlı|adj|ar|ḫayr|iyilikli|EAT|H-Y-R|
+muhtar|n|ar|muḫtār|seçilmiş|OSM|Ḫ-Y-R|
+ihtiyar|n|ar|iḫtiyār|seçme; yaşlı|EAT|Ḫ-Y-R|
+hayır|n|ar|ḫayr|iyilik|EAT|Ḫ-Y-R|
+hayırlı|adj|ar|ḫayr|iyilikli|EAT|Ḫ-Y-R|
 vali|n|ar|wālī|yöneten|EAT|W-L-Y|
 vilayet|n|ar|wilāya|yönetim bölgesi|OSM|W-L-Y|
 veli|n|ar|walī|yakın; koruyucu|EAT|W-L-Y|
@@ -318,7 +318,7 @@ K-L-L|ar|bütün|Arapça k-l-l kökü; küll (bütün), külli, külliye ve isti
 C-M-H|ar|toplanmak|Arapça c-m-h kökü; cumhur (halk), cumhuriyet ve cumhurbaşkanı aynı kökten gelir.
 C-L-S|ar|oturmak|Arapça c-l-s kökü; meclis (oturma yeri) ve celse (oturum) aynı kökten türer.
 W-Z-R|ar|yük taşımak|Arapça w-z-r kökü; vezir (yükü taşıyan) ve vezaret aynı kökten gelir.
-H-Y-R|ar|iyi; seçmek|Arapça ḫ-y-r kökü; hayır (iyilik), hayırlı, ihtiyar (seçme; yaşlı) ve muhtar (seçilmiş) aynı kökten türer.
+Ḫ-Y-R|ar|iyi; seçmek|Arapça ḫ-y-r kökü; hayır (iyilik), hayırlı, hayrat, ihtiyar (seçme; yaşlı) ve muhtar (seçilmiş) aynı kökten türer. Hayret ve hayran, ḥ-y-r kökünden gelen ayrı bir ailedir.
 W-L-Y|ar|yakın olmak, yönetmek|Arapça w-l-y kökü; vali, vilayet, veli, evliya ve mevla aynı kökten gelir.
 B-L-D|ar|kent|Arapça b-l-d kökü; belde ve belediye aynı kökten türer.
 H-L-L|ar|çözmek; konmak|Arapça ḥ-l-l kökü; helal (çözülmüş, izinli), hal (çözüm), tahlil (çözümleme), mahal ve mahalle aynı kökten gelir.
@@ -328,7 +328,7 @@ nota|la|işaret|Latince nota "işaret"; nota, not ve noter (yazman) aynı kökte
 diploma|el|katlanmış belge|Eski Yunanca díplōma "ikiye katlanmış"; diploma, diplomasi, diplomat ve diplomatik aynı kökten gelir.
 consulere|la|danışmak|Latince consulere "danışmak"; konsolos, konsey ve konsültasyon aynı kökten türer.
 kolla|el|tutkal|Eski Yunanca kólla "tutkal"; protokol (ilk yapıştırılan yaprak) ve kolaj aynı kökten gelir.
-legare|la|göndermek, yasa|Latince legare "göndermek"; delege, delegasyon ve lejyon aynı kökten türer.
+legare|la|göndermek, yasa|Latince legare "göndermek, vekil atamak"; delege ve delegasyon aynı kökten türer. Lejyon ise legere "toplamak" kökünden (legio) gelir.
 ferre|la|taşımak|Latince ferre "taşımak"; konferans, transfer ve referans aynı kökten gelir.
 portus|la|liman, geçit|Latince portus "liman"; port ve pasaport (liman geçişi) aynı kökten türer.
 arkhein|el|yönetmek, ilk olmak|Eski Yunanca árkhein "başta olmak"; monarşi, anarşi, hiyerarşi, oligarşi, arşiv ve patrik aynı kökten gelir.

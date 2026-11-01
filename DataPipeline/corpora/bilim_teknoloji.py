@@ -494,7 +494,7 @@ supap|n|fr|soupape|emniyet kapağı|CUM||
 boru|n|tr|boru|içi boş uzun nesne|DLT||
 körük|n|tr|körük|hava basıcı|DLT||
 perçin|n|fa|parçīn|çivi başı ezme|OSM||
-lehim|n|ar|laḥm|yapıştırma|OSM||
+lehim|n|ar|laḥm|yapıştırma|OSM|L-Ḥ-M|
 freze|n|fr|fraise|çilek; yiv açıcı|MOD||
 eğe|n|tr|egek|törpü|DLT||
 zımpara|n|fa|sunbāde|aşındırıcı taş|OSM||
@@ -511,10 +511,10 @@ sim|n|fa|sīm|gümüş; tel|EAT||
 izolatör|n|fr|isolateur|yalıtan|CUM||la:insula>it:isolare>fr:isolateur>tr:izolatör
 yalıtım|n|tr|yalıt-|yalnız bırakma|DD||
 yalıtkan|n|tr|yalıt-|elektriği geçirmeyen|DD||
-iletken|n|tr|ilet-|ileten|DD|*il-|
-iletim|n|tr|ilet-|iletme|DD|*il-|
+iletken|n|tr|ilet-|ileten|DD|*ilet-|
+iletim|n|tr|ilet-|iletme|DD|*ilet-|
 ilinti|n|tr|il-|bağlantı|DD|*il-|
-iletki|n|tr|ilet-|açı ölçer|DD|*il-|
+iletki|n|tr|ilet-|açı ölçer|DD|*ilet-|
 kaldıraç|n|tr|kaldır-|kaldırma kolu|DD|*kalk-|
 imalat|n|ar|iʿmālāt|yapımlar|OSM19|A-M-L|
 kumpas|n|fr|compas|pergel; ölçü aleti|OSM||la:compassare>fr:compas>tr:kumpas
@@ -680,7 +680,7 @@ cisim|n|ar|cism|beden; nesne|EAT|C-S-M|
 cismani|adj|ar|cismānī|bedene ilişkin|OSM|C-S-M|
 tecessüm|n|ar|tacassum|cisimlenme|OSM|C-S-M|
 mücessem|adj|ar|mucassam|cisimleşmiş|OSM|C-S-M|
-cüsse|n|ar|cuththa|gövde|OSM|C-S-M|
+cüsse|n|ar|cuththa|gövde|OSM||
 mizaç|n|ar|mizāc|karışım; huy|EAT|M-Z-C|
 imtizaç|n|ar|imtizāc|karışıp uyuşma|OSM|M-Z-C|
 mezc|n|ar|mazc|karıştırma|OSM|M-Z-C|
@@ -730,7 +730,7 @@ teçhizat|n|ar|tachīzāt|donanımlar|OSM19|C-H-Z|
 mücehhez|adj|ar|mucahhaz|donatılmış|OSM|C-H-Z|
 müselles|n|ar|muthallath|üçgen|OSM|S-L-S|
 sülüs|n|ar|thuluth|üçte bir|EAT|S-L-S|
-salise|n|ar|thāliza|üçüncü; saniyenin altmışta biri|OSM|S-L-S|
+salise|n|ar|ṯāliṯa|üçüncü; saniyenin altmışta biri|OSM|S-L-S|
 mutlak|adj|ar|muṭlaq|salıverilmiş; kesin|EAT|T-L-K|
 itlak|n|ar|iṭlāq|salıverme|OSM|T-L-K|
 mücerret|adj|ar|mucarrad|soyut|OSM|C-R-D|
@@ -745,9 +745,9 @@ takdim|n|ar|taqdīm|öne sürme; sunma|OSM|K-D-M|
 kıdem|n|ar|qidam|öncelik|OSM|K-D-M|
 kademe|n|ar|qadama|basamak|OSM|K-D-M|
 kadim|adj|ar|qadīm|eski|EAT|K-D-M|
-mevzu|n|ar|mawḍūʿ|konulmuş; konu|OSM|W-D-A|
-vaziyet|n|ar|waḍʿiyya|durum|OSM19|W-D-A|
-mevzuat|n|ar|mawḍūʿāt|konulmuş kurallar|OSM19|W-D-A|
+mevzu|n|ar|mawḍūʿ|konulmuş; konu|OSM|W-Ḍ-A|
+vaziyet|n|ar|waḍʿiyya|durum|OSM19|W-Ḍ-A|
+mevzuat|n|ar|mawḍūʿāt|konulmuş kurallar|OSM19|W-Ḍ-A|
 tesadüf|n|ar|taṣāduf|rastlantı|OSM|S-D-F|
 tesadüfi|adj|ar|taṣādufī|rastlantısal|OSM19|S-D-F|
 müsadif|adj|ar|muṣādif|rastlayan|OSM|S-D-F|
@@ -807,7 +807,7 @@ inhilal|n|ar|inḥilāl|çözülme|OSM|H-L-L|
 nispi|adj|ar|nisbī|göreli|OSM19|N-S-B|
 zerre|n|ar|ḏarra|toz tanesi|EAT||
 menfi|adj|ar|manfī|olumsuz|OSM||
-faraziye|n|ar|faraḍiyya|varsayım|OSM19||
+faraziye|n|ar|faraḍiyya|varsayım|OSM19|F-R-Ḍ|
 farazi|adj|ar|faraḍī|varsayımsal|OSM19||
 tahmin|n|ar|taḫmīn|kestirme|EAT||
 kavis|n|ar|qaws|yay|EAT||
@@ -1092,12 +1092,12 @@ R-K-Z|ar|dikmek, saplamak|Arapça r-k-z kökü; merkez (dikilen yer), merkezi, t
 Ş-K-L|ar|biçim vermek|Arapça ş-k-l kökü; şekil, şekillenmek, teşkil, teşkilat, müşkül, müşkülat ve eşkâl aynı kökten türer.
 W-S-T|ar|orta|Arapça w-s-ṭ kökü; vasat, vasıta, vasati, mütevassıt, tavassut ve vesait aynı kökten gelir.
 A-D-D|ar|saymak|Arapça ʿ-d-d kökü; adet, müteaddit, taaddüt, istidat ve idadi aynı kökten türer.
-Z-W-Y|ar|köşe|Arapça z-w-y kökü; zaviye (köşe; açı), münzevi ve inziva aynı kökten gelir.
-S-K-L|ar|ağır olmak|Arapça th-q-l kökü; sıklet, sakil ve miskal aynı kökten gelir.
-C-S-M|ar|beden|Arapça c-s-m kökü; cisim, cismani, tecessüm, mücessem ve cüsse aynı kökten türer.
+Z-W-Y|ar|köşe; köşeye çekilmek|Arapça z-w-y kökü; zaviye (köşe; açı; küçük tekke), inziva (köşeye çekilme) ve münzevi aynı kökten gelir.
+S-K-L|ar|ağır olmak|Arapça ṯ-q-l kökü; sıklet, sakil ve miskal aynı kökten gelir.
+C-S-M|ar|beden|Arapça c-s-m kökü; cisim, cismani, tecessüm ve mücessem aynı kökten türer. Cüsse (cuṯṯa) ayrı bir köktendir.
 M-Z-C|ar|karıştırmak|Arapça m-z-c kökü; mizaç (karışım; huy), imtizaç, mezc ve memzuç aynı kökten türer.
-R-K-B|ar|binmek; üst üste koymak|Arapça r-k-b kökü; terkip, merkep ve mürekkep aynı kökten gelir.
-B-H-S|ar|araştırmak|Arapça b-ḥ-th kökü; bahis, mebhus, mübahase ve bahsetmek aynı kökten türer.
+R-K-B|ar|binmek; üst üste koymak|Arapça r-k-b kökü; terkip, merkep ve mürekkep aynı kökten gelir. Rakip ve murakabe, r-q-b "gözetlemek" kökünden gelen ayrı bir ailedir.
+B-H-S|ar|araştırmak|Arapça b-ḥ-ṯ kökü; bahis, mebhus, mübahase ve bahsetmek aynı kökten türer.
 C-R-B|ar|denemek|Arapça c-r-b kökü; tecrübe, mücerrep ve tecrübî aynı kökten gelir.
 S-B-T|ar|durmak, kesinleşmek|Arapça th-b-t kökü; sabit, sabite, tespit, müspet ve sübut aynı kökten türer.
 F-R-D|ar|tek olmak|Arapça f-r-d kökü; fert, müfret, münferit ve infirat aynı kökten gelir.
@@ -1114,7 +1114,6 @@ T-L-K|ar|salıvermek|Arapça ṭ-l-q kökü; mutlak (salıverilmiş, kesin) ve i
 C-R-D|ar|soymak, soyutlamak|Arapça c-r-d kökü; mücerret, tecrit ve tecerrüt aynı kökten gelir.
 S-W-Y|ar|eşit olmak|Arapça s-w-y kökü; müsavi, müsavat, seviye ve tesviye aynı kökten türer.
 K-D-M|ar|önce gelmek|Arapça q-d-m kökü; mukaddime, takdim, kıdem, kademe ve kadim aynı kökten gelir.
-W-D-A|ar|koymak|Arapça w-ḍ-ʿ kökü; mevzu (konulmuş; konu), vaziyet ve mevzuat aynı kökten türer.
 S-D-F|ar|rastlamak|Arapça ṣ-d-f kökü; tesadüf, tesadüfi ve müsadif aynı kökten gelir.
 T-M-M|ar|tamamlamak|Arapça t-m-m kökü; tam, tamam, itmam ve mütemmim aynı kökten türer.
 N-K-S|ar|eksilmek|Arapça n-q-ṣ kökü; noksan, nakıs ve tenkis aynı kökten gelir.
@@ -1132,7 +1131,7 @@ K-Y-D|ar|bağlamak|Arapça q-y-d kökü; kayıt, mukayyet ve takyit aynı kökte
 A-Y-R|ar|ölçün|Arapça ʿ-y-r kökü; ayar ve miyar (ölçüt) aynı kökten gelir.
 A-K-B|ar|izlemek; son|Arapça ʿ-q-b kökü; takip ve akıbet aynı kökten türer.
 *dök-|tr|dökmek|Eski Türkçe tök- "dökmek"; döküm, dökme ve dökmek aynı kökten türer.
-*il-|tr|bağlamak, iliştirmek|Eski Türkçe il- "takmak, iliştirmek"; iletken, iletim, ilinti, iletki ve iletişim aynı kökten gelir.
+*il-|tr|bağlamak, iliştirmek|Eski Türkçe il- "takmak, iliştirmek"; ilmek, ilmik, ilik, iliklemek ve ilinti aynı kökten gelir. İletken ve iletim, ilet- "götürmek" fiilinden türer.
 *büyü-|tr|büyümek|Eski Türkçe bedü- "büyümek"; büyüteç ve büyültmek aynı kökten türer.
 *im|tr|işaret|Dîvânu Lugâti't-Türk'teki im "parola, işaret"; im, imlemek ve imleç aynı kökten gelir.
 *der-|tr|toplamak|Eski Türkçe tér- "toplamak"; derleyici, dernek, dergi ve derlemek aynı kökten türer.
@@ -1171,7 +1170,7 @@ A-K-B|ar|izlemek; son|Arapça ʿ-q-b kökü; takip ve akıbet aynı kökten tür
 *it-|tr|itmek|Eski Türkçe it- "itmek"; itki, itici ve itiş aynı kökten türer.
 *çarp-|tr|çarpmak|Eski Türkçe çarp- "vurmak"; çarpım, çarpan, çarpı ve çarpışma aynı kökten gelir.
 *art-|tr|artmak|Eski Türkçe art- "artmak"; artı ve artış aynı kökten türer.
-*eksi-|tr|eksilmek|Eski Türkçe egsü- "eksilmek"; eksi ve eksiltmek aynı kökten gelir.
+*eksi-|tr|eksilmek|Eski Türkçe eksü- "eksilmek"; eksi ve eksiltmek aynı kökten gelir.
 *tart-|tr|tartmak|Eski Türkçe tart- "çekmek, tartmak"; tartı ve tartım aynı kökten türer.
 """
 

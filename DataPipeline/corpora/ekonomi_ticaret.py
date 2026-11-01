@@ -226,7 +226,7 @@ kaime|n|ar|qāʾima|ayakta duran; kâğıt para|OSM19|K-W-M|
 evrak|n|ar|awrāq|yapraklar; belgeler|OSM|W-R-K|
 varak|n|ar|waraq|yaprak; ince levha|OSM|W-R-K|
 varaka|n|ar|waraqa|tek yaprak; belge|OSM|W-R-K|
-madeni|adj|ar|maʿdinī|madenden yapılmış|OSM19|M-D-N|
+madeni|adj|ar|maʿdinī|madenden yapılmış|OSM19|A-D-N|
 bozuk|adj|tr|buz-|bozulmuş; ufak para|OSM|*boz-|
 bozukluk|n|tr|buz-|bozuk para|OSM19|*boz-|
 bozmak|v|tr|buz-|yıkmak; büyük parayı ufaklamak|ORH|*boz-|
@@ -258,7 +258,7 @@ belagat|n|ar|balāġa|söz ustalığı|OSM|B-L-G|
 mübalağa|n|ar|mubālaġa|abartma|OSM|B-L-G|
 bâliğ|adj|ar|bāliġ|ulaşan; erişkin|OSM|B-L-G|
 tebliğ|n|ar|tablīġ|ulaştırma, bildirme|OSM|B-L-G|
-yekûn|n|ar|yakūn|olur; toplam|OSM|K-W-M|
+yekûn|n|ar|yakūn|olur; toplam|OSM|K-W-N|
 anapara|n|tr|ana para|kapital|TDK||
 ödünç|n|tr|ötünç|geri verilmek üzere alınan|DLT||
 # --- Faiz, borç, kredi, banka ---------------------------------------------------
@@ -400,11 +400,11 @@ tazmin|n|ar|taḍmīn|zararı karşılama|OSM|D-M-N|
 zımni|adj|ar|ḍimnī|içinde saklı, üstü kapalı|OSM|D-M-N|
 zımnen|adv|ar|ḍimnan|üstü kapalı olarak|OSM|D-M-N|
 mutazammın|adj|ar|mutaḍammin|içeren|OSM|D-M-N|
-zamime|n|ar|ḍamīma|ek|OSM|Z-M-M|
-zammetmek|v|ar|ḍamm|eklemek|OSM|Z-M-M|
-munzam|adj|ar|munḍamm|eklenmiş|OSM|Z-M-M|
-zamlanmak|v|ar|ḍamm|fiyatı artmak|MOD|Z-M-M|
-zamlı|adj|ar|ḍamm|zam yapılmış|MOD|Z-M-M|
+zamime|n|ar|ḍamīma|ek|OSM|Ḍ-M-M|
+zammetmek|v|ar|ḍamm|eklemek|OSM|Ḍ-M-M|
+munzam|adj|ar|munḍamm|eklenmiş|OSM|Ḍ-M-M|
+zamlanmak|v|ar|ḍamm|fiyatı artmak|MOD|Ḍ-M-M|
+zamlı|adj|ar|ḍamm|zam yapılmış|MOD|Ḍ-M-M|
 ucuzlamak|v|tr|uçuz|fiyatı düşmek|OSM|*ucuz|
 ucuzlatmak|v|tr|uçuz|fiyatı düşürmek|OSM19|*ucuz|
 paha|n|fa|bahā|değer, fiyat|EAT|bahā|
@@ -434,8 +434,8 @@ vurguncu|n|tr|ur-|vurgun yapan|CUM|*vur-|
 vurgunculuk|n|tr|ur-|vurgun yapma|CUM|*vur-|
 karaborsa|n|tr|kara borsa|yasa dışı piyasa|CUM||
 karaborsacı|n|tr|kara borsa|karaborsada satan|CUM||
-ihtikâr|n|ar|iḥtikār|stoklayıp pahalı satma|OSM|H-K-R|
-muhtekir|n|ar|muḥtakir|vurguncu|OSM|H-K-R|
+ihtikâr|n|ar|iḥtikār|stoklayıp pahalı satma|OSM|Ḥ-K-R|
+muhtekir|n|ar|muḥtakir|vurguncu|OSM|Ḥ-K-R|
 fahiş|adj|ar|fāḥiş|aşırı, ölçüsüz|OSM||
 stok|n|fr|stock|kütük; yığılmış mal|CUM||en:stock>fr:stock>tr:stok
 stokçu|n|fr|stock|mal yığan|MOD||
@@ -451,8 +451,8 @@ depocu|n|fr|dépôt|depo işleten|MOD|ponere|
 antrepo|n|fr|entrepôt|ara depo|OSM19|ponere|la:interpositum>fr:entrepôt>tr:antrepo
 ambarcı|n|fa|anbār|ambar görevlisi|OSM||
 silo|n|fr|silo|tahıl deposu|CUM||grc:sirós>es:silo>fr:silo>tr:silo
-mağazacılık|n|it|magazzino|büyük dükkân işletme|MOD|H-Z-N|ar:maḫzan>it:magazzino>tr:mağazacılık
-hazne|n|ar|ḫazna|depo|OSM|H-Z-N|
+mağazacılık|n|it|magazzino|büyük dükkân işletme|MOD|Ḫ-Z-N|ar:maḫzan>it:magazzino>tr:mağazacılık
+hazne|n|ar|ḫazna|depo|OSM|Ḫ-Z-N|
 hazinedar|n|fa|ḫazīne-dār|hazine görevlisi|OSM|dār-|ar:ḫazīna>fa:ḫazīne-dār>tr:hazinedar
 defterdarlık|n|fa|daftar-dār|defterdar makamı|OSM|dār-|
 veznedar|n|fa|vazna-dār|kasa görevlisi|OSM19|dār-|ar:wazn>fa:vazna-dār>tr:veznedar
@@ -834,12 +834,12 @@ monopol|n|fr|monopole|tek satıcılı piyasa|CUM|pōlein|grc:monopṓlion>fr:mon
 kartel|n|fr|cartel|yazılı anlaşma; şirket birliği|CUM|charta|la:charta>it:cartello>fr:cartel>tr:kartel
 kartela|n|it|cartella|örnek kartı|CUM|charta|la:charta>it:cartella>tr:kartela
 tröst|n|en|trust|güven; şirket birliği|CUM||
-rekabetçi|adj|ar|raqāba|yarışmacı|MOD|R-K-B|
-murakabe|n|ar|murāqaba|denetleme|OSM|R-K-B|
+rekabetçi|adj|ar|raqāba|yarışmacı|MOD|R-Q-B|
+murakabe|n|ar|murāqaba|denetleme|OSM|R-Q-B|
 merkep|n|ar|markab|binek; eşek|OSM|R-K-B|
 reklamcı|n|fr|réclame|reklam yapan|CUM|clamare|
 reklamcılık|n|fr|réclame|reklam işi|MOD|clamare|
-deklarasyon|n|fr|déclaration|bildirge|CUM|clamare|la:declaratio>fr:déclaration>tr:deklarasyon
+deklarasyon|n|fr|déclaration|bildirge|CUM|clarus|la:declaratio>fr:déclaration>tr:deklarasyon
 markalı|adj|it|marca|markası olan|MOD||
 markalaşma|n|it|marca|marka olma|NEW||
 patent|n|fr|patente|açık (belge)|OSM19||la:patens>fr:patente>tr:patent
@@ -888,7 +888,7 @@ savurgan|adj|tr|savur-|çok harcayan|DD||
 savurganlık|n|tr|savur-|israf|DD||
 tutumlu|adj|tr|tut-|idareli|DD|*tut-|
 idareli|adj|ar|idāra|tutumlu|OSM19|D-W-R|
-hayrat|n|ar|ḫayrāt|hayır işleri|OSM|H-Y-R|
+hayrat|n|ar|ḫayrāt|hayır işleri|OSM|Ḫ-Y-R|
 destek|n|fa|dastak|küçük el; dayanak|OSM|dast|
 destekli|adj|fa|dastak|desteği olan|MOD|dast|
 dest|n|fa|dast|el|OSM|dast|
@@ -963,17 +963,17 @@ S-L-F|ar|önce olmak; peşin vermek|Arapça s-l-f kökü; selef (önceki; peşin
 W-R-D|ar|gelmek, ulaşmak|Arapça w-r-d kökü; vârit (gelen), varidat (gelirler), irat (gelir) ve vürut (geliş) aynı kökten gelir.
 D-Y-N|ar|borç|Arapça d-y-n kökü; deyn (borç), medyun (borçlu), dain (alacaklı) ve istidane (borç alma) aynı kökten türer.
 R-H-N|ar|rehin bırakmak|Arapça r-h-n kökü; rehin, merhun (rehinli), mürtehin (rehin alan) ve rehine (tutak) aynı kökten gelir.
-Ş-R-Y|ar|satın almak|Arapça ş-r-y kökü; şira ve iştira (satın alma) aynı kökten gelir; müşteri de bu kökle ilişkilidir.
+Ş-R-Y|ar|satın almak|Arapça ş-r-y kökü; şira, iştira (satın alma) ve muştarī (satın alan) > müşteri aynı kökten gelir. Şirket ve müşterek, ş-r-k "ortak olmak" kökünden gelen ayrı bir ailedir.
 B-Y-A|ar|satmak; bağlılık sözü vermek|Arapça b-y-ʿ kökü; bayi (satıcı), mebi (satılan), mübayaa (satın alma) ve biat (el sıkışarak bağlanma) aynı kökten türer.
 S-K-K|ar|damga kalıbı|Arapça s-k-k kökü; sikke (basılmış para), meskûk (basılmış) ve sikkezen (para basan) aynı kökten gelir.
 C-B-Y|ar|vergi toplamak|Arapça c-b-y kökü; cibayet (vergi toplama) ve cabi (vergi toplayan) aynı kökten türer.
 A-Ş-R|ar|on; birlikte yaşamak|Arapça ʿ-ş-r kökü; öşür (onda bir), aşar, âşir, aşari (ondalık) ile muaşeret ve aşiret (birlikte yaşayan topluluk) aynı kökten gelir.
 K-B-D|ar|tutmak, almak|Arapça q-b-ḍ kökü; kabz (alma), makbuz (alınmış; alındı), kabzımal ve kabzetmek aynı kökten türer.
 A-D-Y|ar|yerine getirmek|Arapça ʾ-d-y kökü; eda (yerine getirme), tediye (ödeme) ve edat (araç) aynı kökten gelir.
-W-D-A|ar|bırakmak, emanet etmek|Arapça w-d-ʿ kökü; tevdi (emanet etme), mevduat (bırakılan paralar), mudi, tevdiat, vedia (emanet) ve veda (bırakıp ayrılma) aynı kökten türer.
+W-D-A|ar|bırakmak, emanet etmek|Arapça w-d-ʿ kökü; tevdi (emanet etme), mevduat (bırakılan paralar), mudi, tevdiat, vedia (emanet) ve veda (bırakıp ayrılma) aynı kökten türer. Vaz ve mevzu, w-ḍ-ʿ "koymak" kökünden gelen ayrı bir ailedir.
 K-R-D|ar|ödünç vermek|Arapça q-r-ḍ kökü; karz (ödünç), ikraz (ödünç verme), istikraz (ödünç alma), mukriz ve karzen aynı kökten gelir.
 R-B-W|ar|artmak, büyütmek|Arapça r-b-w kökü; riba (faiz), ribacı ile mürebbi ve mürebbiye (büyütüp yetiştiren) aynı kökten türer.
-F-Y-D|ar|yarar sağlamak|Arapça f-y-d kökü; fayda, istifade (yararlanma) ve müfit (yararlı) aynı kökten gelir.
+F-Y-D|ar|yarar sağlamak|Arapça f-y-d kökü; fayda, istifade (yararlanma) ve müfit (yararlı) aynı kökten gelir. Feyiz ve feyezan, f-y-ḍ "taşmak" kökünden gelen ayrı bir ailedir.
 F-Y-Z|ar|taşmak|Arapça f-y-ḍ kökü; faiz (artan, taşan), faizli, faizci, feyiz (taşan bereket) ve feyezan (taşkın) aynı kökten türer.
 W-A-D|ar|söz vermek|Arapça w-ʿ-d kökü; vaat, vade (söz verilen süre), vadeli, vadesiz ve mevut (vadedilmiş) aynı kökten gelir.
 M-W-L|ar|mal, varlık|Arapça m-w-l kökü; mal, maliye, mali, maliyet, emval (mallar), temvil ve mütemevvil (varlıklı) aynı kökten türer.
@@ -985,11 +985,11 @@ B-D-L|ar|değiştirmek|Arapça b-d-l kökü; bedel, mübadele (değiş tokuş), 
 W-F-Y|ar|tam olmak; yerine getirmek|Arapça w-f-y kökü; vefa, ifa (yerine getirme) ve vefat (ömrün tamamlanması) aynı kökten türer.
 A-F-W|ar|bağışlamak|Arapça ʿ-f-w kökü; af, affetmek, muaf (bağışlanmış), muafiyet ve istifa (bağışlanma isteme; çekilme) aynı kökten gelir.
 D-M-N|ar|içermek; üstlenmek|Arapça ḍ-m-n kökü; tazmin (zararı üstlenme), zımni (içinde saklı), zımnen ve mutazammın aynı kökten türer.
-Z-M-M|ar|eklemek, katmak|Arapça ḍ-m-m kökü; zam (ekleme), zamime (ek), zammetmek, munzam (eklenmiş) ve zamlanmak aynı kökten gelir.
+Ḍ-M-M|ar|eklemek, katmak|Arapça ḍ-m-m kökü; zam (ekleme), zamime (ek), zammetmek, munzam (eklenmiş), zamlı ve zamlanmak aynı kökten gelir. Zem ve zimmet, ḏ-m-m kökünden gelen ayrı bir ailedir.
 R-W-C|ar|sürümü olmak|Arapça r-w-c kökü; revaç (sürüm), rayiç (geçerli fiyat) ve tervic (sürümünü sağlama) aynı kökten türer.
 R-G-B|ar|istemek|Arapça r-ġ-b kökü; rağbet (istek), rağbetli ve mergup (istenen) aynı kökten gelir.
-H-K-R|ar|stoklayıp pahalı satmak|Arapça ḥ-k-r kökü; ihtikâr (vurgunculuk) ve muhtekir (vurguncu) aynı kökten türer.
-H-Z-N|ar|saklamak, depolamak|Arapça ḫ-z-n kökü; hazine, hazne, mahzen (depo) ve İtalyanca magazzino yoluyla gelen mağaza aynı kökten gelir.
+Ḥ-K-R|ar|stoklayıp pahalı satmak|Arapça ḥ-k-r kökü; ihtikâr (vurgunculuk) ve muhtekir (vurguncu) aynı kökten türer. Hakaret ve hakir, ḥ-q-r kökünden gelen ayrı bir ailedir.
+Ḫ-Z-N|ar|saklamak, depolamak|Arapça ḫ-z-n kökü; hazine, hazne, mahzen (depo) ve İtalyanca magazzino yoluyla gelen mağaza aynı kökten gelir. Hüzün ve mahzun, ḥ-z-n kökünden gelen ayrı bir ailedir.
 D-H-L|ar|girmek|Arapça d-ḫ-l kökü; dahil, dahili, ithal (içeri sokma), ithalat, ithalatçı, müdahale ve medhal (giriş) aynı kökten türer.
 L-Z-M|ar|gerekli olmak; ayrılmamak|Arapça l-z-m kökü; lüzum, lazım, elzem, lüzumlu, iltizam (üstlenme), mültezim ve mülazım aynı kökten gelir.
 Z-A-M|ar|önderlik etmek|Arapça z-ʿ-m kökü; zeamet (büyük dirlik) ve zaim (zeamet sahibi; önder) aynı kökten türer.
@@ -1010,7 +1010,7 @@ A-C-R|ar|ücret, karşılık|Arapça ʾ-c-r kökü; ücret, ücretli, ücretsiz,
 A-Y-Ş|ar|yaşamak, geçinmek|Arapça ʿ-y-ş kökü; maaş (geçimlik), maaşlı, maişet (geçim) ve iaşe (yedirip içirme) aynı kökten gelir.
 S-G-R|ar|küçük olmak|Arapça ṣ-ġ-r kökü; sagir (küçük), asgari (en küçük) ve tasgir (küçültme) aynı kökten türer.
 K-D-M|ar|önde olmak; eski olmak; ayak|Arapça q-d-m kökü; kadim, kıdem, kıdemli, takdim, mukaddem ve kadem (ayak) aynı kökten gelir.
-R-K-B|ar|binmek; gözetmek|Arapça r-q-b ve r-k-b kökleri; rekabet (karşılıklı gözetme), rekabetçi, murakabe ile merkep (binek) ve mürekkep aynı kök ailesinde ele alınır.
+
 R-H-S|ar|izin vermek|Arapça r-ḫ-ṣ kökü; ruhsat (izin), ruhsatlı, ruhsatsız ve ruhsatname aynı kökten türer.
 L-T-F|ar|incelik, iyilik|Arapça l-ṭ-f kökü; lütuf, latif (ince, hoş), lütufkâr, iltifat ve mültefit aynı kökten gelir.
 S-H-W|ar|cömert olmak|Arapça s-ḫ-w kökü; sehavet (cömertlik) ve sahi (cömert) aynı kökten türer.
@@ -1096,14 +1096,14 @@ secare|la|kesmek|Latince secare "kesmek"; sektör (kesim), sektörel ve seksiyon
 margo|la|kenar|Latince margo "kenar"; marj (kenar payı) ve marjinal aynı kökten türer.
 liber|la|özgür|Latince liber "özgür"; liberal, liberalizm ve liberalleşme aynı kökten gelir.
 socius|la|ortak, arkadaş|Latince socius "ortak"; sosyal, sosyalizm, sosyalist ve sosyete aynı kökten türer.
-legere|la|toplamak, seçmek, okumak|Latince legere "toplamak"; kolektif, kolektivizm ve koleksiyon aynı kökten gelir.
+legere|la|toplamak, seçmek, okumak|Latince legere "toplamak"; kolektif, kolektivizm, koleksiyon ve legio "toplanan birlik" üzerinden lejyon aynı kökten gelir.
 bloc|fr|yığın, kütle|Fransızca bloc "kütle" (Felemenkçe blok); blok, blokaj ve bloke aynı kökten türer.
 finis|la|son, sınır|Latince finis "son"; final ile borcun sonlandırılması anlamından finans, finansman, finansal, finansör ve finanse aynı kökten gelir.
 tornos|el|torna, dönüş|Eski Yunanca tórnos "torna"; Fransızca tour yoluyla tur, turne, turist ve turizm aynı kökten türer.
 feria|la|bayram günü|Latince feria "bayram, tatil günü"; Fransızca foire yoluyla fuar ve fuarcılık aynı kökten gelir.
 pōlein|el|satmak|Eski Yunanca pōleîn "satmak"; monopol (tek satıcı) ve oligopol (az satıcı) aynı kökten türer.
 charta|la|kâğıt|Latince charta "kâğıt" (Yunanca khártēs); kart, kartel (yazılı anlaşma) ve kartela aynı kökten gelir.
-clamare|la|bağırmak|Latince clamare "bağırmak"; reklam (çağrı), reklamcı, reklamcılık ve deklarasyon aynı kökten türer.
+clamare|la|bağırmak|Latince clamare "bağırmak"; reklam (çağrı), reklamcı ve reklamcılık aynı kökten türer. Deklarasyon ise clarus "berrak" kökünden (declarare) gelir.
 qualis|la|ne türden|Latince qualis "nasıl"; kalite, kaliteli, kalitesiz ve kalifiye aynı kökten gelir.
 servus|la|köle|Latince servus "köle"; servis (hizmet) ve serf (toprak kölesi) aynı kökten türer.
 fundus|la|dip, temel|Latince fundus "dip"; fon (para kaynağı) ve fonlamak aynı kökten gelir.

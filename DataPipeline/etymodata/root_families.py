@@ -55,7 +55,7 @@ ROOT_FAMILIES_RAW = r"""
 *yük-|tr|yüklemek, yükselmek|Eski Türkçe yük adından; yüklemek, yüksek, yükselmek aynı kökten gelir.
 *bas-|tr|basmak|Eski Türkçe bas- fiili; baskı, basın, basamak, baskın, basınç aynı kökten türetilmiştir.
 *kap-|tr|kapmak, kapamak|Eski Türkçe kap- fiili; kapı, kapak, kapalı, kaplamak, kapsamak aynı kökten gelir.
-*ör-|tr|örmek, dokumak|Eski Türkçe ör- fiili; örgü, örtü, örtmek, örgüt aynı kökten gelir.
+*ör-|tr|örmek, dokumak|Eski Türkçe ör- fiili; örgü, örgüt, örücü aynı kökten gelir. Örtmek ve örtü ayrı bir kök olan ört- fiilinden gelir.
 *çal-|tr|çalmak, vurmak|Eski Türkçe çal- "vurmak" fiilinden; çalgı, çalışmak, çalışma aynı kökten gelir.
 *an-|tr|anmak, hatırlamak|Eski Türkçe an- fiili; anı, anıt, anlam, anlamak, anlaşma aynı kökten türetilmiştir.
 *tanı-|tr|tanımak|Eski Türkçe tanu- fiilinden; tanık, tanım, tanıtım aynı kökten gelir.
@@ -124,7 +124,7 @@ W-K-L|ar|vekil kılmak, güvenmek|Arapça w-k-l kökü; vekîl, vekâlet, tevekk
 Ş-H-R|ar|tanınmak, yaymak|Arapça ş-h-r kökü; şöhret, meşhûr, teşhîr aynı kökten gelir.
 F-A-L|ar|yapmak, eylemek|Arapça f-ʿ-l kökü; fiʿl (eylem), fâʿil (yapan), faʿâl, faʿâliyet, mefʿûl aynı kökten türer.
 A-B-D|ar|kulluk etmek|Arapça ʿ-b-d kökü; ʿibâdet, maʿbed (ibadet yeri), maʿbûd (tapılan), ʿubûdiyet aynı kökten gelir.
-K-S-R|ar|kırmak|Arapça k-s-r kökü; kesr (kırık, kesir), kusûr (eksiklik), inkisâr aynı kökten türer.
+K-S-R|ar|kırmak|Arapça k-s-r kökü; kesr (kırık, kesir) ve inkisâr aynı kökten türer. Kusur ise q-ṣ-r "kısa kalmak, eksik kalmak" kökünden gelen ayrı bir sözcüktür.
 H-F-Z|ar|korumak, saklamak|Arapça ḥ-f-ẕ kökü; ḥâfıẕ, ḥıfẕ, muḥâfaẕa, muḥâfıẕ, maḥfûẕ, ḥâfıẕa aynı kökten gelir.
 S-N-A|ar|yapmak, imal etmek|Arapça ṣ-n-ʿ kökü; ṣanʿat (yapma ustalığı), ṣanâyiʿ (zanaatlar), ṣınâʿî aynı kökten türer.
 M-D-N|ar|şehirleşmek|Arapça m-d-n kökü; medeniyet, medenî, Medîne (şehir) aynı kökten gelir.
@@ -143,7 +143,7 @@ T-L-A|ar|doğmak, yükselmek|Arapça ṭ-l-ʿ kökü; ṭâliʿ (yükselen yıld
 H-W-L|ar|durum, dönüşmek|Arapça ḥ-w-l kökü; ḥâl, aḥvâl, ḥavâle, taḥvîl aynı kökten türer.
 H-L-K|ar|yaratmak|Arapça ḫ-l-q kökü; ḫalq (yaratılanlar, halk), ḫilqat, aḫlâq (huylar), maḫlûq aynı kökten gelir.
 S-D-K|ar|doğru olmak|Arapça ṣ-d-q kökü; ṣâdıq, ṣadaqa, ṣadâqat, taṣdîq aynı kökten türer.
-A-Z-M|ar|büyük olmak, kararlı olmak|Arapça ʿ-ẕ-m / ʿ-z-m kökleri; ʿazm (kararlılık), ʿaẕamet (büyüklük), muʿaẕẕam aynı kökten gelir.
+A-Z-M|ar|kararlı olmak|Arapça ʿ-z-m kökü; ʿazm (kararlılık), azim, azimli ve azimsiz aynı kökten gelir. Azamet ve muazzam, ʿ-ẕ-m "büyük olmak" kökünden gelen ayrı bir ailedir.
 K-M-L|ar|tam olmak|Arapça k-m-l kökü; kemâl, kâmil, tekâmül, mükemmel, ikmâl aynı kökten türer.
 S-W-R|ar|biçim vermek|Arapça ṣ-w-r kökü; ṣûret (biçim), taṣvîr, taṣavvur aynı kökten gelir.
 N-F-S|ar|nefes almak, can|Arapça n-f-s kökü; nefes, nefis (can, benlik), nüfûs (canlar), teneffüs aynı kökten türer.

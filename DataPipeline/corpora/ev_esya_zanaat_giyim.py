@@ -431,9 +431,9 @@ bakırcı|n|tr|bakır|bakır işleyen|OSM||
 bakırcılık|n|tr|bakır|bakır işi|MOD||
 tenekeci|n|it|tenecca|teneke işleyen|OSM19||
 tenekecilik|n|it|tenecca|tenekecilik|MOD||
-lehim|n|ar|liḥām|kaynak|OSM|L-H-M|
-lehimci|n|ar|liḥām|lehim yapan|OSM19|L-H-M|
-lehimlemek|v|ar|liḥām|lehim|OSM|L-H-M|
+lehim|n|ar|liḥām|kaynak|OSM|L-Ḥ-M|
+lehimci|n|ar|liḥām|lehim yapan|OSM19|L-Ḥ-M|
+lehimlemek|v|ar|liḥām|lehim|OSM|L-Ḥ-M|
 kaynakçı|n|tr|kayna-|kaynamak|MOD|*kayna-|
 kaynakçılık|n|tr|kayna-|kaynakçılık|MOD|*kayna-|
 nikel|n|fr|nickel|cin bakırı|CUM||de:Kupfernickel>fr:nickel>tr:nikel
@@ -625,8 +625,8 @@ bozlak|n|tr|boz|boz; bozlamak|OSM||
 ninni|n|tr|nenni|ses yansıması|OSM||
 mani|n|ar|maʿnā|anlam|OSM|A-N-Y|
 hoyrat|n|el|khoriátis|köylü|OSM||
-muganni|n|ar|muġannī|şarkıcı|OSM|N-Ğ-M|
-teganni|n|ar|taġannī|şarkı söyleme|OSM|N-Ğ-M|
+muganni|n|ar|muġannī|şarkıcı|OSM|Ğ-N-Y|
+teganni|n|ar|taġannī|şarkı söyleme|OSM|Ğ-N-Y|
 gazelhan|n|ar|ġazal + fa. -ḫān|gazel okuyan|OSM||
 türkücü|n|tr|Türk|Türk|MOD||
 ağıtçı|n|tr|ağıt|ağıt|OSM||
@@ -841,10 +841,9 @@ sicim|n|tr|sicim|ince ip|OSM||
 FAMILIES = r"""
 *biç-|tr|kesmek, kumaş kesmek|Eski Türkçe bıç- "kesmek"; biçki (kumaş kesme), bıçkı (büyük testere) ve bıçak aynı kökten türer.
 *giy-|tr|giymek|Eski Türkçe ked- "giymek" > giy-; giyecek, giydirmek, giyinik, giyimli bu kökün türevleridir.
-*kuşa-|tr|kuşak bağlamak, sarmak|Eski Türkçe kur- "kuşanmak" kökünden kurşan- > kuşan-; kuşanmak ve kuşam aynı aileden gelir.
+*kuşa-|tr|kuşak bağlamak, sarmak|Eski Türkçe kurşa- "çevrelemek" (kur- kökünden) > kuşa-; kurşan- > kuşan-; kuşanmak ve kuşam aynı aileden gelir.
 *eğir-|tr|iplik bükmek|Eski Türkçe egir- "iğde bükmek"; eğirmek eylemi ve iğ (eğirme çubuğu) aynı kökü paylaşır.
 *bük-|tr|bükmek, kıvırmak|Eski Türkçe bük- "eğmek, bükmek"; büküm ve bükülü bu kökten türemiştir.
-*il-|tr|iliştirmek, takmak|Eski Türkçe il- "takılmak, iliştirmek"; ilmek, ilmik, ilik ve iliklemek bu kökten gelir.
 *kırk-|tr|yün kesmek|Eski Türkçe kırk- "yün kırkmak"; kırkmak ve kırkım (yün kesme mevsimi) aynı köktendir.
 *oy-|tr|oymak, kazımak|Eski Türkçe oy- "çukur açmak, oymak"; oyma, oymacı ve oymacılık bu kökten türer.
 *kak-|tr|vurmak, çakmak|Eski Türkçe kak- "vurmak, çakmak"; kakmak, kakma (metal süsleme) ve kakmacı aynı aileyi oluşturur.
@@ -861,7 +860,7 @@ FAMILIES = r"""
 *del-|tr|delik açmak|Eski Türkçe tel- "delmek"; delgi ve delgeç Dil Devrimi döneminde bu kökten türetilmiştir.
 *süz-|tr|süzmek, arıtmak|Eski Türkçe süz- "arıtmak"; süzmek, süzgeç ve süzgü bu kökten gelir.
 *döv-|tr|dövmek|Eski Türkçe tög- "dövmek, ezmek"; döven (harman aleti) ve dövme (dövülmüş metal) aynı köktendir.
-*kuy-|tr|dökmek, kalıba akıtmak|Eski Türkçe kuy-/kod- "dökmek"; kuyum (dökülmüş metal) ve kuyumculuk bu kökten türer.
+*kuy-|tr|dökmek, kalıba akıtmak|Eski Türkçe kuy- "dökmek"; kuyum (dökülmüş metal) ve kuyumculuk bu kökten türer.
 *döşe-|tr|yaymak, sermek|Eski Türkçe töşe- "yaymak"; döşemek, döşemeci, döşemecilik ve döşekçi bu kökten gelir.
 *doğra-|tr|parçalamak, kesmek|Eski Türkçe toğra- "doğramak"; doğramacı ve doğramacılık ahşap işçiliğini adlandırır.
 *eğe-|tr|törpülemek|Eski Türkçe egek "törpü"; eğe ve eğelemek aynı kökü paylaşır.
@@ -873,15 +872,15 @@ N-K-Ş|ar|nakış, süsleme|Arapça n-q-ş kökü "kazımak, süslemek"; nakkaş
 Z-Y-N|ar|süslemek|Arapça z-y-n kökü; ziynet (süs), tezyin (süsleme), tezyinat ve müzeyyen (süslenmiş) aynı köktendir.
 L-B-S|ar|giymek|Arapça l-b-s kökü "giymek"; libas (giysi) ve melbusat (giyilenler) bu kökten türer.
 N-S-C|ar|dokumak|Arapça n-s-c kökü "dokumak"; nesic (doku), mensucat (dokumalar) ve nessac (dokumacı) aynı aileyi oluşturur.
-C-W-H-R|ar|cevher, öz|Farsça gawhar'dan Arapçaya geçen c-w-h-r kökü; cevher, cevahir, mücevher, mücevherat ve mücevherci bu köktendir.
+C-W-H-R|ar|cevher, öz|Farsça gōhar'dan Arapçaya geçen c-w-h-r kökü; cevher, cevahir, mücevher, mücevherat ve mücevherci bu köktendir.
 D-B-Ğ|ar|deri işlemek|Arapça d-b-ġ kökü "tabaklamak"; debbağ, debbağhane, dibagat, tabaklamak ve tabakçı aynı köktendir.
-L-H-M|ar|kaynatmak, birleştirmek|Arapça l-ḥ-m kökü "kaynak yapmak, et"; lehim, lehimci ve lehimlemek bu kökten gelir.
+L-Ḥ-M|ar|kaynatmak, birleştirmek|Arapça l-ḥ-m kökü "et; kaynak yapmak"; liḥām > lehim, lehimci ve lehimlemek bu kökten gelir. İlham, l-h-m kökünden gelen ayrı bir ailedir.
 T-B-L|ar|davul; tepsi|Arapça ṭ-b-l kökü; tabla, tablakâr ve davulcu (ṭabl "davul") aynı köktendir.
 C-L-D|ar|deri, cilt|Arapça c-l-d kökü "deri"; ciltçi, ciltçilik, mücellit ve mücellitlik kitap ciltleme sanatını adlandırır.
 Ğ-L-B|ar|üstün gelmek|Arapça ġ-l-b kökü; galip, mağlup, galebe, galibiyet ve mağlubiyet aynı kökten türer.
 S-B-K|ar|yarışmak, öne geçmek|Arapça s-b-q kökü "öne geçmek"; müsabaka (yarışma) ve müsabık (yarışmacı) bu köktendir.
 R-K-S|ar|dans etmek|Arapça r-q-ṣ kökü; rakkas (dansçı, sarkaç) ve raksetmek aynı kökten gelir.
-N-Ğ-M|ar|şarkı söylemek|Arapça n-ġ-m kökü "ezgi"; muganni (şarkıcı) ve teganni (şarkı söyleme) bu köktendir.
+N-Ğ-M|ar|ezgi|Arapça n-ġ-m kökü; naġma (ezgi) > nağme bu köktendir. Muganni ve teganni, ġ-n-y "şarkı söylemek" kökünden gelen ayrı bir ailedir.
 K-S-W|ar|giydirmek, örtmek|Arapça k-s-w kökü; kisve (giysi) ve kispet (güreşçi donu) aynı kökü paylaşır.
 C-L-W|ar|parlatmak, açığa çıkarmak|Arapça c-l-w kökü; cila, cilalamak, cilacı ve mücella (parlatılmış) bu kökten türer.
 M-D-H|ar|övmek|Arapça m-d-ḥ kökü; meddah (övücü, hikâye anlatıcısı), medih ve methiye aynı köktendir.

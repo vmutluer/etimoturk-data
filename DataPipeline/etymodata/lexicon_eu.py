@@ -370,7 +370,7 @@ kambiyo|n|it|cambio|değişim|OSM19||la:cambium>it:cambio>tr:kambiyo
 kumanya|n|it|compagna|yol azığı|OSM||it:compagna>tr:kumanya
 martı|n|it|marti|martı|OSM||it:marti>tr:martı
 gazete|n|it|gazzetta|küçük para|OSM19||it:gazzetta>tr:gazete
-mağaza|n|ar|maḫāzin|depolar|OSM||ar:maḫāzin>it:magazzino>tr:mağaza
+mağaza|n|ar|maḫāzin|depolar|OSM|Ḫ-Z-N|ar:maḫāzin>it:magazzino>tr:mağaza
 limonata|n|it|limonata|limonlu su|OSM19||it:limonata>tr:limonata
 sofa takımı|n|ar|ṣuffa|oturma grubu|OSM||
 anahtar|n|el|anoichtíri|açacak|EAT||grc:anoiktḕrion>el:anoichtíri>tr:anahtar

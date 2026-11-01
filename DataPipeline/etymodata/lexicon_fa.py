@@ -147,7 +147,7 @@ ferman|n|fa|farmān|buyruk|EAT||
 berat|n|ar|barāʾa|belge|EAT|B-R-A|
 divanhane|n|fa|dīvān-ḫāne|divan odası|OSM|-hāne|
 vezir|n|ar|wazīr|yük taşıyan|EAT|W-Z-R|
-sadrazam|n|ar|ṣadr-i aʿẕam|en büyük baş|OSM|A-Z-M|
+sadrazam|n|ar|ṣadr-i aʿẕam|en büyük baş|OSM|A-Ẕ-M|
 paşa|n|fa|pādişāh|yüksek rütbeli|EAT||
 ağa kapısı|n|tr|aga|ağa konağı|OSM||
 çavuş|n|tr|çavuş|haberci subay|DLT||
@@ -171,7 +171,7 @@ yâr-i vefadar|n|fa|yār|vefalı yâr|OSM||
 dost meclisi|n|fa|dōst|dost toplantısı|OSM||
 düşmanlık|n|fa|duşman|husumet|EAT||
 ahenk|n|fa|āhang|uyum|EAT||
-nağme|n|ar|naġma|ezgi|EAT||
+nağme|n|ar|naġma|ezgi|EAT|N-Ğ-M|
 makam müziği|n|ar|maqām|makam|OSM|K-W-M|
 saz|n|fa|sāz|çalgı|EAT||
 tambur|n|fa|tanbūr|telli çalgı|EAT||
@@ -219,7 +219,7 @@ nazlı|adj|fa|nāz|naz eden|EAT||
 naz|n|fa|nāz|cilve|EAT||
 cilve|n|ar|cilwa|görünme|EAT||
 işve|n|fa|işve|cilve|EAT||
-zarif|adj|ar|ẕarīf|ince|EAT||
+zarif|adj|ar|ẕarīf|ince|EAT|Ẕ-R-F|
 kibar|adj|ar|kibār|büyükler|OSM||
 hürmetkâr|adj|ar|ḥurmet-kār|saygılı|OSM|-kār|ar:ḥurma>fa:ḥurmet-kār>tr:hürmetkâr
 aferin|intj|fa|āferīn|övgü|EAT||
@@ -236,7 +236,7 @@ vay|intj|tr|vay|şaşma ünlemi|EAT||
 yazık|intj|tr|yazuk|günah; acıma|DLT||
 peki|intj|fa|pek-i|tamam|OSM||
 evet|intj|tr|evet|olumlu yanıt|DLT||
-hayır|intj|ar|ḫayr|iyilik; olumsuz yanıt|EAT||
+hayır|intj|ar|ḫayr|iyilik; olumsuz yanıt|EAT|Ḫ-Y-R|
 yok|adv|tr|yok|mevcut değil|ORH||
 tamam|adj|ar|tamām|bütün|EAT||
 bitti|intj|tr|bütti|tamamlandı|DLT|*bit-|

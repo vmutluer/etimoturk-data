@@ -7,6 +7,7 @@ Kullanım:  python3 DataPipeline/validate_corpora.py [--module ad]
 """
 import argparse
 import os
+import re
 import sys
 from collections import Counter, defaultdict
 
@@ -85,6 +86,8 @@ def check_families(lexicon):
             members[e.family] += 1
     stats = Counter()
     seen = set()
+    stated_root = {}  # kod -> açıklamada yazılan kök (ör. "ḥ-c-r"); yinelenen tanımlarda farklı kök = karışma
+    root_rx = re.compile(r"(?:Arapça|Farsça|Latince|Eski Yunanca|Yunanca|Eski Türkçe)\s+([^\s;,\"]+)")
     for m in corpora_modules():
         name = m.__name__.split(".")[-1]
         if not hasattr(m, "FAMILIES"):
@@ -105,11 +108,54 @@ def check_families(lexicon):
             if code in seen:
                 W(f"[{name}] yinelenen kök ailesi (ilk kayıt kazanır): {code}")
             seen.add(code)
+            rm = root_rx.search(expl)
+            if rm:
+                root = rm.group(1).lower().rstrip("'")
+                if code in stated_root and stated_root[code][0] != root:
+                    E(f"[{name}] aynı kod ({code}) farklı kökler için kullanılıyor: "
+                      f"{stated_root[code][0]} ({stated_root[code][1]}) ↔ {root} — üyeler karışır; ayrı kod verin")
+                stated_root.setdefault(code, (root, name))
             stats[name] += 1
     for f in parse_families():
         if members.get(f.code, 0) == 0:
             E(f"kök ailesinin hiç üyesi yok (testler bunu reddeder): {f.code}")
     return stats
+
+
+# Aile kodu harfi -> kaynak biçim çevriyazısında kabul edilen harfler. Zayıf harfler (A/W/Y) düşebilir.
+_ROOT_LETTERS = {"A": "ʾʿa", "B": "b", "C": "cj", "D": "dḍḏ", "F": "f", "G": "gġ", "Ğ": "ġğ", "H": "hḥḫ", "Ḥ": "ḥ", "Ḫ": "ḫ",
+                 "K": "kq", "Q": "q", "L": "l", "M": "m", "N": "n", "R": "r", "S": "sṣṯş", "Ṣ": "ṣ", "Ṯ": "ṯ", "Ş": "ş",
+                 "T": "tṭ", "W": "wvū", "Y": "yīi", "Z": "zẕḏḍẓ", "Ẕ": "ẕ", "Ḍ": "ḍ", "İ": "ʿ"}
+_WEAK = set("AWYİ")
+
+
+def check_arabic_roots(lexicon):
+    """Arapça kökenli üyenin kaynak biçimi, ailesinin kök harflerini sırayla içermeli (ḥ/ḫ/h, q/k, ṣ/s gibi
+    ayrı harflerin aynı koda toplanmasıyla doğan karışmaları yakalar). Uyarı verir; hata değil."""
+    import unicodedata
+
+    def matches(letters, src, pos=0):
+        if not letters:
+            return True
+        l, rest = letters[0], letters[1:]
+        for i in range(pos, len(src)):
+            if src[i] in _ROOT_LETTERS[l] and matches(rest, src, i + 1):
+                return True
+        return l in _WEAK and matches(rest, src, pos)  # zayıf harf düşmüş olabilir
+
+    n = 0
+    for e in lexicon:
+        if e.origin != "ar" or not e.family or e.family[0] in "*-" or "-" not in e.family:
+            continue
+        letters = e.family.split("-")
+        if any(l not in _ROOT_LETTERS for l in letters):
+            continue
+        src = unicodedata.normalize("NFC", e.source_form.lower())
+        variants = {src, src.replace("th", "ṯ"), src.replace("dh", "ḏ")}
+        if not any(matches(letters, v) for v in variants):
+            W(f"kaynak biçim kök harflerine uymuyor: {e.lemma} <{e.source_form}> ailesi {e.family}")
+            n += 1
+    return n
 
 
 def check_cognates(lexicon):
@@ -237,6 +283,7 @@ def main():
         sys.exit(1)
     w_stats = check_words(args.module)
     f_stats = check_families(lexicon)
+    check_arabic_roots(lexicon)
     c_stats = check_cognates(lexicon)
     try:
         t_stats, n_prov, n_top = check_toponyms()
@@ -282,6 +329,9 @@ def main():
     print(f"\nToplam: {len(lexicon)} elle yazılmış sözcük, {len(parse_families())} kök ailesi, {len(cog)} ortak sözcük satırı, "
           f"{n_top} yer adı ({n_prov} il), {n_idiom} deyim")
     shown = warnings if not args.module else [w for w in warnings if f"[{args.module}]" in w]
+    # içerik uyarıları önce; biçimsel/yinelenen madde uyarıları sonra
+    _late = ("yinelenen madde", "çok sözcüklü madde", "yinelenen kök ailesi")
+    shown = sorted(shown, key=lambda w: any(k in w for k in _late))
     for w in shown[:60]:
         print("W", w)
     if len(shown) > 60:

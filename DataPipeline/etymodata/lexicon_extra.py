@@ -57,14 +57,14 @@ subay|n|tr|subay|rütbeli asker|DD||
 sümük|n|tr|sümük|burun akıntısı|DLT||
 turkuaz|adj|fr|turquoise|Türk taşı|CUM||fr:turquoise>tr:turkuaz
 ve|conj|ar|wa|ve|EAT||
-kaybolmak|v|ar|ḏāʾiʿ|yitmek|OSM|K-W-N|ar:ġayb>tr:kayıp+olmak>tr:kaybolmak
+kaybolmak|v|ar|ġāʾib|yitmek|OSM|Ğ-Y-B|ar:ġayb>tr:kayıp+olmak>tr:kaybolmak
 kaybetmek|v|ar|ġayb|yitirmek|OSM||
 yavaş|adj|tr|yavaş|ağır, sakin|DLT||
 esmek|v|tr|es-|rüzgâr esmek|DLT||
 sallanmak|v|tr|salın-|sallanmak|OSM||
 sallamak|v|tr|salla-|sallamak|DLT||
 hazırlamak|v|ar|ḥāḏir|hazır etmek|OSM||
-hazır|adj|ar|ḥāḏir|mevcut, hazır|EAT||
+hazır|adj|ar|ḥāḏir|mevcut, hazır|EAT|H-D-R|
 plan|n|fr|plan|düzlem; tasarı|CUM||la:planum>fr:plan>tr:plan
 tramvay|n|en|tramway|ray yolu|OSM19||en:tramway>fr:tramway>tr:tramvay
 genişlemek|v|tr|kéŋü-|genişlemek|DLT||
@@ -76,7 +76,7 @@ medya|n|en|media|araçlar|MOD||la:medium>en:media>tr:medya
 tartışmak|v|tr|tartış-|karşılıklı tartmak|OSM||
 tartmak|v|tr|tart-|ağırlık ölçmek|DLT||
 trafik|n|fr|trafic|ticaret; taşıt akışı|CUM||it:traffico>fr:trafic>tr:trafik
-hücre|n|ar|ḥucra|küçük oda|OSM||
+hücre|n|ar|ḥucra|küçük oda|OSM|Ḥ-C-R|
 zar|n|fa|zār|ince deri|EAT||
 madde|n|ar|mādda|öz, cisim|EAT|M-D-D|
 ince|adj|tr|yinçge|ince|DLT||

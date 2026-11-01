@@ -104,7 +104,7 @@ taramak düzeltmek|v|tr|tara-|taramak|DLT||
 giyinmek|v|tr|kedin-|giysi giymek|DLT||
 soyunmak|v|tr|soyun-|giysi çıkarmak|DLT||
 soymak|v|tr|soy-|kabuğunu çıkarmak|DLT||
-örtünmek|v|tr|örtün-|örtü ile kapanmak|DLT|*ör-|
+örtünmek|v|tr|örtün-|örtü ile kapanmak|DLT|*ört-|
 pişirmek|v|tr|bışur-|pişirmek|DLT||
 pişmek|v|tr|bış-|pişmek|DLT||
 kızartmak|v|tr|kızart-|kızartmak|OSM||
@@ -304,7 +304,7 @@ pinti|adj|tr|pinti|cimri|OSM||
 hasis|adj|ar|ḫasīs|cimri|EAT||
 şen şakrak|adj|fa|şen|neşeli|OSM||
 şakrak|adj|tr|şakrak|neşeli|OSM||
-neşeli|adj|ar|naşʾa|sevinçli|OSM||
+neşeli|adj|ar|naşʾa|sevinçli|OSM|N-Ş-A|
 kederli|adj|ar|kadar|üzgün|OSM||
 hüzünlü|adj|ar|ḥuzn|üzgün|OSM||
 melankolik|adj|fr|mélancolique|kara safralı|CUM||grc:melankholía>fr:mélancolique>tr:melankolik

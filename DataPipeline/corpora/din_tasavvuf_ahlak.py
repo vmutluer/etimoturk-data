@@ -184,7 +184,7 @@ namazgâh|n|fa|namāzgāh|namaz yeri|EAT|-gāh|
 kamet|n|ar|iqāma|ayağa kaldırma; namaza çağrı|EAT|K-W-M|
 tekbir|n|ar|takbīr|büyükleme|EAT|K-B-R|
 mütekebbir|adj|ar|mutakabbir|büyüklenen|OSM|K-B-R|
-tehlil|n|ar|tahlīl|lā ilāhe illallah deme|OSM|H-L-L|
+tehlil|n|ar|tahlīl|lā ilāhe illallah deme|OSM||
 tahiyyat|n|ar|taḥiyyāt|selamlar|OSM|H-Y-Y|
 teşehhüt|n|ar|taşahhud|şehadet getirme|OSM|Ş-H-D|
 rükû|n|ar|rukūʿ|eğilme|EAT||
@@ -293,8 +293,8 @@ evkaf|n|ar|awqāf|vakıflar|OSM|W-K-F|
 mevkuf|adj|ar|mawqūf|durdurulmuş; tutuklu|OSM|W-K-F|
 tevkif|n|ar|tawqīf|durdurma; tutuklama|OSM|W-K-F|
 mütevelli|n|ar|mutawallī|vakıf yöneticisi|OSM|W-L-Y|
-hayrat|n|ar|ḫayrāt|iyilikler|EAT|H-Y-R|
-hayırsever|adj|tr|hayır|iyilik seven|TDK|H-Y-R|
+hayrat|n|ar|ḫayrāt|iyilikler|EAT|Ḫ-Y-R|
+hayırsever|adj|tr|hayır|iyilik seven|TDK|Ḫ-Y-R|
 darülaceze|n|ar|dāru'l-ʿacaza|güçsüzler evi|OSM19|A-C-Z|
 aciz|adj|ar|ʿāciz|güçsüz|EAT|A-C-Z|
 acz|n|ar|ʿacz|güçsüzlük|OSM|A-C-Z|
@@ -385,7 +385,7 @@ gılman|n|ar|ġilmān|genç hizmetkârlar|OSM||
 zebani|n|ar|zabāniya|cehennem bekçisi|EAT||
 iblis|prop|ar|iblīs|umutsuz; şeytan|EAT||grc:diábolos>ar:iblīs>tr:iblis
 ifrit|n|ar|ʿifrīt|güçlü cin|OSM||
-cehennemlik|adj|tr|cehennem|cehenneme layık|OSM|C-N-N|
+cehennemlik|adj|tr|cehennem|cehenneme layık|OSM||
 cennetlik|adj|tr|cennet|cennete layık|OSM|C-N-N|
 firdevs|n|ar|firdaws|bahçe; cennet|EAT||fa:pardēs>grc:parádeisos>ar:firdaws>tr:firdevs
 kevser|n|ar|kawṯar|çokluk; cennet ırmağı|EAT||
@@ -414,7 +414,7 @@ meyyit|n|ar|mayyit|ölü|OSM|M-W-T|
 vefat|n|ar|wafāt|ölüm|EAT|W-F-Y|
 vafi|adj|ar|wāfī|yeterli; sözünü tutan|OSM|W-F-Y|
 ifa|n|ar|īfāʾ|yerine getirme|OSM|W-F-Y|
-istifa|n|ar|istiʿfāʾ|görevden çekilme|OSM19|W-F-Y|
+istifa|n|ar|istiʿfāʾ|görevden çekilme|OSM19|A-F-W|
 irtihal|n|ar|irtiḥāl|göçme; ölüm|OSM|R-H-L|
 rahle|n|ar|raḥl|yük; okuma sehpası|EAT|R-H-L|
 merhale|n|ar|marḥala|konak yeri; aşama|OSM|R-H-L|
@@ -450,8 +450,8 @@ fenafillah|n|ar|fanāʾ fi'llāh|Allah'ta yok olma|OSM|F-N-Y|
 celi|adj|ar|calī|açık, belirgin|OSM|C-L-W|
 cila|n|ar|cilāʾ|parlatma|OSM|C-L-W|
 mütecelli|adj|ar|mutacallī|görünen, beliren|OSM|C-L-W|
-murakabe|n|ar|murāqaba|gözetleme; içe bakış|OSM|R-K-B|
-mürakıp|n|ar|murāqib|denetleyen|OSM19|R-K-B|
+murakabe|n|ar|murāqaba|gözetleme; içe bakış|OSM|R-Q-B|
+mürakıp|n|ar|murāqib|denetleyen|OSM19|R-Q-B|
 rabıta|n|ar|rābiṭa|bağ|OSM|R-B-T|
 irtibat|n|ar|irtibāṭ|bağlantı|OSM|R-B-T|
 merbut|adj|ar|marbūṭ|bağlı|OSM|R-B-T|
@@ -600,8 +600,8 @@ azize|n|ar|ʿazīza|ermiş kadın|OSM|A-Z-Z|
 muazzez|adj|ar|muʿazzaz|değerli tutulan|OSM|A-Z-Z|
 taziz|n|ar|taʿzīz|yüceltme|OSM|A-Z-Z|
 # --- Kötü huylar ------------------------------------------------------------------------------
-riya|n|ar|riyāʾ|gösteriş|EAT|R-A-Y|
-mürai|adj|ar|murāʾī|ikiyüzlü|OSM|R-A-Y|
+riya|n|ar|riyāʾ|gösteriş|EAT|R-ʾ-Y|
+mürai|adj|ar|murāʾī|ikiyüzlü|OSM|R-ʾ-Y|
 mağrur|adj|ar|maġrūr|aldanmış; kibirli|EAT||
 ukala|adj|ar|ʿuqalāʾ|akıllılar; bilgiç|OSM|A-K-L|
 küstah|adj|fa|gustāḫ|saygısız|EAT||
@@ -649,8 +649,8 @@ fahiş|adj|ar|fāḥiş|aşırı|OSM|F-H-Ş|
 zina|n|ar|zinā|evlilik dışı ilişki|EAT|Z-N-Y|
 zani|n|ar|zānī|zina eden|OSM|Z-N-Y|
 riba|n|ar|ribā|faiz|EAT||
-feyiz|n|ar|fayḍ|taşma; bereket|EAT|F-Y-D|
-feyyaz|adj|ar|fayyāḍ|bol veren|OSM|F-Y-D|
+feyiz|n|ar|fayḍ|taşma; bereket|EAT|F-Y-Ḍ|
+feyyaz|adj|ar|fayyāḍ|bol veren|OSM|F-Y-Ḍ|
 mübah|adj|ar|mubāḥ|izin verilmiş|EAT||
 müstehap|adj|ar|mustaḥabb|sevilen; sevap olan|OSM|H-B-B|
 habib|n|ar|ḥabīb|sevgili|EAT|H-B-B|
@@ -662,17 +662,17 @@ vücup|n|ar|wucūb|gereklilik|OSM|W-C-B|
 icap|n|ar|īcāb|gerektirme|OSM|W-C-B|
 mucip|adj|ar|mūcib|gerektiren|OSM|W-C-B|
 vecibe|n|ar|wacība|ödev|OSM19|W-C-B|
-farize|n|ar|farīḍa|Allah'ın buyruğu|OSM|F-R-D|
-faraza|adv|ar|faraḍan|diyelim ki|OSM|F-R-D|
-faraziye|n|ar|faraḍiyya|varsayım|OSM19|F-R-D|
-mefruz|adj|ar|mafrūḍ|varsayılan|OSM|F-R-D|
+farize|n|ar|farīḍa|Allah'ın buyruğu|OSM|F-R-Ḍ|
+faraza|adv|ar|faraḍan|diyelim ki|OSM|F-R-Ḍ|
+faraziye|n|ar|faraḍiyya|varsayım|OSM19|F-R-Ḍ|
+mefruz|adj|ar|mafrūḍ|varsayılan|OSM|F-R-Ḍ|
 kerih|adj|ar|karīh|iğrenç|OSM|K-R-H|
 kerahet|n|ar|karāha|iğrenme; mekruhluk|OSM|K-R-H|
 ikrah|n|ar|ikrāh|zorlama; tiksinme|OSM|K-R-H|
-vaz|n|ar|waḍʿ|koyma|OSM|W-D-A|
-mevzu|n|ar|mawḍūʿ|konulmuş; konu|OSM|W-D-A|
-vaziyet|n|ar|waḍʿiyya|konum, durum|OSM19|W-D-A|
-mevzi|n|ar|mawḍiʿ|konulan yer|OSM|W-D-A|
+vaz|n|ar|waḍʿ|koyma|OSM|W-Ḍ-A|
+mevzu|n|ar|mawḍūʿ|konulmuş; konu|OSM|W-Ḍ-A|
+vaziyet|n|ar|waḍʿiyya|konum, durum|OSM19|W-Ḍ-A|
+mevzi|n|ar|mawḍiʿ|konulan yer|OSM|W-Ḍ-A|
 sır|n|ar|sirr|giz|EAT|S-R-R|
 esrar|n|ar|asrār|gizler|EAT|S-R-R|
 sürur|n|ar|surūr|sevinç|OSM|S-R-R|
@@ -827,14 +827,14 @@ düzah|n|fa|dūzaḫ|cehennem|EAT||
 behişt|n|fa|bihişt|cennet|EAT||
 gönüllü|adj|tr|gönül|isteyerek yapan|OSM||
 tütsülemek|v|tr|tütsü|tütsü yakmak|OSM|*tüt-|
-Hızır|prop|ar|ḫaḍir|yeşil; ölümsüz veli|EAT|H-D-R|
+Hızır|prop|ar|ḫaḍir|yeşil; ölümsüz veli|EAT||
 hıdrellez|n|tr|Hızır-İlyas|Hızır ile İlyas günü|OSM|H-D-R|
 Mehdi|prop|ar|mahdī|doğru yola iletilmiş|EAT|H-D-Y|
 deccal|n|ar|daccāl|aldatıcı|EAT||
 tufan|n|ar|ṭūfān|büyük sel|EAT||
 kıssa|n|ar|qiṣṣa|anlatı|EAT||
 ibret|n|ar|ʿibra|ders alınacak şey|EAT||
-mütevazi|adj|ar|mutawāḍiʿ|alçakgönüllü|OSM|W-D-A|
+mütevazi|adj|ar|mutawāḍiʿ|alçakgönüllü|OSM|W-Ḍ-A|
 ibadetli|adj|tr|ibadet|ibadete düşkün|OSM|A-B-D|
 hacılık|n|tr|hacı|hacı olma|OSM|H-C-C|
 imamlık|n|tr|imam|imam görevi|OSM|A-M-M|
@@ -892,19 +892,19 @@ C-Z-B|ar|çekmek|Arapça c-ḏ-b kökü; cezbe, cazibe, cazip, meczup ve incizap
 D-Y-N|ar|din; borç|Arapça d-y-n kökü; din, diyanet, mütedeyyin ve medyun (borçlu) aynı kökten türer.
 F-H-Ş|ar|aşırı, edepsiz olmak|Arapça f-ḥ-ş kökü; fuhuş, fahişe ve fahiş (aşırı) aynı kökten gelir.
 F-N-Y|ar|yok olmak|Arapça f-n-y kökü; fena (yok oluş), fani (geçici) ve fenafillah aynı kökten türer.
-F-R-D|ar|buyurmak, varsaymak|Arapça f-r-ḍ kökü; farz, farize, faraza, faraziye ve mefruz aynı kökten gelir.
+F-R-Ḍ|ar|buyurmak, varsaymak|Arapça f-r-ḍ kökü; farz, farize, faraza, faraziye ve mefruz aynı kökten gelir. Fert ve münferit, f-r-d "tek olmak" kökünden gelen ayrı bir ailedir.
 F-R-Y|ar|uydurmak|Arapça f-r-y kökü; iftira ve müfteri aynı kökten türer.
 F-S-D|ar|bozulmak|Arapça f-s-d kökü; fesat, fasit, müfsit ve ifsat aynı kökten gelir.
 F-S-K|ar|yoldan çıkmak|Arapça f-s-q kökü; fasık ve fısk aynı kökten türer.
 F-T-N|ar|sınamak, ayartmak|Arapça f-t-n kökü; fitne, fettan ve meftun aynı kökten gelir.
-F-Y-D|ar|taşmak|Arapça f-y-ḍ kökü; feyiz, feyyaz ve faiz (taşan, fazla) aynı kökten türer.
+F-Y-Ḍ|ar|taşmak|Arapça f-y-ḍ kökü; fayḍ (taşma, bolluk) > feyiz, feyyaz ve feyezan (sel) aynı kökten türer. Fayda ve istifade, f-y-d "yarar sağlamak" kökünden gelen ayrı bir ailedir.
 H-B-B|ar|sevmek|Arapça ḥ-b-b kökü; habib, mahbup, muhip, muhabbet ve müstehap aynı kökten gelir.
-H-C-R|ar|göç etmek, ayrılmak|Arapça h-c-r kökü; hicret, muhacir, hicri ve hücre aynı kökten türer.
-H-D-R|ar|hazır olmak; yeşil|Arapça ḥ-ḍ-r kökü; hazret (huzur), ihzar, muhzır, hazır, huzur ve ḫaḍir "yeşil" anlamıyla Hızır aynı kökten gelir.
+
+
 H-D-S|ar|yeni olmak, olmak|Arapça ḥ-d-ṯ kökü; hadis (söz), hadise (olay), muhaddis, ihdas ve hudus aynı kökten türer.
 H-L-F|ar|ardından gelmek|Arapça ḫ-l-f kökü; halife, hilafet, halef, muhalif ve ihtilaf aynı kökten gelir.
 H-L-M|ar|yumuşak huylu olmak|Arapça ḥ-l-m kökü; halim ve hilim aynı kökten türer.
-H-L-S|ar|arı, katışıksız olmak|Arapça ḫ-l-ṣ kökü; ihlas, halis, muhlis, halas, tahlis ve hülasa aynı kökten gelir.
+H-L-S|ar|arı, katışıksız olmak|Arapça ḫ-l-ṣ kökü; ihlas, halis, muhlis, halas, tahlis ve hülasa aynı kökten gelir. Telhis (özetleme) l-ḫ-ṣ kökünden gelen ayrı bir sözcüktür.
 H-M-D|ar|övmek|Arapça ḥ-m-d kökü; hamt, hamdele, tahmit ve Muhammed (övülmüş) aynı kökten gelir.
 H-R-S|ar|aşırı istemek|Arapça ḥ-r-ṣ kökü; hırs ve haris aynı kökten türer.
 H-Y-B|ar|korku ile saygı|Arapça h-y-b kökü; heybet ve mehabet aynı kökten gelir.
@@ -948,7 +948,7 @@ R-D-D|ar|geri çevirmek|Arapça r-d-d kökü; ret, reddetmek, merdut, mürtet, i
 R-D-Y|ar|hoşnut olmak|Arapça r-ḍ-y kökü; rıza, razı ve rıdvan aynı kökten gelir.
 R-H-B|ar|korkmak; rahip olmak|Arapça r-h-b kökü; rahip, rahibe, ruhban ve ruhbaniyet aynı kökten türer.
 R-H-L|ar|göçmek|Arapça r-ḥ-l kökü; rahle, irtihal, merhale ve rihlet aynı kökten gelir.
-R-K-B|ar|gözetlemek|Arapça r-q-b kökü; murakabe, mürakıp, rakip ve rekabet aynı kökten türer.
+R-Q-B|ar|gözetlemek|Arapça r-q-b kökü; raqīb (gözleyen) > rakip, rekabet (karşılıklı gözetme), murakabe ve mürakıp aynı kökten türer. Merkep ve terkip, r-k-b "binmek" kökünden gelen ayrı bir ailedir.
 R-M-L|ar|kum|Arapça r-m-l kökü; remil (kum falı) ve remmal aynı kökten gelir.
 R-S-L|ar|göndermek|Arapça r-s-l kökü; resul, risalet, risale, irsal ve mürsel aynı kökten türer.
 R-Z-K|ar|rızık vermek|Arapça r-z-q kökü; rızık, rezzak, erzak ve merzuk aynı kökten gelir.
@@ -969,7 +969,7 @@ T-H-R|ar|temiz olmak|Arapça ṭ-h-r kökü; taharet, tahir, tathir ve mutahhar 
 T-W-A|ar|boyun eğmek|Arapça ṭ-w-ʿ kökü; itaat, muti ve istitaat aynı kökten türer.
 T-W-B|ar|dönmek, tövbe etmek|Arapça t-w-b kökü; tövbe ve tevvab aynı kökten gelir.
 W-C-B|ar|gerekli olmak|Arapça w-c-b kökü; vacip, vücup, icap, mucip ve vecibe aynı kökten türer.
-W-D-A|ar|koymak; alçalmak|Arapça w-ḍ-ʿ kökü; vaz, mevzu, mevzi, vaziyet, tevazu ve mütevazi aynı kökten gelir.
+W-Ḍ-A|ar|koymak; alçalmak|Arapça w-ḍ-ʿ kökü; vaz (koyma), vazetmek, mevzu (konulmuş; konu), mevzuat, mevzi, vaziyet, tevazu (alçak gönüllülük) ve mütevazi aynı kökten gelir. Veda ve mevduat, w-d-ʿ "bırakmak, emanet etmek" kökünden gelen ayrı bir ailedir.
 W-F-Y|ar|tam olmak, yerine getirmek|Arapça w-f-y kökü; vefa, vefat, vafi, ifa ve istifa aynı kökten türer.
 W-K-F|ar|durdurmak|Arapça w-q-f kökü; vakıf, vakfe, vakfiye, evkaf, mevkuf ve tevkif aynı kökten gelir.
 W-K-R|ar|ağırbaşlı olmak|Arapça w-q-r kökü; vakar ve vakur aynı kökten türer.
@@ -979,7 +979,7 @@ W-R-D|ar|gelmek, varmak|Arapça w-r-d kökü; vird, evrat, vürut ve varit aynı
 W-T-R|ar|tek olmak; ardışık gelmek|Arapça w-t-r kökü; vitir (tek rekâtlı namaz), tevatür ve mütevatir aynı kökten türer.
 Z-H-B|ar|gitmek|Arapça ḏ-h-b kökü; mezhep (gidilen yol) ve zehap (sanı) aynı kökten gelir.
 Z-H-D|ar|dünyadan el çekmek|Arapça z-h-d kökü; zühd ve zahit aynı kökten türer.
-Z-M-M|ar|kınamak; koruma altına almak|Arapça ḏ-m-m kökü; zem, mezmum, zimmet ve zımmi aynı kökten gelir.
+Z-M-M|ar|kınamak; koruma altına almak|Arapça ḏ-m-m kökü; zem, mezmum, zimmet ve zımmi aynı kökten gelir. Zam ve zamime, ḍ-m-m "eklemek" kökünden gelen ayrı bir ailedir.
 Z-N-Y|ar|zina etmek|Arapça z-n-y kökü; zina ve zani aynı kökten türer.
 Z-W-Y|ar|köşeye çekilmek|Arapça z-w-y kökü; zaviye (köşe; küçük tekke), münzevi ve inziva aynı kökten gelir.
 afsūn|fa|büyü|Farsça afsūn "büyü, sihir"; efsun, füsun ve efsunlu aynı kökten türer.

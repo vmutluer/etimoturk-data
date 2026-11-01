@@ -172,7 +172,7 @@ vitamin|n|fr|vitamine|yaşam amini|CUM||la:vita>fr:vitamine>tr:vitamin
 protein|n|fr|protéine|birinci sırada|CUM||grc:prôtos>fr:protéine>tr:protein
 hormon|n|fr|hormone|harekete geçiren|CUM||grc:hormôn>fr:hormone>tr:hormon
 enzim|n|fr|enzyme|mayada|MOD||
-hücre|n|ar|ḥucra|oda|EAT||
+hücre|n|ar|ḥucra|oda|EAT|Ḥ-C-R|
 doku|n|tr|doku|dokunmuş yapı|DD|*doku-|
 dokumak|v|tr|tokı-|iplikleri örmek|DLT|*doku-|
 dokuma|n|tr|tokı-|dokunmuş kumaş|OSM|*doku-|

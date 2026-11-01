@@ -328,8 +328,8 @@ kapsamak|v|tr|kapsa-|içine almak|DD|*kap-|
 kapmak|v|tr|kap-|yakalamak|DLT|*kap-|
 örmek|v|tr|ör-|örmek|DLT|*ör-|
 örgü|n|tr|örgü|örülmüş şey|DLT|*ör-|
-örtü|n|tr|örtüg|örtülen şey|DLT|*ör-|
-örtmek|v|tr|ört-|örtmek|ORH|*ör-|
+örtü|n|tr|örtüg|örtülen şey|DLT|*ört-|
+örtmek|v|tr|ört-|örtmek|ORH|*ört-|
 örgüt|n|tr|örgüt|teşkilat|DD|*ör-|
 çalmak|v|tr|çal-|vurmak; çalmak|DLT|*çal-|
 çalgı|n|tr|çalgı|müzik aleti|OSM|*çal-|
@@ -602,7 +602,7 @@ kavurma|n|tr|kavurma|kavrulmuş et|OSM||
 pastırma|n|tr|bastırma|bastırılmış et|DLT||
 sucuk|n|tr|sucuk|baharatlı et sosisi|OSM||
 şiş|n|tr|şış|şiş|DLT||
-kebap|n|ar|kabāb|kızartılmış et|EAT|K-B-B|
+kebap|n|ar|kabāb|kızartılmış et|EAT||
 kuru|adj|tr|kurug|kuru|ORH||
 üzüm|n|tr|üzüm|üzüm|ORH||
 elma|n|tr|alma|elma|DLT||

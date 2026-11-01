@@ -66,8 +66,8 @@ muazzep|adj|ar|muʿaḏḏab|azap çeken|OSM|A-Z-B|
 kahır|n|ar|qahr|ezici üstünlük; derin üzüntü|EAT|K-H-R|
 kahrolmak|v|ar|qahr|çok üzülmek|OSM|K-H-R|
 kahretmek|v|ar|qahr|ezmek; lanet etmek|OSM|K-H-R|
-kasvet|n|ar|qaswa|sertlik; iç sıkıntısı|OSM|K-S-W|
-kasvetli|adj|ar|qaswa|iç karartan|OSM19|K-S-W|
+kasvet|n|ar|qaswa|sertlik; iç sıkıntısı|OSM|Q-S-W|
+kasvetli|adj|ar|qaswa|iç karartan|OSM19|Q-S-W|
 matem|n|ar|maʾtam|yas toplantısı|EAT||
 matemli|adj|ar|maʾtam|yaslı|OSM||
 yaslı|adj|tr|yas|yas tutan|DLT||
@@ -101,7 +101,7 @@ umutlu|adj|tr|um-|umudu olan|TDK|*um-|
 ümitli|adj|fa|umīd|umutlu|OSM|umīd|
 ümitsiz|adj|fa|umīd|umutsuz|OSM|umīd|
 ümitsizlik|n|fa|umīd|umut yokluğu|OSM19|umīd|
-hüsran|n|ar|ḫusrān|zarar, yoksun kalma|OSM|H-S-R|
+hüsran|n|ar|ḫusrān|zarar, yoksun kalma|OSM||
 pişmanlık|n|fa|paşīmān|pişman olma|OSM||
 nedamet|n|ar|nadāma|pişmanlık|OSM|N-D-M|
 nadim|adj|ar|nādim|pişman|OSM|N-D-M|
@@ -273,8 +273,8 @@ kınamak|v|tr|kına-|ayıplamak|DLT||
 hata|n|ar|ḫaṭaʾ|yanlış|EAT|H-T-A|
 hatalı|adj|ar|ḫaṭaʾ|yanlışı olan|OSM19|H-T-A|
 hatasız|adj|ar|ḫaṭaʾ|yanlışı olmayan|OSM19|H-T-A|
-kusurlu|adj|ar|quṣūr|kusuru olan|OSM|K-S-R|
-kusursuz|adj|ar|quṣūr|kusuru olmayan|OSM|K-S-R|
+kusurlu|adj|ar|quṣūr|kusuru olan|OSM|Q-Ṣ-R|
+kusursuz|adj|ar|quṣūr|kusuru olmayan|OSM|Q-Ṣ-R|
 izzet|n|ar|ʿizza|yücelik, onur|EAT|A-Z-Z|
 aziz|adj|ar|ʿazīz|değerli, yüce|EAT|A-Z-Z|
 muazzez|adj|ar|muʿazzaz|yüceltilmiş|OSM|A-Z-Z|
@@ -326,9 +326,9 @@ aldırmaz|adj|tr|aldur-|umursamayan|TDK|*al-|
 önemsiz|adj|tr|önem|önemi olmayan|DD||
 önemsizlik|n|tr|önem|önemi olmama|TDK||
 # --- Neşe, keyif, haz, coşku ---
-neşesiz|adj|ar|naşʾa|neşesi olmayan|OSM19|N-Ş-T|
-neşelenmek|v|ar|naşʾa|neşe duymak|OSM19|N-Ş-T|
-neşelendirmek|v|ar|naşʾa|neşe vermek|TDK|N-Ş-T|
+neşesiz|adj|ar|naşʾa|neşesi olmayan|OSM19|N-Ş-A|
+neşelenmek|v|ar|naşʾa|neşe duymak|OSM19|N-Ş-A|
+neşelendirmek|v|ar|naşʾa|neşe vermek|TDK|N-Ş-A|
 sürur|n|ar|surūr|sevinç|EAT|S-R-R|
 mesrur|adj|ar|masrūr|sevinçli|EAT|S-R-R|
 sırdaş|n|ar|sirr|sır ortağı|OSM|S-R-R|
@@ -666,8 +666,8 @@ haşin|adj|ar|ḫaşin|sert, kaba|OSM|H-Ş-N|
 haşinlik|n|ar|ḫaşin|sertlik|OSM19|H-Ş-N|
 sertlik|n|tr|sert|sert olma|OSM||
 yumuşaklık|n|tr|yumşak|yumuşak olma|OSM||
-mülayim|adj|ar|mulāʾim|uygun; yumuşak huylu|OSM|L-Y-N|
-mülayimlik|n|ar|mulāʾim|yumuşak huyluluk|OSM19|L-Y-N|
+mülayim|adj|ar|mulāʾim|uygun; yumuşak huylu|OSM||
+mülayimlik|n|ar|mulāʾim|yumuşak huyluluk|OSM19||
 nankör|adj|fa|nān-kōr|ekmeğe kör, iyilik bilmez|OSM||
 nankörlük|n|fa|nān-kōr|iyilik bilmezlik|OSM||
 bencil|adj|tr|ben|kendini düşünen|DD||
@@ -836,7 +836,7 @@ moda|n|it|moda|geçerli giyim tarzı|OSM19|modus|la:modus>it:moda>tr:moda
 modacı|n|it|moda|moda tasarımcısı|MOD|modus|
 modern|adj|fr|moderne|çağdaş|OSM19|modus|la:modernus>fr:moderne>tr:modern
 modernlik|n|fr|moderne|çağdaşlık|CUM|modus|
-asri|adj|ar|ʿaṣrī|çağdaş|OSM19|A-S-R|
+asri|adj|ar|ʿaṣrī|çağdaş|OSM19|A-Ṣ-R|
 # --- Dostluk, düşmanlık, ilişkiler ---
 ahbap|n|ar|aḥbāb|sevilenler; tanıdık|OSM|H-B-B|
 ahbaplık|n|ar|aḥbāb|tanışıklık|OSM19|H-B-B|
@@ -854,9 +854,9 @@ sülûk|n|ar|sulūk|yola girme|OSM|S-L-K|
 refik|n|ar|rafīq|yol arkadaşı|EAT|R-F-K|
 refakat|n|ar|rifāqa|eşlik|OSM|R-F-K|
 refakatçi|n|ar|rifāqa|eşlik eden|TDK|R-F-K|
-rakiplik|n|ar|raqīb|rakip olma|TDK|R-K-B|
-rekabetçi|adj|ar|raqāba|yarışmacı|TDK|R-K-B|
-murakabe|n|ar|murāqaba|gözetim; iç gözlem|OSM|R-K-B|
+rakiplik|n|ar|raqīb|rakip olma|TDK|R-Q-B|
+rekabetçi|adj|ar|raqāba|yarışmacı|TDK|R-Q-B|
+murakabe|n|ar|murāqaba|gözetim; iç gözlem|OSM|R-Q-B|
 düşmanca|adv|fa|duşman|düşman gibi|OSM||
 hısım|n|ar|ḫaṣm|taraf; akraba|EAT|H-S-M|
 hısımlık|n|ar|ḫaṣm|akrabalık|OSM|H-S-M|
@@ -999,7 +999,7 @@ barışçıl|adj|tr|barış|barıştan yana|TDK||
 uzlaşmacı|adj|tr|uz|uzlaşma yanlısı|TDK|*uz|
 uzlaşmaz|adj|tr|uz|uzlaşmaya yanaşmayan|TDK|*uz|
 anlaşmazlık|n|tr|aŋla-|uyuşmazlık|TDK|*an-|
-mücadeleci|adj|ar|mucādala|savaşımcı|TDK|C-H-D|
+mücadeleci|adj|ar|mucādala|savaşımcı|TDK|C-D-L|
 hilaf|n|ar|ḫilāf|aykırılık|EAT|H-L-F|
 ihtilaf|n|ar|iḫtilāf|anlaşmazlık|OSM|H-L-F|
 muhalif|adj|ar|muḫālif|karşı olan|OSM|H-L-F|
@@ -1071,10 +1071,10 @@ güvensiz|adj|tr|küven-|güveni olmayan|TDK|*güven-|
 güvensizlik|n|tr|küven-|güven yokluğu|TDK|*güven-|
 güvence|n|tr|küven-|teminat|DD|*güven-|
 güvenli|adj|tr|küven-|emin, tehlikesiz|TDK|*güven-|
-şüpheli|adj|ar|şubha|kuşkulu|OSM|Ş-K-K|
-şüphesiz|adv|ar|şubha|kuşkusuz|OSM|Ş-K-K|
-şüpheci|adj|ar|şubha|kuşkucu|TDK|Ş-K-K|
-şüphecilik|n|ar|şubha|septisizm|TDK|Ş-K-K|
+şüpheli|adj|ar|şubha|kuşkulu|OSM|Ş-B-H|
+şüphesiz|adv|ar|şubha|kuşkusuz|OSM|Ş-B-H|
+şüpheci|adj|ar|şubha|kuşkucu|TDK|Ş-B-H|
+şüphecilik|n|ar|şubha|septisizm|TDK|Ş-B-H|
 kuşkulu|adj|tr|kuşku|kuşku içinde|TDK||
 kuşkusuz|adv|tr|kuşku|elbette|TDK||
 kuşkucu|adj|tr|kuşku|şüpheci|TDK||
@@ -1305,12 +1305,11 @@ FAMILIES = r"""
 *pıs-|tr|sinmek|Eski Anadolu Türkçesi pıs- "sinmek, susmak"; pısmak, pısırık ve pısırıklık aynı köktendir.
 *ters|tr|aykırı|Eski Türkçe ters "aykırı, zor"; ters, tersine ve terslik aynı kökten türer.
 *acı-|tr|acı duymak|Eski Türkçe açıg "acı" ve açı- "acı duymak"; acılı, acısız, acıma, acımasız ve acımasızlık aynı kökten gelir.
-H-Z-N|ar|üzülmek|Arapça ḥ-z-n kökü; hüzün, mahzun, hazin ve hüzünlenmek aynı kökten türer.
+H-Z-N|ar|üzülmek|Arapça ḥ-z-n kökü; hüzün, mahzun, hazin ve hüzünlenmek aynı kökten türer. Hazine ve mahzen, ḫ-z-n "saklamak" kökünden gelen ayrı bir ailedir.
 A-C-B|ar|şaşmak|Arapça ʿ-c-b kökü; acayip, acayiplik, taaccüp, ucube ve acaba aynı köktendir.
-H-Y-R|ar|şaşırıp kalmak|Arapça ḥ-y-r kökü; hayret, hayran, hayranlık ve mütehayyir aynı kökten gelir.
+H-Y-R|ar|şaşırıp kalmak|Arapça ḥ-y-r kökü; hayret, hayran, hayranlık ve mütehayyir aynı kökten gelir. Hayır (iyilik) ve ihtiyar, ḫ-y-r kökünden gelen ayrı bir ailedir.
 Y-A-S|ar|umudu kesmek|Arapça y-ʾ-s kökü; yeis (umutsuzluk) ve meyus (umudu kesilmiş) aynı kökten türer.
 S-R-R|ar|sevindirmek; gizlemek|Arapça s-r-r kökü; sürur, mesrur ve sır, sırdaş aynı köktendir.
-N-Ş-T|ar|canlanmak|Arapça n-ş-ṭ kökü; neşe, neşeli, neşesiz ve neşelenmek aynı kökten gelir.
 F-R-H|ar|sevinmek, genişlemek|Arapça f-r-ḥ kökü; ferah, ferahlık, ferahlamak ve ferahlatmak aynı kökten türer.
 Z-W-K|ar|tatmak|Arapça ḏ-w-q kökü; zevk, zevkli, zevksiz ve zevklenmek aynı köktendir.
 L-Z-Z|ar|tat almak|Arapça l-ḏ-ḏ kökü; lezzet, leziz, lezzetli ve lezzetsiz aynı kökten gelir.
@@ -1333,7 +1332,7 @@ H-Y-L|ar|çare bulmak, hile yapmak|Arapça ḥ-y-l kökü; hile, hilekâr, hileb
 D-H-Ş|ar|şaşkına çevirmek|Arapça d-h-ş kökü; dehşet, dehşetli ve müthiş aynı köktendir.
 H-C-B|ar|örtmek, perdelemek|Arapça ḥ-c-b kökü; hicap, mahcup ve mahcubiyet aynı kökten gelir; utanma "yüzünü örtme" mecazıdır.
 N-D-M|ar|pişman olmak|Arapça n-d-m kökü; nedamet ve nadim aynı kökten türer.
-H-K-R|ar|küçük görmek|Arapça ḥ-q-r kökü; hakaret, hakir ve tahkir aynı köktendir.
+H-K-R|ar|küçük görmek|Arapça ḥ-q-r kökü; hakaret, hakir ve tahkir aynı köktendir. İhtikâr (vurgunculuk) ḥ-k-r kökünden gelen ayrı bir ailedir.
 A-Z-Z|ar|güçlü, değerli olmak|Arapça ʿ-z-z kökü; izzet, aziz ve muazzez aynı kökten gelir.
 Ş-R-F|ar|yüce olmak|Arapça ş-r-f kökü; şeref, şerefli, şerefsiz ve müşerref aynı kökten türer.
 W-K-R|ar|ağırbaşlı olmak|Arapça w-q-r kökü; vakar ve vakur aynı köktendir.
@@ -1352,15 +1351,14 @@ T-B-K|ar|katman, üst üste koymak|Arapça ṭ-b-q kökü; tabaka, tabakalaşma,
 S-N-F|ar|türlere ayırmak|Arapça ṣ-n-f kökü; sınıf, sınıfsal, sınıfsız ve tasnif aynı kökten türer.
 Z-M-R|ar|küme|Arapça z-m-r kökü; zümre ve zümrevi aynı köktendir.
 H-S-M|ar|çekişmek|Arapça ḫ-ṣ-m kökü; hasım, husumet, muhasım ve "taraf" anlamından akrabaya kayan hısım, hısımlık aynı kökten gelir.
-R-K-B|ar|gözetlemek|Arapça r-q-b kökü; rakip, rakiplik, rekabetçi ve murakabe aynı kökten türer.
+
 R-F-K|ar|eşlik etmek|Arapça r-f-q kökü; refik, refakat ve refakatçi aynı köktendir.
 N-S-L|ar|üremek|Arapça n-s-l kökü; nesil ve tenasül aynı kökten gelir.
 M-Z-C|ar|karıştırmak|Arapça m-z-c kökü; mizaç, mizaçlı ve imtizaç aynı kökten türer.
 A-W-D|ar|geri dönmek, alışmak|Arapça ʿ-w-d kökü; âdet, âdeta, itiyat, mutat ve avdet aynı köktendir.
 Ğ-Y-R|ar|değişmek; kıskanmak|Arapça ġ-y-r kökü; gayret, gayretli, gayretsiz ve gayri aynı kökten gelir.
 N-K-Ş|ar|kazımak; tartışmak|Arapça n-q-ş kökü; münakaşa ve münakaşacı aynı kökten türer.
-Ş-K-W|ar|yakınmak|Arapça ş-k-w kökü; şikâyet, şikâyetçi ve müşteki aynı köktendir.
-Ş-K-K|ar|kuşkulanmak|Arapça ş-k-k kökü; şüphe, şüpheli, şüphesiz, şüpheci ve şüphecilik aynı kökten gelir.
+Ş-K-W|ar|yakınmak|Arapça ş-k-w kökü; şikâyet, şikâyetçi ve müşteki aynı köktendir. Şaki ve eşkıya, ş-q-w "bedbaht olmak" kökünden gelen ayrı bir ailedir.
 Y-K-N|ar|kesin bilmek|Arapça y-q-n kökü; yakin ve yakinen aynı kökten türer.
 H-D-F|ar|nişan|Arapça h-d-f kökü; hedef, hedefli, hedefsiz ve hedeflemek aynı köktendir.
 Ğ-R-D|ar|amaç|Arapça ġ-r-ḍ kökü; garez ve garezli aynı kökten gelir.
@@ -1369,7 +1367,7 @@ R-D-D|ar|geri çevirmek|Arapça r-d-d kökü; ret, tereddüt, tereddütlü ve re
 N-W-Y|ar|niyet etmek|Arapça n-w-y kökü; niyet, niyetli, niyetsiz ve niyetlenmek aynı kökten gelir.
 K-R-H|ar|iğrenmek|Arapça k-r-h kökü; kerih ve ikrah aynı kökten türer.
 H-Ş-N|ar|sert, kaba olmak|Arapça ḫ-ş-n kökü; haşin ve haşinlik aynı köktendir.
-K-S-W|ar|katı olmak|Arapça q-s-w kökü; kasvet ve kasvetli aynı kökten gelir.
+Q-S-W|ar|katı olmak|Arapça q-s-w kökü; kasvet (iç sıkıntısı; katılık) ve kasvetli aynı kökten gelir. Kisve ve kispet, k-s-w "giydirmek" kökünden gelen ayrı bir ailedir.
 K-H-R|ar|ezmek, yenmek|Arapça q-h-r kökü; kahır, kahrolmak ve kahretmek aynı kökten türer.
 A-Z-B|ar|işkence|Arapça ʿ-ḏ-b kökü; azap ve muazzep aynı köktendir.
 M-N-N|ar|iyilik etmek|Arapça m-n-n kökü; minnet, memnun, memnuniyet ve memnuniyetsiz aynı kökten gelir.
@@ -1389,7 +1387,6 @@ A-Y-B|ar|kusur|Arapça ʿ-y-b kökü; ayıp, ayıplamak ve ayıplı aynı kökte
 Ğ-R-R|ar|aldatmak|Arapça ġ-r-r kökü; gurur, mağrur, mağrurluk, gururlu ve gururlanmak aynı köktendir.
 C-D-D|ar|ciddi olmak|Arapça c-d-d kökü; ciddi, ciddiyet ve ciddiyetsiz aynı kökten gelir.
 A-K-S|ar|tersine çevirmek|Arapça ʿ-k-s kökü; akis, aksi, aksilik, aksine ve bilakis aynı kökten türer.
-L-Y-N|ar|yumuşak olmak|Arapça l-y-n kökü; mülayim ve mülayimlik aynı köktendir.
 C-H-Z|ar|donatmak|Arapça c-h-z kökü; çeyiz (cihāz), teçhizat ve mücehhez aynı kökten gelir.
 W-K-A|ar|düşmek, olmak|Arapça w-q-ʿ kökü; mevki, vaka ve vuku aynı kökten türer.
 A-S-F|ar|üzülmek|Arapça ʾ-s-f kökü; esef, teessüf ve maalesef aynı köktendir.

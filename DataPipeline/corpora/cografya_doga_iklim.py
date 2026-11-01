@@ -230,9 +230,9 @@ cevheri|adj|ar|jawharī|öze ilişkin|OSM|C-W-H|
 cevahir|n|ar|jawāhir|cevherler|OSM|C-W-H|
 mücevher|n|ar|mujawhar|cevherli|OSM|C-W-H|
 mücevherat|n|ar|mujawharāt|mücevherler|OSM|C-W-H|
-madenci|n|ar|maʿdin|maden işçisi|OSM19|M-D-N|
-madencilik|n|ar|maʿdin|maden işletme|CUM|M-D-N|
-madeni|adj|ar|maʿdinī|madenden yapılmış|OSM|M-D-N|
+madenci|n|ar|maʿdin|maden işçisi|OSM19|A-D-N|
+madencilik|n|ar|maʿdin|maden işletme|CUM|A-D-N|
+madeni|adj|ar|maʿdinī|madenden yapılmış|OSM|A-D-N|
 boksit|n|fr|bauxite|Les Baux taşı|MOD||
 uranyum|n|fr|uranium|Uranüs elementi|MOD||
 alüminyum|n|fr|aluminium|şap madeni|MOD||la:alumen>fr:aluminium>tr:alüminyum
@@ -338,8 +338,8 @@ seylap|n|fa|saylāb|sel baskını|OSM|S-Y-L|
 seyelan|n|ar|sayalān|akma|OSM|S-Y-L|
 seyyal|adj|ar|sayyāl|akıcı|OSM|S-Y-L|
 tufan|n|ar|ṭūfān|büyük sel|EAT|T-W-F|
-feyezan|n|ar|fayaḍān|taşma|OSM|F-Y-D|
-feyiz|n|ar|fayḍ|bolluk, taşma|EAT|F-Y-D|
+feyezan|n|ar|fayaḍān|taşma|OSM|F-Y-Ḍ|
+feyiz|n|ar|fayḍ|bolluk, taşma|EAT|F-Y-Ḍ|
 dondurucu|adj|tr|toŋ-|çok soğuk|TDK|*don-|
 donuk|adj|tr|toŋ-|donmuş; mat|OSM|*don-|
 buzlu|adj|tr|buz|buz kaplı|DLT|*buz|
@@ -670,9 +670,9 @@ süfli|adj|ar|suflī|aşağı, bayağı|OSM|S-F-L|
 sefil|adj|ar|safīl|düşkün|EAT|S-F-L|
 esfel|adj|ar|asfal|en aşağı|OSM|S-F-L|
 şahika|n|ar|şāhiqa|doruk|OSM||
-hacer|n|ar|ḥajar|taş|EAT|H-C-R|
-hacir|n|ar|ḥajr|kısıtlama|OSM|H-C-R|
-mahcur|adj|ar|maḥjūr|kısıtlanmış|OSM|H-C-R|
+hacer|n|ar|ḥajar|taş|EAT|Ḥ-C-R|
+hacir|n|ar|ḥajr|kısıtlama|OSM|Ḥ-C-R|
+mahcur|adj|ar|maḥjūr|kısıtlanmış|OSM|Ḥ-C-R|
 türab|n|ar|turāb|toprak|EAT|T-R-B|
 cebel|n|ar|jabal|dağ|EAT|C-B-L|
 cibilliyet|n|ar|jibilliyya|yaratılış|OSM|C-B-L|
@@ -777,7 +777,7 @@ stratigrafi|n|fr|stratigraphie|katman betimleme|MOD|graphein|
 toponimi|n|fr|toponymie|yer adı bilimi|MOD|topos|
 biyoçeşitlilik|n|fr|biodiversité|yaşam çeşitliliği|NEW|bios|
 endemik|adj|fr|endémique|yöreye özgü|MOD||
-arazi|n|ar|arāḍī|topraklar|EAT|A-R-D|
+arazi|n|ar|arāḍī|topraklar|EAT||
 yönelmek|v|tr|yön|bir yöne dönmek|DD|*yön|
 yönelim|n|tr|yön|yönelme|DD|*yön|
 terfi|n|ar|tarfīʿ|yükseltme|OSM|R-F-A|
@@ -873,7 +873,7 @@ coğrafyacı|n|ar|juġrāfiyā|coğrafya bilgini|CUM|gē|
 coğrafi|adj|ar|juġrāfī|coğrafyaya ilişkin|OSM19|gē|
 iklimbilim|n|ar|iqlīm|klimatoloji|DD|klima|
 denizbilim|n|tr|teŋiz+bil-|oşinografi|DD|*teŋiz|
-madenbilim|n|ar|maʿdin|mineraloji|DD|M-D-N|
+madenbilim|n|ar|maʿdin|mineraloji|DD|A-D-N|
 taşbilim|n|tr|taş+bil-|petrografi|DD|*taş|
 yeryuvarı|n|tr|yer+yuvar|yerküre|DD|*yer|
 yerölçüm|n|tr|yer+ölç-|jeodezi|DD|*yer|
@@ -1003,10 +1003,9 @@ S-F-L|ar|aşağı olmak|Arapça s-f-l kökü; süfli, sefil, esfel ve sefalet ay
 Z-W-L|ar|yok olmak, kaymak|Arapça z-w-l kökü; zeval, zail ve izale aynı kökten gelir.
 R-K-M|ar|işaretlemek|Arapça r-q-m kökü; rakım, rakam ve merkum aynı kökten türer.
 A-L-W|ar|yüksek olmak|Arapça ʿ-l-w kökü; ulvi, âli ve teali aynı kökten gelir.
-H-C-R|ar|taş; kısıtlamak|Arapça ḥ-c-r kökü; hacer (taş), hücre, hacir ve mahcur aynı kökten türer.
+Ḥ-C-R|ar|taş; kısıtlamak|Arapça ḥ-c-r kökü; hacer (taş), hücre (küçük oda), hacir (kısıtlama) ve mahcur aynı kökten türer. Hicret ve muhacir, h-c-r "göç etmek" kökünden gelen ayrı bir ailedir.
 S-M-T|ar|yön|Arapça s-m-t kökü "yol, yön"; semt, zenit (samt ar-raʾs) ve azimut (as-sumūt) aynı kökten gelir.
 R-S-D|ar|gözetlemek|Arapça r-ṣ-d kökü; rasat, rasathane ve rasıt aynı kökten türer.
-F-Y-D|ar|taşmak|Arapça f-y-ḍ kökü; feyiz ve feyezan aynı kökten gelir.
 D-N-W|ar|yakın olmak, dünya|Arapça d-n-w kökü "yakın olmak"; dünya, dünyevi ve dünyalık aynı kökten türer.
 C-W-R|ar|komşuluk|Arapça c-w-r kökü; civar ve mücavir aynı kökten gelir.
 H-W-T|ar|kuşatmak|Arapça ḥ-w-ṭ kökü; muhit ve ihata aynı kökten türer.

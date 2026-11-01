@@ -920,7 +920,7 @@ yābān|fa|ıssız kır|Farsça yābān "çöl, kır"; yabanıl, yabandomuzu, ya
 *kamçı|tr|kamçı|Dîvânu Lugâti't-Türk'te kamçı; kamçı ve kamçılamak aynı kökten türer; Rusça kamça ve Bulgarca kamşik de bu sözden alınmıştır.
 *besle-|tr|yedirip büyütmek|Türkçe besle-; besi (semirtme) ve besili aynı kökten gelir.
 W-H-Ş|ar|yabanıl olmak|Arapça w-ḥ-ş kökü; vahşi (yabani) ve vahşet (yabanilik, ıssızlık) aynı kökten gelir.
-A-H-L|ar|aile, yakınlık|Arapça a-h-l kökü; ehli (aileye ait; evcil), ehlileştirmek ve ehlileşmek aynı kökten türer.
+A-H-L|ar|aile, yakınlık|Arapça ʾ-h-l kökü; ehli (aileye ait; evcil), ehlileştirmek ve ehlileşmek aynı kökten türer.
 H-Ş-R|ar|toplanmak, kaynaşmak|Arapça ḥ-ş-r kökü; haşere (böcek) ve haşerat (böcekler) aynı kökten gelir.
 H-B-B|ar|tane|Arapça ḥ-b-b "tane" kökü; habbe (tane) ve hububat (taneler, tahıllar) aynı kökten türer.
 L-Y-F|ar|lif|Arapça l-y-f kökü; lifli ve çoğul biçim elyaf aynı kökten gelir.

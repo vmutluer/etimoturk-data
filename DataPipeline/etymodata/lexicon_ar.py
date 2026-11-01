@@ -254,7 +254,7 @@ mabet|n|ar|maʿbad|tapınak|OSM|A-B-D|
 mabut|n|ar|maʿbūd|tapılan|OSM|A-B-D|
 ubudiyet|n|ar|ʿubūdiyya|kulluk|OSM|A-B-D|
 kesir|n|ar|kasr|kırık; kesirli sayı|OSM|K-S-R|
-kusur|n|ar|quṣūr|eksiklik|EAT|K-S-R|
+kusur|n|ar|quṣūr|eksiklik|EAT|Q-Ṣ-R|
 inkisar|n|ar|inkisār|kırılma, gücenme|OSM|K-S-R|
 hafız|n|ar|ḥāfiẕ|ezberleyen|EAT|H-F-Z|
 hıfz|n|ar|ḥifẕ|koruma, ezber|EAT|H-F-Z|
@@ -327,8 +327,8 @@ sadaka|n|ar|ṣadaqa|gönüllü bağış|EAT|S-D-K|
 sadakat|n|ar|ṣadāqa|bağlılık|EAT|S-D-K|
 tasdik|n|ar|taṣdīq|onaylama|OSM|S-D-K|
 azim|n|ar|ʿazm|kararlılık|EAT|A-Z-M|
-azamet|n|ar|ʿaẕama|büyüklük|EAT|A-Z-M|
-muazzam|adj|ar|muʿaẕẕam|çok büyük|OSM|A-Z-M|
+azamet|n|ar|ʿaẕama|büyüklük|EAT|A-Ẕ-M|
+muazzam|adj|ar|muʿaẕẕam|çok büyük|OSM|A-Ẕ-M|
 kemal|n|ar|kamāl|olgunluk|EAT|K-M-L|
 kâmil|adj|ar|kāmil|olgun, tam|EAT|K-M-L|
 tekâmül|n|ar|takāmul|olgunlaşma, evrim|OSM19|K-M-L|
@@ -367,7 +367,7 @@ saat|n|ar|sāʿa|an, saat|EAT||
 dakika|n|ar|daqīqa|ince; dakika|OSM||
 saniye|n|ar|ṯāniya|ikinci|OSM19||
 sene|n|ar|sana|yıl|EAT||
-asır|n|ar|ʿaṣr|çağ, yüzyıl|EAT||
+asır|n|ar|ʿaṣr|çağ, yüzyıl|EAT|A-Ṣ-R|
 hafta|n|fa|hafte|yedili|EAT||
 dünya|n|ar|dunyā|en yakın; yeryüzü|EAT||
 ahiret|n|ar|āḫira|öte dünya|EAT||
@@ -399,7 +399,7 @@ hisar|n|ar|ḥiṣār|çevirme, kale|EAT|H-S-R|
 saray|n|fa|sarāy|konak|EAT||
 mezar|n|ar|mazār|ziyaret yeri|EAT||
 kabir|n|ar|qabr|mezar|EAT||
-türbe|n|ar|turba|toprak; anıt mezar|EAT||
+türbe|n|ar|turba|toprak; anıt mezar|EAT|T-R-B|
 minare|n|ar|manāra|ışık yeri|EAT|N-W-R|
 mihrap|n|ar|miḥrāb|cami nişi|EAT|H-R-B|
 minber|n|ar|minbar|kürsü|EAT||
@@ -538,7 +538,7 @@ düşman|n|fa|duşman|düşman|EAT||
 dost|n|fa|dōst|arkadaş|EAT||
 arkadaş|n|tr|arka-daş|yol arkadaşı|OSM||
 yâr|n|fa|yār|sevgili, dost|EAT||
-rakip|n|ar|raqīb|gözleyen|OSM||
+rakip|n|ar|raqīb|gözleyen|OSM|R-Q-B|
 hasım|n|ar|ḫaṣm|düşman|EAT||
 muhalif|n|ar|muḫālif|karşı olan|OSM||
 muhalefet|n|ar|muḫālafa|karşıtlık|OSM19||
@@ -549,7 +549,7 @@ sulh anlaşması|n|ar|ṣulḥ|barış|OSM||
 harp|n|ar|ḥarb|savaş|EAT|H-R-B|
 muharebe|n|ar|muḥāraba|çarpışma|OSM|H-R-B|
 cenk|n|fa|cang|savaş|EAT||
-mücadele|n|ar|mucādala|çekişme|OSM||
+mücadele|n|ar|mucādala|çekişme|OSM|C-D-L|
 gayret|n|ar|ġayra|çaba|EAT||
 cesaret|n|ar|casāra|yüreklilik|EAT||
 cesur|adj|ar|casūr|yürekli|OSM||
@@ -582,8 +582,8 @@ keyif|n|ar|kayf|durum; hoşnutluk|EAT||
 rahat|n|ar|rāḥa|dinlenme|EAT|R-W-H|
 zevk|n|ar|ḏawq|tat alma|EAT||
 lezzet|n|ar|laḏḏa|tat|EAT||
-neşe|n|ar|naşʾa|coşku|OSM||
-huzur|n|ar|ḥuḏūr|hazır bulunma; dinginlik|EAT||
+neşe|n|ar|naşʾa|coşku|OSM|N-Ş-A|
+huzur|n|ar|ḥuḏūr|hazır bulunma; dinginlik|EAT|H-D-R|
 sükûnet|n|ar|sukūn|dinginlik|EAT||
 sükût|n|ar|sukūt|sessizlik|EAT||
 sabah namazı|n|ar|ṣabāḥ|sabah ibadeti|EAT||
@@ -596,7 +596,7 @@ tasa|n|fa|tāse|kaygı|EAT||
 endişe|n|fa|andīşe|düşünce; kaygı|EAT||
 hasret|n|ar|ḥasra|özlem|EAT||
 hayal|n|ar|ḫayāl|görüntü, düş|EAT||
-rüya|n|ar|ruʾyā|görme; düş|EAT||
+rüya|n|ar|ruʾyā|görme; düş|EAT|R-ʾ-Y|
 düş|n|tr|tüş|rüya|DLT||
 hayret|n|ar|ḥayra|şaşkınlık|EAT||
 hiddet|n|ar|ḥidda|öfke|EAT||
@@ -605,7 +605,7 @@ nefret|n|ar|nafra|tiksinti|OSM||
 haset|n|ar|ḥasad|çekememe|EAT||
 kibir|n|ar|kibr|büyüklenme|EAT|K-B-R|
 gurur|n|ar|ġurūr|aldanma; kibir|EAT||
-tevazu|n|ar|tawāḏuʿ|alçakgönüllülük|EAT||
+tevazu|n|ar|tawāḍuʿ|alçakgönüllülük|EAT|W-Ḍ-A|
 sahip|n|ar|ṣāḥib|arkadaş; mal sahibi|EAT||
 mal|n|ar|māl|varlık|EAT||
 servet|n|ar|ṯarwa|zenginlik|OSM||
@@ -719,7 +719,7 @@ kâr|n|fa|kār|iş; kazanç|EAT|-kār|
 zarar|n|ar|ḏarar|kayıp|EAT|D-R-R|
 ziyan|n|fa|ziyān|kayıp|EAT||
 sermaye|n|fa|ser-māye|ana para|OSM|ser|
-hazine|n|ar|ḫazīna|saklanan yer|EAT||
+hazine|n|ar|ḫazīna|saklanan yer|EAT|Ḫ-Z-N|
 hisse|n|ar|ḥiṣṣa|pay|OSM||
 hissedar|n|ar|ḥiṣṣe-dār|pay tutan|OSM19|dār-|ar:ḥiṣṣa>fa:ḥiṣṣe-dār>tr:hissedar
 faiz|n|ar|fāʾiḏ|artan|OSM||
@@ -790,7 +790,7 @@ mihmandar|n|fa|mihmān-dār|konuk ağırlayan|OSM|dār-|
 kalemdar|n|ar|qalam-dār|kalem tutan|OSM|dār-|
 kalem|n|ar|qalam|kamış kalem|EAT||grc:kálamos>ar:qalam>tr:kalem
 kâğıt|n|fa|kāġaḏ|kâğıt|EAT||zh:gǔzhǐ>fa:kāġaḏ>tr:kâğıt
-mürekkep|n|ar|murakkab|birleştirilmiş|EAT||
+mürekkep|n|ar|murakkab|birleştirilmiş|EAT|R-K-B|
 sayfa|n|ar|ṣaḥīfa|yazı yüzü|OSM||
 satır|n|ar|saṭr|dize, sıra|EAT||
 nokta|n|ar|nuqṭa|nokta|EAT||

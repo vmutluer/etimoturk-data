@@ -73,8 +73,8 @@ azil|n|ar|ʿazl|görevden alma|OSM|A-Z-L|
 azletmek|v|ar|ʿazl|görevden almak|OSM|A-Z-L|
 mazul|adj|ar|maʿzūl|görevden alınmış|OSM|A-Z-L|
 uzlet|n|ar|ʿuzla|köşeye çekilme|OSM|A-Z-L|
-inziva|n|ar|inziwāʾ|köşeye çekilme|OSM|A-Z-L|
-münzevi|adj|ar|munzawī|köşeye çekilmiş|OSM|A-Z-L|
+inziva|n|ar|inziwāʾ|köşeye çekilme|OSM|Z-W-Y|
+münzevi|adj|ar|munzawī|köşeye çekilmiş|OSM|Z-W-Y|
 nasp|n|ar|naṣb|dikme; atama|OSM|N-S-B|
 mansıp|n|ar|manṣib|dikilen yer; makam|OSM|N-S-B|
 tayin|n|ar|taʿyīn|belirleme; atama|OSM|A-Y-N|
@@ -399,10 +399,10 @@ palanka|n|hu|palánk|ahşap kale|OSM||it:palanca>hu:palánk>tr:palanka
 şarampol|n|hu|sorompó|engel; kazıklı siper|OSM||
 tahkimat|n|ar|taḥkīmāt|sağlamlaştırmalar|OSM19|H-K-M|
 istihkâm|n|ar|istiḥkām|sağlamlaştırma; siper yapısı|OSM|H-K-M|
-mevzi|n|ar|mawḍiʿ|konulan yer|OSM|W-D-A|
-mevzu|n|ar|mawḍūʿ|konulmuş; konu|OSM|W-D-A|
-vaziyet|n|ar|waḍʿiyya|konum, durum|OSM19|W-D-A|
-vazetmek|v|ar|waḍʿ|koymak|OSM|W-D-A|
+mevzi|n|ar|mawḍiʿ|konulan yer|OSM|W-Ḍ-A|
+mevzu|n|ar|mawḍūʿ|konulmuş; konu|OSM|W-Ḍ-A|
+vaziyet|n|ar|waḍʿiyya|konum, durum|OSM19|W-Ḍ-A|
+vazetmek|v|ar|waḍʿ|koymak|OSM|W-Ḍ-A|
 cenah|n|ar|canāḥ|kanat|OSM|C-N-H|
 cünha|n|ar|cunḥa|hafif suç|OSM19|C-N-H|
 merkez|n|ar|markaz|dikilen yer; orta|OSM||
@@ -588,7 +588,7 @@ babıali|n|ar|bāb-ı ʿālī|yüce kapı; hükümet|OSM|B-W-B|
 babüssaade|n|ar|bāb al-saʿāda|mutluluk kapısı|OSM|B-W-B|
 bab|n|ar|bāb|kapı; bölüm|EAT|B-W-B|
 divanıhümayun|n|fa|dīwān-ı humāyūn|padişah divanı|OSM||
-kubbealtı|n|tr|kubbe altı|divan toplantı yeri|OSM|K-B-B|
+kubbealtı|n|tr|kubbe altı|divan toplantı yeri|OSM|Q-B-B|
 sadaret|n|ar|ṣadāra|baş olma; sadrazamlık|OSM|S-D-R|
 sadır|n|ar|ṣadr|göğüs; baş yer|OSM|S-D-R|
 musadere|n|ar|muṣādara|el koyma|OSM|S-D-R|
@@ -694,7 +694,7 @@ zapt|n|ar|ḍabṭ|tutma; ele geçirme|EAT|Z-B-T|
 zaptetmek|v|ar|ḍabṭ|ele geçirmek|EAT|Z-B-T|
 zaptiye|n|ar|ḍabṭiyya|kolluk kuvveti|OSM19|Z-B-T|
 inzibat|n|ar|inḍibāṭ|düzen; askerî polis|OSM19|Z-B-T|
-telhis|n|ar|talḫīṣ|özetleme; sadrazam özeti|OSM|H-L-S|
+telhis|n|ar|talḫīṣ|özetleme; sadrazam özeti|OSM||
 halas|n|ar|ḫalāṣ|kurtulma|EAT|H-L-S|
 muhlis|adj|ar|muḫliṣ|içten|EAT|H-L-S|
 ahitname|n|fa|ʿahd-nāme|antlaşma yazısı|OSM|A-H-D|
@@ -751,7 +751,7 @@ isyankâr|adj|fa|ʿiṣyān-kār|isyan eden|OSM|A-S-Y|
 masiyet|n|ar|maʿṣiya|günah|EAT|A-S-Y|
 ayaklanma|n|tr|ayak-lan-|başkaldırı|DD||
 ayaklanmak|v|tr|ayak-lan-|başkaldırmak|OSM||
-ihtilal|n|ar|iḫtilāl|bozulma; devrim|OSM|H-L-L|
+ihtilal|n|ar|iḫtilāl|bozulma; devrim|OSM||
 devrim|n|ar|dawr|dönüş; köklü değişim|TDK|D-W-R|
 darbe|n|ar|ḍarba|vuruş|OSM|D-R-B|
 darp|n|ar|ḍarb|vurma|EAT|D-R-B|
@@ -762,9 +762,9 @@ darbımesel|n|ar|ḍarb-ı maṯal|örnek vuruşu; atasözü|OSM|D-R-B|
 darbeci|n|ar|ḍarba|darbe yapan|MOD|D-R-B|
 cunta|n|es|junta|birleşmiş kurul|MOD|iungere|la:iuncta>es:junta>tr:cunta
 konjonktür|n|fr|conjoncture|birleşme durumu|MOD|iungere|
-eşkıya|n|ar|aşqiyāʾ|bedbahtlar; haydutlar|OSM|Ş-K-W|
-şaki|n|ar|şaqī|bedbaht; haydut|OSM|Ş-K-W|
-şekavet|n|ar|şaqāwa|bedbahtlık; haydutluk|OSM|Ş-K-W|
+eşkıya|n|ar|aşqiyāʾ|bedbahtlar; haydutlar|OSM|Ş-Q-W|
+şaki|n|ar|şaqī|bedbaht; haydut|OSM|Ş-Q-W|
+şekavet|n|ar|şaqāwa|bedbahtlık; haydutluk|OSM|Ş-Q-W|
 harami|n|ar|ḥarāmī|haram işleyen; haydut|EAT|H-R-M|
 zorbalık|n|fa|zūr-bā|zorba davranışı|OSM19||
 çeteci|n|tr|çete-ci|çete üyesi|CUM||
@@ -847,7 +847,7 @@ FAMILIES = r"""
 *baş|tr|baş, önder|Orhun Yazıtları'ndaki baş "baş, tepe; önder"; onbaşı, yüzbaşı, binbaşı, başçavuş, başbuğ, bölükbaşı, odabaşı, kapıcıbaşı, bostancıbaşı, topçubaşı gibi Osmanlı görev adları ve kızılbaş aynı kökten gelir.
 *bek|tr|bey, hükümdar|Orhun Yazıtları'ndaki beg "bey"; beylik, beylerbeyi, sancakbeyi, uçbeyi, derebeyi, begüm, atabey ile Dil Devrimi'nin bay sözünden yaptığı albay ve yarbay aynı kökten türer.
 *tuğ|tr|at kuyruğu sancak|Eski Türkçe tuğ "hükümdarlık alameti olan at kuyruğu"; tuğcu, tugay (tuğ sahibi birlik), tuğgeneral ve tuğamiral aynı kökten gelir.
-*tüm|tr|bütün; on bin|Eski Türkçe tümen "on bin" ile akraba tüm; tümgeneral, tümamiral ve tümbay (tümen komutanı) aynı kökten türetilmiştir.
+*tüm|tr|bütün; on bin|Eski Türkçe tüm "bütün" ile akraba tümen "on bin"; tümgeneral, tümamiral ve tümbay (tümen komutanı) aynı kökten türetilmiştir.
 *kor|tr|kolordu|Dil Devrimi'nde kolordu sözünün kısaltılmasıyla oluşan kor; korgeneral, koramiral ve korbay aynı kısaltmadan türetilmiştir.
 *ordu|tr|ordu, hükümdar karargâhı|Orhun Yazıtları'ndaki ordu "hükümdarın karargâhı"; orda (Altın Orda), ordubozan, orgeneral ve oramiral aynı kökten gelir; Avrupa dillerindeki horde de buradan yayılmıştır.
 *teg-|tr|değmek, denk gelmek|Eski Türkçe teg- "değmek, erişmek"; Dil Devrimi'nin teğmen (denk gelen), üsteğmen, asteğmen ve teğmenlik sözleri bu kökten türetilmiştir.
@@ -897,7 +897,7 @@ A-S-K-R|ar|ordu|Arapça ʿ-s-k-r kökü; asker, askerî, askerlik, askeriye ve m
 A-S-S|ar|gece gezmek|Arapça ʿ-s-s kökü; ases (gece bekçisi) ve asesbaşı aynı kökten gelir.
 A-S-Y|ar|karşı gelmek|Arapça ʿ-ṣ-y kökü; asi, isyan, isyankâr ve masiyet (günah) aynı kökten türer.
 A-Y-Ş|ar|yaşamak|Arapça ʿ-y-ş kökü; iaşe (besleme), maişet (geçim) ve maaş aynı kökten gelir.
-A-Z-L|ar|ayırmak, uzaklaştırmak|Arapça ʿ-z-l kökü; azil, azletmek, mazul, uzlet, inziva ve münzevi aynı kökten türer.
+A-Z-L|ar|ayırmak, uzaklaştırmak|Arapça ʿ-z-l kökü; azil, azletmek, mazul ve uzlet aynı kökten türer. İnziva ve münzevi, z-w-y "köşeye çekilmek" kökünden gelen ayrı bir ailedir.
 A-Ş-R|ar|on; topluluk|Arapça ʿ-ş-r kökü; öşür (onda bir), aşar, aşiret (topluluk), muaşeret ve aşure (onuncu gün) aynı kökten gelir.
 B-D-D|ar|tek başına olmak|Arapça b-d-d kökü; istibdat (tek başına yönetme) ve müstebit aynı kökten türer.
 B-W-B|ar|kapı|Arapça b-w-b kökü; bab (kapı; bölüm), Babıali (yüce kapı) ve Babüssaade aynı kökten gelir.
@@ -919,7 +919,6 @@ H-C-M|ar|saldırmak|Arapça h-c-m kökü; hücum, muhacim, tehacüm ve hücumbot
 H-C-R|ar|ayrılmak, göç etmek|Arapça h-c-r kökü; hicret, hicri, muhacir, muhaceret ve tehcir aynı kökten gelir.
 H-D-R|ar|hazır bulunmak|Arapça ḥ-ḍ-r kökü; hazır, hazırol, hazret (huzur), hazirun, ihzar ve muhzır aynı kökten türer.
 H-L-F|ar|ardından gelmek|Arapça ḫ-l-f kökü; halife (ardıl), hilafet, halef, ihtilaf ve muhalif aynı kökten gelir.
-H-L-S|ar|arınmak, kurtulmak|Arapça ḫ-l-ṣ kökü; halas (kurtuluş), telhis (özetleme) ve muhlis aynı kökten türer.
 H-S-S|ar|özel olmak|Arapça ḫ-ṣ-ṣ kökü; has, hassa, hasoda, haseki ve hususi aynı kökten gelir.
 H-W-N|ar|güveni bozmak|Arapça ḫ-w-n kökü; hain, hainlik, hıyanet ve ihanet aynı kökten türer.
 H-W-T|ar|çevrelemek|Arapça ḥ-w-ṭ kökü; ihata (çevreleme), muhit (çevre) ve ihtiyat (sakınma; yedek) aynı kökten gelir.
@@ -948,7 +947,6 @@ T-B-K|ar|üst üste koymak, uygulamak|Arapça ṭ-b-q kökü; tatbik, tatbikat, 
 T-L-K|ar|salıvermek|Arapça ṭ-l-q kökü; mutlak, mutlakiyet, ıtlak ve talak aynı kökten türer.
 T-W-A|ar|boyun eğmek|Arapça ṭ-w-ʿ kökü; itaat, taat ve muti aynı kökten gelir.
 W-C-B|ar|gerekli olmak|Arapça w-c-b kökü; vacip, icap, mucip ve mevacip (asker maaşı) aynı kökten türer.
-W-D-A|ar|koymak|Arapça w-ḍ-ʿ kökü; mevzi, mevzu, vaziyet ve vazetmek aynı kökten gelir.
 W-K-F|ar|durdurmak|Arapça w-q-f kökü; vakıf, evkaf, tevkif ve mevkuf aynı kökten türer.
 W-Z-F|ar|görevlendirmek|Arapça w-ẓ-f kökü; vazife, muvazzaf ve tevzif aynı kökten gelir.
 Z-A-M|ar|önderlik etmek|Arapça z-ʿ-m kökü; zaim ve zeamet aynı kökten türer.
@@ -957,7 +955,7 @@ Z-F-R|ar|üstün gelmek|Arapça ẓ-f-r kökü; zafer, muzaffer, zafername ve za
 Ğ-L-B|ar|üstün gelmek|Arapça ġ-l-b kökü; galip, galibiyet, galebe, tagallüp, mağlup ve mağlubiyet aynı kökten gelir.
 Ğ-N-M|ar|ganimet almak|Arapça ġ-n-m kökü; ganimet ve iğtinam aynı kökten türer.
 Ğ-R-B|ar|yabancı olmak|Arapça ġ-r-b kökü; garip, gurbet ve gureba (yabancılar; sipahi bölüğü) aynı kökten gelir.
-Ş-K-W|ar|bedbaht olmak|Arapça ş-q-w kökü; şaki, eşkıya ve şekavet aynı kökten türer.
+Ş-Q-W|ar|bedbaht olmak|Arapça ş-q-w kökü; şaqī (bedbaht; haydut) > şaki, eşkıya (çoğulu) ve şekavet aynı kökten türer. Şikâyet ise ş-k-w "yakınmak" kökünden gelen ayrı bir ailedir.
 Ş-R-F|ar|yüce olmak|Arapça ş-r-f kökü; şeref, şerif, eşraf, teşrif, teşrifat ve müşerref aynı kökten gelir.
 Ş-R-T|ar|şart koşmak|Arapça ş-r-ṭ kökü; şart, meşrut, meşrutiyet ve şartname aynı kökten türer.
 Ş-Y-H|ar|yaşlı, önder|Arapça ş-y-ḫ kökü; şeyh, şeyhlik, şeyhülislam ve meşihat aynı kökten gelir.

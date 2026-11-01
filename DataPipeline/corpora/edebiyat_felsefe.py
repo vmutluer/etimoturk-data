@@ -192,7 +192,7 @@ vahdet|n|ar|waḥda|birlik|EAT|W-H-D|
 vahit|adj|ar|wāḥid|tek|EAT|W-H-D|
 tevhit|n|ar|tawḥīd|birleme|EAT|W-H-D|
 ittihat|n|ar|ittiḥād|birleşme|OSM|W-H-D|
-kesret|n|ar|kaṯra|çokluk|OSM|K-S-R|
+kesret|n|ar|kaṯra|çokluk|OSM|K-Ṯ-R|
 fena|n|ar|fanāʾ|yok oluş|EAT||
 beka|n|ar|baqāʾ|kalıcılık|EAT|B-K-Y|
 baki|adj|ar|bāqī|kalan|EAT|B-K-Y|
@@ -242,7 +242,7 @@ belleten|n|tr|belleten|bülten|DD|*belle-|
 hafıza|n|ar|ḥāfiẕa|koruyan|OSM|H-F-Z|
 hatıra|n|ar|ḫāṭira|akla gelen|OSM|H-T-R|
 hatır|n|ar|ḫāṭir|gönül; akıl|EAT|H-T-R|
-tehlike|n|ar|tahluka|yok olma yeri|EAT|H-L-K|
+tehlike|n|ar|tahluka|yok olma yeri|EAT||
 anı|n|tr|anı|hatıra|DD|*an-|
 us|n|tr|us|akıl|DLT|*us|
 uslu|adj|tr|uslug|akıllı|DLT|*us|
@@ -264,7 +264,7 @@ roma|la|Roma|Latince Roma; romanice "Roma dilinde" sözünden roman, romantik ve
 *diz-|tr|sıralamak|Eski Türkçe tiz- "dizmek"; dizmek, dize, dizi ve dizin aynı kökten gelir.
 K-T-A|ar|kesmek|Arapça q-ṭ-ʿ kökü; kıta (parça), kat'i (kesin), inkıta ve maktu aynı kökten türer.
 *bet|tr|yüz|Eski Türkçe bet "yüz"; betim (Dil Devrimi) ve betimlemek aynı kökten türer.
-Ş-B-H|ar|benzemek|Arapça ş-b-h kökü; teşbih (benzetme), müşabih ve şüphe (benzerlikten doğan kuşku) aynı kökten gelir.
+Ş-B-H|ar|benzemek|Arapça ş-b-h kökü; teşbih (benzetme), müşabih ve şüphe (benzerlikten doğan kuşku) ile türevleri şüpheli, şüphesiz, şüpheci aynı kökten gelir.
 C-W-Z|ar|geçmek|Arapça c-w-z kökü; mecaz (geçiş), caiz (geçerli), cevaz ve icazet aynı kökten türer.
 C-N-S|ar|tür|Arapça c-n-s kökü (Yunanca génos'tan); cins, cinsiyet ve cinas (aynı türden sözcük oyunu) aynı kökten gelir.
 *oyna-|tr|oyun oynamak|Eski Türkçe oyun/oyna-; oyun, oynamak, oyuncu ve oyuncak aynı kökten türer.
@@ -274,7 +274,7 @@ N-K-D|ar|ayıklamak, eleştirmek|Arapça n-q-d kökü; nakit (ayıklanmış para
 krinein|el|ayırmak, yargılamak|Eski Yunanca krínein "ayırmak"; kritik, kriter, kriz (karar anı) ve endokrin (içe ayrıştıran) aynı kökten türer.
 typos|el|damga|Eski Yunanca týpos "vuruş, damga"; tip, tipik ve tipo aynı kökten gelir.
 A-L-F|ar|alıştırmak, derlemek|Arapça ʾ-l-f kökü; müellif (derleyen), telif ve ülfet aynı kökten türer.
-A-S-R|ar|iz|Arapça ʾ-ṯ-r kökü; eser (iz), tesir ve müessir aynı kökten gelir.
+A-S-R|ar|iz|Arapça ʾ-ṯ-r kökü; eser (iz), tesir ve müessir aynı kökten gelir. Asır ve asri, ʿ-ṣ-r "çağ" kökünden gelen ayrı bir ailedir.
 S-R-F|ar|çevirmek, harcamak|Arapça ṣ-r-f kökü; sarf, masraf ve tasarruf aynı kökten türer.
 sophos|el|bilge|Eski Yunanca sophós "bilge"; felsefe (Arapça yoluyla), filozof, feylesof, sofist ve sofistike aynı kökten gelir.
 N-T-K|ar|konuşmak|Arapça n-ṭ-q kökü; mantık, nutuk ve natıka aynı kökten türer.

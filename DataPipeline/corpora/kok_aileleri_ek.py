@@ -17,9 +17,9 @@ C-R-H|ar|yaralamak|Arapça c-r-ḥ kökü; cerrāḥ (yara iyileştiren), cerī�
 N-S-B|ar|ilişki, soy|Arapça n-s-b kökü; nisbet (oran), nesep (soy), münasebet (ilişki), münasip (uygun), nispeten aynı kökten türer.
 K-R-M|ar|cömertlik, yücelik|Arapça k-r-m kökü; kerem, kerīm, ikrām (ağırlama), ikrāmiye, mükerrem aynı kökten gelir.
 W-F-K|ar|uyuşmak|Arapça w-f-q kökü; muvāfaqat (onay), ittifāq (birlik), tevfīq, muvaffaq (başarılı), muvaffaqiyet aynı kökten türer.
-N-ẔR-F|ar|incelik, zariflik|Arapça ẕ-r-f kökü; ẕarīf (zarif), ẕarāfet, mütẕarrif? Türkçede zarif, zarafet biçimleri kullanılır.
-T-R-B|ar|toprak, yetiştirme|Arapça t-r-b kökü; turāb (toprak), türbe (toprak; anıt mezar), terbiye (yetiştirme) aynı kökten gelir.
-F-R-K|ar|ayırmak|Arapça f-r-q kökü; farq (ayrım), firqa (bölük, parti), tefrīq (ayırma), müfreze? , fırka aynı kökten türer.
+Ẕ-R-F|ar|incelik, zariflik|Arapça ẕ-r-f kökü; ẕarīf (ince, zarif) > zarif, zarifçe ve ẕarāfa > zarafet aynı kökten gelir.
+T-R-B|ar|toprak|Arapça t-r-b kökü; turāb (toprak) ve türbe (toprak; anıt mezar) aynı kökten gelir. Terbiye ise r-b-w "büyütmek" kökünden gelen ayrı bir sözcüktür.
+F-R-K|ar|ayırmak|Arapça f-r-q kökü; farq (ayrım), firqa (bölük, parti), tefrīq (ayırma) ve fırka aynı kökten türer. Müfreze, f-r-z "ayırıp koymak" kökünden gelen ayrı bir sözcüktür.
 H-D-M|ar|hizmet etmek|Arapça ḫ-d-m kökü; ḫidmet, ḫādim, hademe (hizmetçiler), müstahdem aynı kökten gelir.
 A-R-D|ar|sunmak, genişlik|Arapça ʿ-r-ḏ kökü; ʿarḏ (sunma), arzuhal (hâl sunma), maʿrūḏ, taʿrīḏ (sataşma), ʿarīḏa (dilekçe) aynı kökten türer.
 M-R-D|ar|hastalık|Arapça m-r-ḏ kökü; maraḏ (hastalık), marīḏ (hasta), emrāḏ, mütemāriz aynı kökten gelir.
@@ -35,8 +35,19 @@ scribere|la|yazmak|Latince scribere "yazmak"; skript (senaryo metni), manuskript
 nomen|la|ad|Latince nomen "ad"; nominal, nomenklatür ve Yunanca ónoma kökenli anonim, sinonim, antonim aynı Hint-Avrupa kökündendir.
 genus|la|soy, doğuş|Latince genus "soy" ve Yunanca génos; jen, jenerasyon, jeneratör, jenerik, genetik, jenosit? aynı kökten gelir.
 forma|la|biçim|Latince forma "biçim"; form, formül, format, formalite, reform, uniforma, deformasyon aynı kökten türer.
-korda|el|bağırsak, tel|Eski Yunanca khordḕ "bağırsak teli"; kord (ip), kordon, akor, akordeon, kordele aynı kökten gelir.
+korda|el|bağırsak, tel|Eski Yunanca khordḕ "bağırsak teli"; kord (ip), kordon, kordele ve kurdele aynı kökten gelir. Akor ise Latince cor "kalp" kökünden (accordare) gelir.
 skopein|el|bakmak|Eski Yunanca skopeîn "bakmak"; teleskop, mikroskop, periskop, skop, episkopos (piskopos) aynı kökten gelir.
+cor|la|kalp|Latince cor (cordis) "kalp"; accordare "kalpleri uyuşturmak" > Fransızca accord > akor ve akordeon aynı kökten gelir. Rekor da (recordari "kalbe geri getirmek") aynı Latince köke bağlanır.
+A-Ṣ-R|ar|çağ; sıkmak|Arapça ʿ-ṣ-r kökü; ʿaṣr (çağ, yüzyıl; ikindi) > asır ve asri (çağdaş) aynı kökten gelir. Eser ve tesir, ʾ-ṯ-r "iz" kökünden gelen ayrı bir ailedir.
+A-Ẕ-M|ar|büyük olmak|Arapça ʿ-ẕ-m kökü; ʿaẕamet (büyüklük) > azamet, muʿaẕẕam > muazzam ve aʿẕam (en büyük) ile kurulan sadrazam (ṣadr-ı aʿẕam) aynı kökten gelir. Azim, ʿ-z-m "kararlı olmak" kökünden gelen ayrı bir ailedir.
+K-Ṯ-R|ar|çok olmak|Arapça k-ṯ-r kökü; kaṯra (çokluk) > kesret aynı kökten gelir. Kesir ve inkisar, k-s-r "kırmak" kökünden gelen ayrı bir ailedir.
+Q-Ṣ-R|ar|kısa olmak, eksik kalmak|Arapça q-ṣ-r kökü; quṣūr (eksiklik) > kusur, kusurlu, kusursuz ve taqṣīr (kısaltma; ihmal) > taksir aynı kökten gelir. Kesir ve inkisar, k-s-r "kırmak" kökünden gelen ayrı bir ailedir.
+A-D-N|ar|yerleşmek; maden yatağı|Arapça ʿ-d-n kökü; maʿdin "maden ocağı, kaynak" > maden, madeni, madenci, madencilik ve madenbilim aynı kökten gelir. Medeniyet, m-d-n "şehirleşmek" kökünden gelen ayrı bir ailedir.
+*ört-|tr|örtmek, kapamak|Eski Türkçe ört- "kapamak, gizlemek" fiili; örtü (örtüg) ve örtünmek aynı kökten gelir. Örmek (ör-) ayrı bir köktür.
+*ilet-|tr|götürmek, ulaştırmak|Eski Türkçe ilet- / elt- "götürmek" fiili; iletmek, iletken, iletim ile Dil Devrimi türetmeleri ileti ve iletişim aynı kökten gelir. Ulaşmak (ula-) ve il- ayrı köklerdir.
+Ğ-N-Y|ar|şarkı söylemek; zengin olmak|Arapça ġ-n-y kökü; ġannā "şarkı söylemek" > muganni (şarkıcı) ve teganni (şarkı söyleme) bu köktendir. Nağme, n-ġ-m "ezgi" kökünden gelen ayrı bir sözcüktür.
+R-ʾ-Y|ar|görmek|Arapça r-ʾ-y kökü; ruʾyā (görme; düş) > rüya, riyāʾ (gösteriş) > riya ve murāʾī (ikiyüzlü) > mürai aynı kökten gelir. Mera ve riayet, r-ʿ-y "gütmek" kökünden gelen ayrı bir ailedir.
+C-D-L|ar|çekişmek, tartışmak|Arapça c-d-l kökü; mucādala (çekişme, boğuşma) > mücadele ve mücadeleci aynı kökten gelir. Cihat ve mücahit, c-h-d "çabalamak" kökünden gelen ayrı bir ailedir.
 """
 
 WORDS = r"""
@@ -96,16 +107,16 @@ muvafakat|n|ar|muwāfaqa|onay|OSM|W-F-K|
 muvaffak|adj|ar|muwaffaq|başarılı|OSM|W-F-K|
 muvaffakiyet|n|ar|muwaffaqiyya|başarı|OSM19|W-F-K|
 tevfik|n|ar|tawfīq|uygun kılma|EAT|W-F-K|
-zarafet|n|ar|ẕarāfa|incelik|OSM|N-ẔR-F|
-zarifçe|adv|ar|ẕarīf|incelikle|OSM|N-ẔR-F|
-terbiye|n|ar|tarbiya|yetiştirme|EAT|T-R-B|
-terbiyeli|adj|ar|tarbiya|görgülü|OSM|T-R-B|
+zarafet|n|ar|ẕarāfa|incelik|OSM|Ẕ-R-F|
+zarifçe|adv|ar|ẕarīf|incelikle|OSM|Ẕ-R-F|
+terbiye|n|ar|tarbiya|yetiştirme|EAT|R-B-W|
+terbiyeli|adj|ar|tarbiya|görgülü|OSM|R-B-W|
 türbedar|n|ar|turba-dār|türbe bekçisi|OSM|dār-|
 toprak türab|n|ar|turāb|toprak|EAT|T-R-B|
 fark|n|ar|farq|ayrım|EAT|F-R-K|
 farklı|adj|ar|farq|başka|OSM|F-R-K|
 tefrik|n|ar|tafrīq|ayırma|OSM|F-R-K|
-müfreze|n|ar|mufraza|ayrılmış birlik|OSM19|F-R-K|
+müfreze|n|ar|mufraza|ayrılmış birlik|OSM19||
 hadim|n|ar|ḫādim|hizmet eden|EAT|H-D-M|
 müstahdem|n|ar|mustaḫdam|çalıştırılan|OSM19|H-D-M|
 arz|n|ar|ʿarḏ|sunma; genişlik|EAT|A-R-D|
@@ -165,8 +176,8 @@ deformasyon|n|fr|déformation|biçim bozulması|CUM|forma|la:deformatio>fr:défo
 platform|n|fr|plate-forme|düz biçim|CUM|forma|fr:plate-forme>tr:platform
 kord|n|fr|corde|ip|CUM|korda|grc:khordḕ>la:chorda>fr:corde>tr:kord
 kordon|n|fr|cordon|küçük ip|OSM19|korda|la:chorda>fr:cordon>tr:kordon
-akor|n|fr|accord|uyuşma|CUM|korda|la:accordare>fr:accord>tr:akor
-akordeon|n|fr|accordéon|akor çalgısı|CUM|korda|de:Akkordeon>fr:accordéon>tr:akordeon
+akor|n|fr|accord|uyuşma|CUM|cor|la:accordare>fr:accord>tr:akor
+akordeon|n|fr|accordéon|akor çalgısı|CUM|cor|de:Akkordeon>fr:accordéon>tr:akordeon
 kordele|n|it|cordella|küçük ip|OSM19|korda|la:chorda>it:cordella>tr:kordele
 periskop|n|fr|périscope|çevreyi gören|CUM|skopein|grc:perí+skopeîn>fr:périscope>tr:periskop
 stetoskop|n|fr|stéthoscope|göğsü dinleyen|OSM19|skopein|grc:stêthos+skopeîn>fr:stéthoscope>tr:stetoskop

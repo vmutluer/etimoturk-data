@@ -94,7 +94,7 @@ ithalat|n|ar|idḫālāt|sokmalar|OSM19||
 gümrük vergisi|n|el|kommérkion|vergi|OSM||
 tarife|n|fr|tarif|bildirme|OSM19||ar:taʿrīf>it:tariffa>fr:tarif>tr:tarife
 tekel|n|tr|tek el|monopol|DD||
-rekabet|n|ar|raqāba|gözetme; yarış|OSM19||
+rekabet|n|ar|raqāba|gözetme; yarış|OSM19|R-Q-B|
 yarış|n|tr|yarış|müsabaka|DLT||
 pazarlamak|v|fa|bāzār|satışa sunmak|MOD||
 üretici|n|tr|üretici|üreten|DD|*ür-|
@@ -115,7 +115,7 @@ kredi kartı|n|fr|crédit|kart|MOD||
 kart|n|fr|carte|kâğıt|OSM19||grc:khártēs>la:charta>fr:carte>tr:kart
 cami avlusu|n|ar|cāmiʿ|avlu|OSM|C-M-A|
 mihrap nişi|n|ar|miḥrāb|niş|OSM||
-kubbe|n|ar|qubba|kubbe|EAT|K-B-B|
+kubbe|n|ar|qubba|kubbe|EAT|Q-B-B|
 kemer|n|fa|kamar|kavis|EAT||
 sütun|n|fa|ustūn|direk|EAT||
 direk|n|tr|tirek|dayak|DLT||
@@ -128,7 +128,7 @@ ayet|n|ar|āya|işaret|EAT||
 sure|n|ar|sūra|bölüm|EAT||
 hadis|n|ar|ḥadīṯ|söz|EAT||
 sünnet|n|ar|sunna|yol, gelenek|EAT||
-farz|n|ar|farḏ|zorunlu|EAT||
+farz|n|ar|farḍ|zorunlu|EAT|F-R-Ḍ|
 helal|adj|ar|ḥalāl|izinli|EAT|H-L-L|
 haram|adj|ar|ḥarām|yasak|EAT|H-R-M|
 mekruh|adj|ar|makrūh|hoş görülmeyen|EAT||
@@ -276,9 +276,9 @@ sunucu|n|tr|sunucu|server|MOD||
 veri tabanı|n|tr|veri|database|MOD|*ver-|
 dosya yolu|n|fr|dossier|yol|MOD||
 e-posta|n|it|posta|elektronik posta|NEW||
-ileti|n|tr|ileti|mesaj|DD|*ulaş-|
-iletmek|v|tr|ilet-|ulaştırmak|DLT|*ulaş-|
-iletişim|n|tr|iletişim|komünikasyon|DD|*ulaş-|
+ileti|n|tr|ileti|mesaj|DD|*ilet-|
+iletmek|v|tr|ilet-|ulaştırmak|DLT|*ilet-|
+iletişim|n|tr|iletişim|komünikasyon|DD|*ilet-|
 yapay zekâ|n|tr|yapay|zekâ|NEW|*yap-|
 zekâ|n|ar|ḏakāʾ|keskin anlayış|EAT||
 zeki|adj|ar|ḏakī|akıllı|EAT||
