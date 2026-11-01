@@ -34,7 +34,9 @@ def _is_suffix(form: str) -> bool:
 
 def story_tr(n) -> str:
     origin = lang_tr(n.origin)
-    if getattr(n, "disputed", False):
+    if getattr(n, "disputed", False) and n.origin == "unk":
+        s = f"{n.name}, kökeni kesin olarak bilinmeyen bir {GENDER_TR[n.gender]}dır; kaynak dili belirlenememiştir. "
+    elif getattr(n, "disputed", False):
         s = f"{n.name}, kökeni kesin olarak bilinmeyen bir {GENDER_TR[n.gender]}dır; en yaygın açıklamaya göre {origin} kökenlidir. "
     else:
         s = f"{n.name}, {origin} kökenli bir {GENDER_TR[n.gender]}dır. "
@@ -65,7 +67,9 @@ def story_tr(n) -> str:
 
 def story_en(n) -> str:
     origin = lang_en(n.origin)
-    if getattr(n, "disputed", False):
+    if getattr(n, "disputed", False) and n.origin == "unk":
+        s = f"{n.name} is a {GENDER_EN[n.gender]} whose origin is not firmly established; its source language has not been determined. "
+    elif getattr(n, "disputed", False):
         s = f"{n.name} is a {GENDER_EN[n.gender]} whose origin is not firmly established; the most common account makes it {origin}. "
     else:
         s = f"{n.name} is a {GENDER_EN[n.gender]} of {origin} origin. "
