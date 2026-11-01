@@ -452,7 +452,7 @@ er|n|tr|er|erkek, asker|ORH||
 kişi|n|tr|kişi|insan|ORH||
 gün|n|tr|kün|gün, güneş|ORH||
 güneş|n|tr|küneş|güneş|DLT|*kün|
-ay|n|tr|ay|ay|ORH||
+ay|n|tr|ay|ay|ORH|*ay|
 yıl|n|tr|yıl|yıl|ORH||
 yıldız|n|tr|yultuz|yıldız|ORH||
 gök|n|tr|kök|gök|ORH||
