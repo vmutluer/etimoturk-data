@@ -137,7 +137,7 @@ elektrostatik|adj|fr|électrostatique|durgun elektriğe ilişkin|MOD|stasis|grc:
 taksonomi|n|fr|taxonomie|düzenleme yasası|MOD|taxis|grc:táxis+nómos>fr:taxonomie>tr:taksonomi
 sentaks|n|fr|syntaxe|birlikte dizme|MOD|taxis|grc:sýntaxis>fr:syntaxe>tr:sentaks
 taktik|n|fr|tactique|düzenleme sanatı|CUM|taxis|grc:taktikḗ>fr:tactique>tr:taktik
-taksimetre|n|fr|taximètre|ücret ölçer|CUM|taxis|grc:táxis+métron>fr:taximètre>tr:taksimetre
+taksimetre|n|fr|taximètre|ücret ölçer|CUM|tangere|la:taxāre>fr:taxe>fr:taximètre>tr:taksimetre
 agronomi|n|fr|agronomie|tarla yasası|CUM|nomos|grc:agrós+nómos>fr:agronomie>tr:agronomi
 metronom|n|fr|métronome|ölçü düzenleyici|CUM|nomos|grc:métron+nómos>fr:métronome>tr:metronom
 sfer|n|fr|sphère|küre|MOD|sphaira|grc:sphaîra>la:sphaera>fr:sphère>tr:sfer
@@ -1011,7 +1011,7 @@ monos|el|tek|Eski Yunanca mónos "tek"; monoton, monopol, monokl, monografi ve m
 autos|el|kendi|Eski Yunanca autós "kendi"; otomatik, otonom, otonomi, otomasyon, otopsi ve otomat aynı kökten gelir.
 dynamis|el|güç|Eski Yunanca dýnamis "güç"; dinamik, dinamo, dinamit, dinamizm ve termodinamik aynı kökten türer.
 stasis|el|durma|Eski Yunanca stásis "durma" ve statós "duran"; statik, termostat, hidrostatik ve elektrostatik aynı kökten gelir.
-taxis|el|düzenleme|Eski Yunanca táxis "dizme, düzen"; taksonomi, sentaks, taktik ve taksimetre (taksi de buradan) aynı kökten türer.
+taxis|el|düzenleme|Eski Yunanca táxis "dizme, düzen"; taksonomi, sentaks ve taktik aynı kökten türer. (Taksi ve taksimetre buraya değil, Latince taxāre "değer biçmek" < tangere köküne bağlanır.)
 nomos|el|yasa, pay|Eski Yunanca nómos "yasa, kural"; agronomi ve metronom aynı kökten gelir; astronomi ve ekonomi de bu öğeyi taşır.
 sphaira|el|top, küre|Eski Yunanca sphaîra "top"; sfer, atmosfer, hemisfer, stratosfer, biyosfer ve sferik aynı kökten türer.
 morphē|el|biçim|Eski Yunanca morphḗ "biçim"; morfoloji, amorf, metamorfoz, morfem ve polimorf aynı kökten gelir.
@@ -1043,7 +1043,7 @@ struere|la|yığmak, kurmak|Latince struere "kurmak"; enstrüman, konstrüksiyon
 oscillare|la|salınmak|Latince oscillare "sallanmak"; osiloskop, osilasyon ve osilatör aynı kökten türer.
 frangere|la|kırmak|Latince frangere "kırmak"; fraksiyon, fraktal, fragman ve refraksiyon aynı kökten gelir.
 solvere|la|çözmek|Latince solvere "çözmek"; solüsyon ve solvent aynı kökten türer.
-tangere|la|dokunmak|Latince tangere "dokunmak"; tanjant, kontak, entegre, entegrasyon ve integral (dokunulmamış, bütün) aynı kökten gelir.
+tangere|la|dokunmak|Latince tangere "dokunmak"; tanjant, kontak, entegre, entegrasyon ve integral (dokunulmamış, bütün) aynı kökten gelir; sıklık fiili taxāre "değer biçmek" üzerinden taksi ve taksimetre de bu aileye bağlanır.
 signum|la|işaret|Latince signum "işaret"; sinyal, sinyalizasyon, dizayn ve desen aynı kökten türer.
 ordo|la|sıra, düzen|Latince ordo "sıra"; koordinat, koordinasyon, koordine ve ordinat aynı kökten gelir.
 fungi|la|yerine getirmek|Latince fungi "görevini yapmak"; fonksiyon ve fonksiyonel aynı kökten türer.

@@ -179,7 +179,7 @@ semt|n|ar|samt|yön, taraf|EAT||
 sokak lambası|n|ar|zuqāq|lamba|CUM||
 otobüs durağı|n|fr|autobus|durak|MOD|*dur-|
 dolmuş|n|tr|dolmuş|paylaşımlı taksi|CUM|*dol-|
-taksi|n|fr|taxi|ücret ölçer|CUM||grc:táxis>fr:taximètre>fr:taxi>tr:taksi
+taksi|n|fr|taxi|ücret ölçer (taximètre kısaltması)|CUM|tangere|la:taxāre>fr:taxe>fr:taximètre>fr:taxi>tr:taksi
 minibüs|n|fr|minibus|küçük otobüs|MOD||la:minimus+omnibus>fr:minibus>tr:minibüs
 metro|n|fr|métro|ana kent demiryolu|MOD|polis|grc:mētrópolis>fr:métropolitain>fr:métro>tr:metro
 tramvay hattı|n|en|tramway|hat|CUM||
