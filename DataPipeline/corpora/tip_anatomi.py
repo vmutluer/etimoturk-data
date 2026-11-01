@@ -131,6 +131,10 @@ eczacı|n|ar|aczāʾ|ilaç yapan|OSM19|C-Z-A|
 anatomi|n|fr|anatomie|kesip ayırma|OSM19|tomē|grc:anatomḕ>la:anatomia>fr:anatomie>tr:anatomi
 atom|n|fr|atome|bölünmez|OSM19|tomē|grc:átomos>fr:atome>tr:atom
 tomografi|n|fr|tomographie|kesit yazımı|MOD|tomē|
+refleks|n|fr|réflexe|geri bükülen; kendiliğinden yanıt|CUM|flectere|la:reflexus>fr:réflexe>tr:refleks
+refleksif|adj|fr|réflexif|refleks niteliğinde|MOD|flectere|la:reflexus>fr:réflexif>tr:refleksif
+fleksiyon|n|fr|flexion|bükülme|MOD|flectere|la:flexio>fr:flexion>tr:fleksiyon
+fleksibl|adj|fr|flexible|bükülebilir, esnek|MOD|flectere|la:flexibilis>fr:flexible>tr:fleksibl
 fizyoloji|n|fr|physiologie|doğa bilgisi|OSM19|logos|grc:physiología>fr:physiologie>tr:fizyoloji
 patoloji|n|fr|pathologie|hastalık bilgisi|CUM|pathos|
 patolojik|adj|fr|pathologique|hastalıklı|MOD|pathos|
@@ -282,4 +286,5 @@ osteon|el|kemik|Eski Yunanca ostéon "kemik"; osteoporoz ve osteopati aynı kök
 orthos|el|doğru, dik|Eski Yunanca orthós "doğru"; ortopedi, ortodonti, ortodoks ve ortografi aynı kökten gelir.
 pais|el|çocuk|Eski Yunanca paîs "çocuk"; pedagoji, pedagog, pediatri ve ansiklopedi (çember eğitim) aynı kökten türer.
 thermos|el|sıcak|Eski Yunanca thermós "sıcak"; termos, termal, termik ve termometre aynı kökten gelir.
+flectere|la|bükmek|Latince flectere "bükmek, çevirmek" fiili (geçmiş ortacı flexus); refleks (geri bükülen, kendiliğinden yanıt), fleksiyon (bükülme), fleksibl (esnek) ve refleksif aynı kökten türer.
 """

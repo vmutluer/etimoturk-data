@@ -128,6 +128,8 @@ ayet|n|ar|āya|işaret|EAT||
 sure|n|ar|sūra|bölüm|EAT||
 hadis|n|ar|ḥadīṯ|söz|EAT||
 sünnet|n|ar|sunna|yol, gelenek|EAT||
+anane|n|ar|ʿanʿana|rivayet zinciri; kuşaktan kuşağa aktarılan gelenek|OSM|A-N-N|
+ananevi|adj|ar|ʿanʿanawī|geleneksel|OSM19|A-N-N|
 farz|n|ar|farḍ|zorunlu|EAT|F-R-Ḍ|
 helal|adj|ar|ḥalāl|izinli|EAT|H-L-L|
 haram|adj|ar|ḥarām|yasak|EAT|H-R-M|

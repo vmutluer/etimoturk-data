@@ -48,6 +48,7 @@ A-D-N|ar|yerleşmek; maden yatağı|Arapça ʿ-d-n kökü; maʿdin "maden ocağ�
 Ğ-N-Y|ar|şarkı söylemek; zengin olmak|Arapça ġ-n-y kökü; ġannā "şarkı söylemek" > muganni (şarkıcı) ve teganni (şarkı söyleme) bu köktendir. Nağme, n-ġ-m "ezgi" kökünden gelen ayrı bir sözcüktür.
 R-ʾ-Y|ar|görmek|Arapça r-ʾ-y kökü; ruʾyā (görme; düş) > rüya, riyāʾ (gösteriş) > riya ve murāʾī (ikiyüzlü) > mürai aynı kökten gelir. Mera ve riayet, r-ʿ-y "gütmek" kökünden gelen ayrı bir ailedir.
 C-D-L|ar|çekişmek, tartışmak|Arapça c-d-l kökü; mucādala (çekişme, boğuşma) > mücadele ve mücadeleci aynı kökten gelir. Cihat ve mücahit, c-h-d "çabalamak" kökünden gelen ayrı bir ailedir.
+A-N-N|ar|-den (aktarım)|Arapça ʿan "-den" edatının yinelenmesiyle kurulan ʿanʿana, hadisin "falandan, o da falandan" diye aktarılan rivayet zincirini anlatır; buradan "kuşaktan kuşağa aktarılan gelenek" anlamına geçen anane (an'ane) ve ananevi (geleneksel) aynı kökten gelir.
 """
 
 WORDS = r"""
