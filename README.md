@@ -36,6 +36,13 @@ python3 DataPipeline/audit_database.py --report data/denetim_raporu.csv   # içe
 Python 3.10+, ek bağımlılık yok. Wiktionary katmanını yenilemek için `etl_wiktionary.py` kullanılır; Kaikki.org'un
 JSONL dökümü "deprecated" olarak işaretlendiğinden kaynak adresi güncellenmelidir.
 
+## Uygulamaya aktarma
+
+Bu depo verinin tek kaynağıdır. EtimoTürk uygulama deposundaki `Scripts/update_database.sh`, bu depoyu çekip
+`validate_corpora.py` → `build_database.py --data-commit <sha>` → `audit_database.py` zincirini çalıştırır ve yalnızca
+denetim sıfır hata verirse üretilen `etymoturk.sqlite` dosyasını `App/Resources/` altına kopyalar. Veritabanının `meta`
+tablosundaki `data_commit` anahtarı hangi commit'ten üretildiğini gösterir.
+
 ## Düzeltme göndermek
 
 Yanlış ya da eksik bir köken için **Issue** açın ya da ilgili korpus satırını düzelten bir **Pull Request** gönderin
