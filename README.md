@@ -9,7 +9,7 @@ Veri **CC BY-SA 4.0**, betikler **MIT** lisansıyla sunulur (bkz. [LICENSE.md](L
 
 | Yol | Açıklama |
 |---|---|
-| `data/etymoturk.sqlite` | Uygulamanın kullandığı veritabanı (şema 4, FTS5). 17.246 sözcük (11.272 denetlenmiş künye, 825 tanıklanmış türetme, 5.149 Wiktionary kaydı), 1.351 kök ailesi, 12.446 "uluslarla ortak sözcük" (28 dil), 291 yer adı, 325 deyim kökeni — Türkçe ve İngilizce |
+| `data/etymoturk.sqlite` | Uygulamanın kullandığı veritabanı (şema 5, FTS5). 17.246 sözcük (11.272 denetlenmiş künye, 825 tanıklanmış türetme, 5.149 Wiktionary kaydı), 1.351 kök ailesi, 12.446 "uluslarla ortak sözcük" (28 dil), 291 yer adı, 325 deyim kökeni, 376 kişi adı kökeni (`person_names`) — Türkçe ve İngilizce |
 | `data/etymoturk.json` | Aynı verinin JSON yedeği |
 | `data/denetim_raporu.csv` | Son içerik denetiminin şüpheli kayıt listesi (inceleme için uyarılar) |
 | `DataPipeline/` | Korpuslar (`corpora/*.py`, `etymodata/*.py`), İngilizce çeviriler (`english/*.tsv`), Wiktionary ETL, `build_database.py`, biçimsel doğrulayıcı `validate_corpora.py`, içerik denetçisi `audit_database.py` |
@@ -42,6 +42,14 @@ Bu depo verinin tek kaynağıdır. EtimoTürk uygulama deposundaki `Scripts/upda
 `validate_corpora.py` → `build_database.py --data-commit <sha>` → `audit_database.py` zincirini çalıştırır ve yalnızca
 denetim sıfır hata verirse üretilen `etymoturk.sqlite` dosyasını `App/Resources/` altına kopyalar. Veritabanının `meta`
 tablosundaki `data_commit` anahtarı hangi commit'ten üretildiğini gösterir.
+
+## Kişi adları (`person_names`, şema 5)
+
+376 yaygın Türkçe kişi adının kökeni: cins (k/e/u), başlıca köken dili, parçalar (`gök` + `han`; `nīl` + `gūn`),
+anlam (TR/EN), varsa sözlükteki kök ailesi ve ilgili sözcük bağı. Köken hikâyeleri `etymodata/names.py` şablonlarıyla
+parçalardan üretilir; kaynak, dilbilimsel olgulardır (telifli ad sözlüğü metni kullanılmaz). Köken dili tartışmalı
+ya da belgelenemeyen adlar (Aylin, Selin, Sibel, Yeliz, Arda, Emre…) bilerek alınmamıştır; DSL `corpora/kisi_adlari_*.py`
+başında açıklanmıştır. Peygamber ve sahabe adlarında İbranice/Arapça asıl ile Türkçeye giriş biçimi ayrı verilir.
 
 ## Düzeltme göndermek
 

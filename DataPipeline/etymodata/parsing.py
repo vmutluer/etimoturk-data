@@ -204,6 +204,67 @@ class IdiomEntry:
     module: str = ""
 
 
+@dataclass
+class NamePart:
+    form: str
+    origin: str
+    meaning: str
+    meaning_en: str
+
+
+@dataclass
+class NameEntry:
+    name: str
+    gender: str          # k / e / u
+    origin: str          # başlıca köken dili kodu
+    parts: List[NamePart]
+    meaning: str
+    meaning_en: str
+    family: str
+    related: str
+    note: str
+    note_en: str
+    module: str = ""
+
+
+def parse_names(blocks=None) -> List[NameEntry]:
+    """corpora/*.py içindeki NAMES bloklarını (satır başına bir ad, 10 alan) ayrıştırır; aynı ad için ilk kayıt kazanır."""
+    out: List[NameEntry] = []
+    seen = set()
+    mods = corpora_modules() if blocks is None else []
+    sources = blocks if blocks is not None else [(m.__name__, m.NAMES) for m in mods if hasattr(m, "NAMES")]
+    for module_name, block in sources:
+        for raw in block.splitlines():
+            line = raw.strip()
+            if not line or line.startswith("#"):
+                continue
+            fields = [f.strip() for f in line.split("|")]
+            if len(fields) != 10:
+                raise ValueError(f"Kişi adı satırı 10 alan olmalı (ad|cins|köken|parçalar|anlam|anlam_en|aile|ilgili|not|not_en): {line[:60]}")
+            name, gender, origin, parts_raw, meaning, meaning_en, family, related, note, note_en = fields
+            if gender not in ("k", "e", "u"):
+                raise ValueError(f"Kişi adı '{name}': cins k/e/u olmalı, '{gender}' verildi")
+            parts = []
+            for seg in parts_raw.split(" + "):
+                ps = [s.strip() for s in seg.split(":")]
+                if len(ps) != 4:
+                    raise ValueError(f"Kişi adı '{name}': parça 'biçim:dil:anlam:anlam_en' olmalı: {seg}")
+                parts.append(NamePart(*ps))
+            if not parts or not meaning or not meaning_en:
+                raise ValueError(f"Kişi adı '{name}': parça, anlam ve anlam_en zorunlu")
+            key = normalize_key(name)
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(NameEntry(name, gender, origin, parts, meaning, meaning_en, family, related, note, note_en, module_name))
+    return out
+
+
+def normalize_key(text: str) -> str:
+    from .templates import normalize
+    return normalize(text)
+
+
 def _parse_records(block: str):
     """DSL bloğunu (başlık, {anahtar: değer}) çiftlerine böler."""
     records = []

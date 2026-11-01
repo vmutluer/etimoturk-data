@@ -170,6 +170,28 @@ CREATE INDEX idx_idiom_words_word ON idiom_words(word_id);
 CREATE VIRTUAL TABLE idioms_fts USING fts5(
     phrase, normalized_phrase, meaning, origin_story, key_words, meaning_en, origin_story_en,
     content='idiom_origins', content_rowid='id', tokenize='unicode61 remove_diacritics 2');
+CREATE TABLE person_names (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL UNIQUE,
+    normalized_name TEXT NOT NULL,
+    gender TEXT NOT NULL CHECK (gender IN ('k','e','u')),
+    origin_language_code TEXT NOT NULL REFERENCES origin_languages(code),
+    origin_language_name TEXT NOT NULL,
+    origin_language_name_en TEXT NOT NULL DEFAULT '',
+    source_form TEXT NOT NULL,
+    meaning TEXT NOT NULL,
+    meaning_en TEXT NOT NULL DEFAULT '',
+    components_json TEXT NOT NULL,
+    root_family_id INTEGER REFERENCES root_families(id),
+    related_word_id INTEGER REFERENCES words(id),
+    related_lemma TEXT NOT NULL DEFAULT '',
+    story TEXT NOT NULL,
+    story_en TEXT NOT NULL DEFAULT '',
+    note TEXT NOT NULL DEFAULT '',
+    note_en TEXT NOT NULL DEFAULT '');
+CREATE INDEX idx_person_names_normalized ON person_names(normalized_name);
+CREATE INDEX idx_person_names_origin ON person_names(origin_language_code);
+CREATE INDEX idx_person_names_family ON person_names(root_family_id);
 """
 
 POS_NAMES = {

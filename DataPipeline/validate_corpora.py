@@ -241,6 +241,33 @@ def check_toponyms():
     return stats, len(provinces), len(tops)
 
 
+def check_names(lexicon):
+    """Kişi adları: biçim, köken dili, cins, kök ailesi ve ilgili sözcük bağları; parça dilleri bilinen kodlardan."""
+    from etymodata.parsing import parse_names
+    lemmas = {normalize(e.lemma) for e in lexicon}
+    fam_codes = {f.code for f in parse_families()}
+    names = parse_names()
+    stats = Counter()
+    for n in names:
+        stats[n.module.split(".")[-1]] += 1
+        if n.origin not in ORIGIN_LANGUAGES:
+            E(f"kişi adında bilinmeyen köken dili '{n.origin}': {n.name}")
+        for p in n.parts:
+            if p.origin not in ORIGIN_LANGUAGES:
+                E(f"kişi adı '{n.name}': parça dili bilinmiyor '{p.origin}' ({p.form})")
+            if not p.form or not p.meaning or not p.meaning_en:
+                E(f"kişi adı '{n.name}': parça eksik ({p.form})")
+        if n.family and n.family not in fam_codes:
+            E(f"kişi adı '{n.name}': kök ailesi yok: {n.family}")
+        if n.related and normalize(n.related) not in lemmas:
+            E(f"kişi adı '{n.name}': ilgili sözcük sözlükte yok: {n.related}")
+        if not n.name[:1].isupper():
+            E(f"kişi adı büyük harfle başlamalı: {n.name}")
+        if bool(n.note) != bool(n.note_en):
+            W(f"kişi adı '{n.name}': not yalnızca tek dilde")
+    return stats, len(names)
+
+
 def check_idioms(lexicon):
     lemmas = {e.lemma for e in lexicon}
     wikt = load_generated("wiktionary_tr") or {}
@@ -295,6 +322,11 @@ def main():
     except Exception as ex:  # noqa: BLE001
         E(f"deyimler ayrıştırılamadı: {ex}")
         i_stats, n_idiom = {}, 0
+    try:
+        n_stats, n_names = check_names(lexicon)
+    except Exception as ex:  # noqa: BLE001
+        E(f"kişi adları ayrıştırılamadı: {ex}")
+        n_stats, n_names = {}, 0
 
     print("Modül istatistikleri (WORDS / FAMILIES / COGNATES / TOPONYMS / IDIOMS):")
     mods = sorted(set(w_stats) | set(f_stats) | set(c_stats) | set(t_stats) | set(i_stats))
@@ -327,7 +359,7 @@ def main():
 
     cog = parse_cognates()
     print(f"\nToplam: {len(lexicon)} elle yazılmış sözcük, {len(parse_families())} kök ailesi, {len(cog)} ortak sözcük satırı, "
-          f"{n_top} yer adı ({n_prov} il), {n_idiom} deyim")
+          f"{n_top} yer adı ({n_prov} il), {n_idiom} deyim, {n_names} kişi adı")
     shown = warnings if not args.module else [w for w in warnings if f"[{args.module}]" in w]
     # içerik uyarıları önce; biçimsel/yinelenen madde uyarıları sonra
     _late = ("yinelenen madde", "çok sözcüklü madde", "yinelenen kök ailesi")

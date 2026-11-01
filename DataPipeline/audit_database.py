@@ -188,6 +188,29 @@ def check_toponyms(conn):
         E(f"il sayısı {provinces} ≠ 81")
 
 
+def check_names(conn):
+    """[9] kişi adları: sayı, cins dağılımı, kök ailesi/ilgili sözcük bağı oranı, çift dilli hikâye, boş alan."""
+    n = conn.execute("SELECT COUNT(*) FROM person_names").fetchone()[0]
+    if n == 0:
+        print("[9] kişi adları: tablo boş")
+        return
+    g = dict(conn.execute("SELECT gender, COUNT(*) FROM person_names GROUP BY gender").fetchall())
+    linked = conn.execute("SELECT COUNT(*) FROM person_names WHERE root_family_id IS NOT NULL OR related_word_id IS NOT NULL").fetchone()[0]
+    empty = conn.execute("SELECT COUNT(*) FROM person_names WHERE story='' OR story_en='' OR meaning='' OR meaning_en='' OR components_json='[]'").fetchone()[0]
+    bad_fam = conn.execute("""SELECT COUNT(*) FROM person_names p JOIN root_families f ON f.id=p.root_family_id
+                              WHERE f.origin_language <> p.origin_language_code AND p.origin_language_code NOT IN ('tr')""").fetchone()[0]
+    origins = conn.execute("SELECT COUNT(DISTINCT origin_language_code) FROM person_names").fetchone()[0]
+    print(f"[9] kişi adları: {n} kayıt (kadın {g.get('k',0)}, erkek {g.get('e',0)}, ortak {g.get('u',0)}); {origins} köken dili; "
+          f"sözlüğe bağlı {linked} ({linked*100//n}%); boş alan {empty}; köken dili aileyle çelişen {bad_fam}")
+    if empty:
+        E(f"{empty} kişi adında boş zorunlu alan")
+    if bad_fam:
+        for r in conn.execute("""SELECT p.name, p.origin_language_code, f.root_code, f.origin_language FROM person_names p
+                                 JOIN root_families f ON f.id=p.root_family_id WHERE f.origin_language <> p.origin_language_code
+                                 AND p.origin_language_code NOT IN ('tr')""").fetchall():
+            W(f"kişi adı {r[0]} ({r[1]}) ailesi {r[2]} ({r[3]}) ile farklı dilde")
+
+
 def check_integrity(conn):
     fk = conn.execute("PRAGMA foreign_key_check").fetchall()
     orphan_cog = conn.execute("SELECT COUNT(*) FROM shared_cognates s LEFT JOIN words w ON w.id=s.word_id WHERE w.id IS NULL").fetchone()[0]
@@ -215,6 +238,7 @@ def main():
     check_idioms(conn)
     check_chains(conn)
     check_toponyms(conn)
+    check_names(conn)
     check_integrity(conn)
     if args.report:
         with open(args.report, "w", newline="", encoding="utf-8") as fh:

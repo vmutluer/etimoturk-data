@@ -22,10 +22,11 @@ sys.path.insert(0, HERE)
 
 from etymodata.languages import (ORIGIN_LANGUAGES, STAGE_NAMES, TARGET_LANGUAGES,
                                  ATTESTATIONS, PERIODS)
-from etymodata.parsing import (parse_lexicon, parse_families, parse_cognates, parse_toponyms, parse_idioms,
+from etymodata.parsing import (parse_lexicon, parse_families, parse_cognates, parse_toponyms, parse_idioms, parse_names,
                                LexEntry, load_generated, corpora_blocks)
 from etymodata.phase4 import TOPONYM_ORIGIN_LANGUAGES, IDIOM_DOMAINS, calibrated_confidence
 from etymodata.phase4_rows import make_toponym_row, make_idiom_row
+from etymodata.names import make_name_row
 from etymodata.english_loader import EnglishData
 from etymodata import templates_en
 from etymodata.english_vocab import (ORIGIN_LANGUAGES_EN, ATTESTATIONS_EN, PERIODS_EN, TARGET_LANGUAGES_EN, REGION_GROUPS_EN,
@@ -36,7 +37,7 @@ from etymodata.enrich import ScriptEnricher
 from etymodata import derivation, templates, audit_rules
 from etymodata.templates import normalize
 
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 5
 
 _REF_MARKUP = re.compile(r"\s*<[a-z]+[:\s].*$", re.S)  # <ref:…>, <pos:…>, <ety:…>, <alt:…> şablon kalıntıları
 _TAGS = re.compile(r"<[^>]*>")
@@ -392,6 +393,22 @@ def build(out_dir: str, data_commit: str = "") -> dict:
             :key_words,:word_count,:meaning_en,:literal_sense_en,:origin_story_en,:domain_name_en,:origin_period_en,
             :historical_attestation_en,:confidence_name_en)""", idiom_rows)
     cur.executemany("INSERT INTO idiom_words VALUES (?,?,?)", idiom_word_rows)
+    # --- kişi adları ------------------------------------------------------
+    lexicon_index = {normalize(lemma): wid for lemma, wid in lemma_to_id.items()}
+    name_rows = []
+    for i, n in enumerate(parse_names(), start=1):
+        if n.family and n.family not in family_ids:
+            raise SystemExit(f"Kişi adının kök ailesi sözlükte yok: {n.name} → {n.family}")
+        if n.related and normalize(n.related) not in lexicon_index:
+            raise SystemExit(f"Kişi adının ilgili sözcüğü sözlükte yok: {n.name} → {n.related}")
+        name_rows.append(make_name_row(i, n, family_ids, lexicon_index))
+    cur.executemany(
+        """INSERT INTO person_names (id, name, normalized_name, gender, origin_language_code, origin_language_name,
+            origin_language_name_en, source_form, meaning, meaning_en, components_json, root_family_id, related_word_id,
+            related_lemma, story, story_en, note, note_en)
+           VALUES (:id,:name,:normalized_name,:gender,:origin_language_code,:origin_language_name,
+            :origin_language_name_en,:source_form,:meaning,:meaning_en,:components_json,:root_family_id,:related_word_id,
+            :related_lemma,:story,:story_en,:note,:note_en)""", name_rows)
     cur.execute("INSERT INTO idioms_fts(rowid, phrase, normalized_phrase, meaning, origin_story, key_words, meaning_en, origin_story_en) "
                 "SELECT id, phrase, normalized_phrase, meaning, origin_story, key_words, meaning_en, origin_story_en FROM idiom_origins")
     meta = {
@@ -419,6 +436,9 @@ def build(out_dir: str, data_commit: str = "") -> dict:
         "province_count": str(sum(1 for r in toponym_rows if r["kind"] == "il")),
         "toponym_origin_count": str(len({r["origin_language_code"] for r in toponym_rows})),
         "idiom_count": str(len(idiom_rows)),
+        "person_name_count": str(len(name_rows)),
+        "person_name_female_count": str(sum(1 for r in name_rows if r["gender"] == "k")),
+        "person_name_male_count": str(sum(1 for r in name_rows if r["gender"] == "e")),
         "idiom_domain_count": str(len({r["domain_code"] for r in idiom_rows})),
         "idiom_word_link_count": str(len(idiom_word_rows)),
         "idiom_confidence_downgraded_by_audit": str(audit_stats["idiom_confidence_downgraded"]),
@@ -458,6 +478,7 @@ def build(out_dir: str, data_commit: str = "") -> dict:
         "toponyms": toponym_rows,
         "idiom_domains": [{"code": c, "name": v[0], "symbol": v[1], "color": v[2], "description": v[3]} for c, v in IDIOM_DOMAINS.items()],
         "idiom_origins": idiom_rows,
+        "person_names": name_rows,
         "idiom_words": [dict(zip(("idiom_id", "word_id", "lemma"), r)) for r in idiom_word_rows],
     }
     with open(json_path, "w", encoding="utf-8") as fh:
