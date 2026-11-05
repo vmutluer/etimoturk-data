@@ -82,7 +82,7 @@ akide|n|ar|ʿaqīda|bağlanmış şeker|OSM|A-K-D|
 bonbon|n|fr|bonbon|iyi iyi|CUM||
 çikolata|n|it|cioccolata|acı su|OSM19||nah:xocolātl>es:chocolate>it:cioccolata>tr:çikolata
 kakao|n|es|cacao|kakao|OSM19||nah:cacahuatl>es:cacao>tr:kakao
-vanilya|n|fr|vanille|küçük kılıf|OSM19||es:vainilla>fr:vanille>tr:vanilya
+vanilya|n|it|vaniglia|küçük kılıf|OSM19||es:vainilla>it:vaniglia>tr:vanilya
 karamel|n|fr|caramel|yanık şeker|CUM||
 dondurma|n|tr|dondurma|dondurulmuş tatlı|OSM19|*don-|
 donmak|v|tr|toŋ-|buz tutmak|DLT|*don-|

@@ -261,7 +261,7 @@ hoparlör|n|fr|haut-parleur|yüksek konuşan|CUM||fr:haut-parleur>tr:hoparlör
 kulaklık|n|tr|kulkak|kulaklık|CUM||
 ekran|n|fr|écran|perde|CUM||fr:écran>tr:ekran
 klavye|n|fr|clavier|tuş takımı|MOD||la:clavis>fr:clavier>tr:klavye
-fare|n|tr|fare|sıçan; bilgisayar faresi|DLT||
+fare|n|ar|faʾra|sıçan; bilgisayar faresi|EAT||ar:faʾra>tr:fare
 yazıcı|n|tr|yazıcı|printer|MOD|*yaz-|
 tarayıcı|n|tr|tarayıcı|scanner|MOD||
 taramak|v|tr|tara-|taramak|DLT||

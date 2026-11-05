@@ -56,7 +56,7 @@ goril|n|fr|gorille|goril|MOD||grc:górillai>en:gorilla>fr:gorille>tr:goril
 orangutan|n|fr|orang-outan|orman insanı|MOD||ml:orang hutan>nl:orang-oetan>fr:orang-outan>tr:orangutan
 babun|n|fr|babouin|babun|MOD||
 lemur|n|fr|lémur|gece ruhu|MOD||la:lemures>fr:lémur>tr:lemur
-kanguru|n|en|kangaroo|kanguru|OSM19||unk:gangurru>en:kangaroo>tr:kanguru
+kanguru|n|fr|kangourou|kanguru|OSM19||unk:gangurru>en:kangaroo>fr:kangourou>tr:kanguru
 koala|n|en|koala|koala|MOD||unk:gula>en:koala>tr:koala
 panda|n|fr|panda|panda|MOD||
 lama|n|es|llama|lama|MOD||unk:llama>es:llama>tr:lama
@@ -170,7 +170,7 @@ sığırkuyruğu|n|tr|sıgır|sarı çiçekli ot|OSM|*sığır|
 kırkmak|v|tr|kırk-|yün kesmek|DLT|*kırk-|
 kırkım|n|tr|kırk-|yün kesme mevsimi|OSM|*kırk-|
 yapağı|n|tr|yapagu|ilkbahar yünü|DLT||
-tiftik|n|tr?|tift-|didilmiş yün|OSM||
+tiftik|n|fa|tiftīk|didilmiş yün|OSM||
 moher|n|en|mohair|tiftik yünü|MOD||ar:muḫayyar>it:mocaiarro>en:mohair>tr:moher
 meşin|n|fa|mīşīn|koyun derisi|OSM||
 sahtiyan|n|fa|saḫtiyān|keçi derisi|OSM||

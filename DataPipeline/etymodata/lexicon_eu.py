@@ -200,7 +200,7 @@ naylon|n|en|nylon|marka adı|MOD||en:nylon>tr:naylon
 plastik|n|fr|plastique|biçimlenebilir|CUM||grc:plastikós>fr:plastique>tr:plastik
 beton|n|fr|béton|çakıl|CUM||la:bitumen>fr:béton>tr:beton
 çimento|n|it|cimento|yapı harcı|OSM19||la:caementum>it:cimento>tr:çimento
-tuğla|n|it|tegola|kiremit|EAT|tegere|la:tegula>it:tegola>tr:tuğla
+tuğla|n|el|toúvla|kiremit|EAT|tegere|la:tegula>el:toúvla>tr:tuğla
 kiremit|n|el|keramídi|kiremit|EAT||grc:kéramos>el:keramídi>tr:kiremit
 mermer|n|el|mármaro|parlayan taş|EAT||grc:mármaros>el:mármaro>tr:mermer
 granit|n|fr|granit|taneli|CUM||it:granito>fr:granit>tr:granit
@@ -288,7 +288,7 @@ tiyatro|n|it|teatro|seyir yeri|OSM19|theā|grc:théatron>it:teatro>tr:tiyatro
 opera|n|it|opera|eser|OSM19||la:opera>it:opera>tr:opera
 bale|n|fr|ballet|küçük dans|CUM||it:balletto>fr:ballet>tr:bale
 konser|n|fr|concert|uyuşma|OSM19||it:concerto>fr:concert>tr:konser
-orkestra|n|fr|orchestre|dans yeri|OSM19||grc:orkhḕstra>fr:orchestre>tr:orkestra
+orkestra|n|it|orchestra|dans yeri|OSM19||grc:orkhḕstra>la:orchestra>it:orchestra>tr:orkestra
 piyano|n|it|pianoforte|yumuşak-güçlü|OSM19||it:pianoforte>tr:piyano
 gitar|n|fr|guitare|kitara|CUM||grc:kithára>ar:qīṯāra>es:guitarra>fr:guitare>tr:gitar
 radyo|n|fr|radio|ışın|CUM|radius|la:radius>fr:radio>tr:radyo
@@ -389,7 +389,7 @@ sünger|n|el|sfoungári|sünger|OSM||grc:spóngos>el:sfoungári>tr:sünger
 fener balığı|n|el|fanári|balık|OSM|phainein|
 ızgara|n|el|schára|ızgara|OSM||grc:eskhára>el:schára>tr:ızgara
 semaver|n|sl|samovar|kendi kaynatan|OSM19||ru:samovar>tr:semaver
-mazot|n|sl|mazut|yağ artığı|CUM||ru:mazut>tr:mazot
+mazot|n|fr|mazout|yağ artığı|CUM||ru:mazut>fr:mazout>tr:mazot
 kapuska|n|sl|kapusta|lahana|OSM||ru:kapusta>tr:kapuska
 izbe|n|sl|izba|kulübe|OSM||ru:izba>tr:izbe
 kral|n|sl|kralj|kral|EAT||ger:Karl>sl:kralj>tr:kral

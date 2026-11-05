@@ -462,14 +462,14 @@ sebze|n|fa|sabze|yeşillik|OSM||
 zeytin|n|ar|zaytūn|zeytin|EAT||
 zeytinyağı|n|ar|zaytūn|zeytin yağı|EAT||
 limon|n|fa|līmū|limon|EAT||fa:līmū>ar:laymūn>tr:limon
-portakal|n|pt|Portugal|Portekiz|OSM||pt:Portugal>it:portogallo>el:portokáli>ota:portakal>tr:portakal
+portakal|n|it|portogallo|Portekiz|OSM||pt:Portugal>it:portogallo>ota:portakal>tr:portakal
 nar|n|fa|anār|nar|EAT||
 incir|n|fa|ancīr|incir|EAT||
 hurma|n|fa|ḫurmā|hurma|EAT||
 muz|n|ar|mawz|muz|OSM||
 karpuz|n|fa|ḫarbuze|karpuz|EAT||
 hıyar|n|fa|ḫiyār|salatalık|EAT||
-patlıcan|n|ar|bāḏincān|patlıcan|EAT||sa:vātiṅgaṇa>fa:bādingān>ar:bāḏincān>tr:patlıcan
+patlıcan|n|fa|bādingān|patlıcan|EAT||sa:vātiṅgaṇa>fa:bādingān>tr:patlıcan
 ıspanak|n|fa|ispanāḫ|ıspanak|EAT||
 nohut|n|fa|nuḫūd|nohut|EAT||
 mercimek|n|fa|marcumak|mercimek|EAT||

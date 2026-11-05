@@ -71,7 +71,7 @@ kule|n|ar|qulla|tepe|EAT||
 eşik|n|tr|éşik|kapı altı|DLT||
 cam|n|fa|cām|kadeh; cam|EAT||
 çerçeve|n|fa|çār-çūbe|dört çubuk|OSM||
-tuğla|n|el|toúvlo|pişmiş kil|OSM|tegere|la:tegula>el:toúvlo>tr:tuğla
+tuğla|n|el|toúvla|pişmiş kil|OSM|tegere|la:tegula>el:toúvla>tr:tuğla
 dedektif|n|fr|détective|örtüyü kaldıran|CUM|tegere|la:detegere>en:detective>fr:détective>tr:dedektif
 dedektör|n|fr|détecteur|bulucu|MOD|tegere|
 kerpiç|n|tr|kerpiç|güneşte kurutulmuş kil|DLT||

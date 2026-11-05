@@ -464,7 +464,7 @@ kum|n|tr|kum|kum|DLT||
 deniz|n|tr|teŋiz|deniz|ORH||
 göl|n|tr|köl|göl|ORH||
 ırmak|n|tr|ırmak|akarsu|DLT||
-dere|n|tr|dere|küçük akarsu|EAT||
+dere|n|fa|darra|küçük akarsu|EAT||
 orman|n|tr|orman|orman|DLT||
 ağaç|n|tr|ıgaç|ağaç|ORH||
 yaprak|n|tr|yapurgak|yaprak|DLT||
@@ -610,7 +610,7 @@ armut|n|fa|amrūd|armut|EAT||
 erik|n|tr|erük|erik|DLT||
 kavun|n|tr|kagun|kavun|DLT||
 ayva|n|tr|avya|ayva|DLT||
-kayısı|n|el|kaísi|kayısı|OSM||
+kayısı|n|el?|kaísi|kayısı|OSM||
 çilek|n|tr|çilek|çilek|OSM||
 fındık|n|ar|funduq|fındık|EAT||ar:funduq>tr:fındık
 kestane|n|el|kástano|kestane|EAT||
@@ -767,7 +767,7 @@ deney|n|tr|deney|tecrübe|DD|*den-|
 deneyim|n|tr|deneyim|tecrübe|DD|*den-|
 sınav|n|tr|sınav|imtihan|DD|*sına-|
 sınamak|v|tr|sına-|denemek|DLT|*sına-|
-sınır|n|tr|sınır|hudut|DLT||
+sınır|n|el|sýnoron|hudut|EAT||el:sýnoron>tr:sınır
 sınıf|n|ar|ṣinf|tür, sınıf|OSM||
 başarı|n|tr|başarı|muvaffakiyet|DD||
 başarmak|v|tr|başar-|başa çıkarmak|DLT||

@@ -18,7 +18,7 @@ faraş|n|ar|farrāş|yayan; yer süpürücü|OSM||
 kova|n|tr|kova|su kabı|DLT||
 leğen|n|fa|lagan|geniş kap|EAT||
 sabunluk|n|ar|ṣābūn|sabun kabı|OSM||
-fırça|n|it?|forcia|fırça|OSM19||la:furca>it:forcia>tr:fırça
+fırça|n|el|vúrtsa|fırça|OSM19||el:vúrtsa>tr:fırça
 sünger taşı|n|el|sfoungári|sünger taşı|OSM||
 deterjan|n|fr|détergent|temizleyen|MOD||la:detergere>fr:détergent>tr:deterjan
 çamaşır|n|fa|cāme-şūy|giysi yıkama|EAT||

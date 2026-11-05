@@ -105,7 +105,7 @@ garnizon|n|fr|garnison|donatılmış birlik|OSM19||
 tatbikat|n|ar|taṭbīqāt|uygulamalar|CUM|T-B-K|
 tatbik|n|ar|taṭbīq|uygulama|OSM|T-B-K|
 mutabık|adj|ar|muṭābiq|uyuşan|OSM|T-B-K|
-manevra|n|fr|manœuvre|el işi; harekât|OSM19|manus|la:manu operari>fr:manœuvre>tr:manevra
+manevra|n|it|manovra|el işi; harekât|OSM19|manus|la:manu operari>it:manovra>tr:manevra
 manüel|adj|fr|manuel|elle yapılan|MOD|manus|
 manifesto|n|it|manifesto|elle vurulan; açık bildirge|CUM|manus|la:manifestus>it:manifesto>tr:manifesto
 teçhizat|n|ar|tachīzāt|donatımlar|OSM19|C-H-Z|
