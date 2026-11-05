@@ -101,6 +101,26 @@ def apply_ottoman_resolutions(wikt: dict) -> int:
     return applied
 
 
+def apply_ottoman_reviews(wikt: dict) -> int:
+    """Elle incelenmiş köken kararları (corpora/generated/ottoman_review.json): Osmanlı Türkçesi maddesiyle de
+    çözülemeyen (ota) kayıtlara, Türkçeye doğrudan veren dili uygular. Yalnızca hâlâ ota olan kayıtlara dokunur."""
+    data = load_generated("ottoman_review")
+    if not data:
+        return 0
+    decisions = data.get("decisions", {})
+    applied = 0
+    for w in wikt.get("words", []):
+        d = decisions.get(f"{w['lemma']}|{w['pos']}")
+        if not d or w.get("origin") != "ota" or d.get("origin") not in ORIGIN_LANGUAGES or d["origin"] == "ota":
+            continue
+        w["origin"] = d["origin"]
+        w["reviewed"] = True
+        if not w.get("method", "").startswith("internal:"):
+            w["method"] = "review"
+        applied += 1
+    return applied
+
+
 def attested_lemmas() -> set:
     """Açık lisanslı sözlük dökümlerinde madde başı olarak geçen lemmalar (normalize edilmiş); boş küme = denetim kapalı."""
     out = set()
@@ -194,6 +214,7 @@ def build(out_dir: str, data_commit: str = "") -> dict:
     if wikt:
         sanitize_wiktionary(wikt)
         ottoman_resolved = apply_ottoman_resolutions(wikt)
+        apply_ottoman_reviews(wikt)
     wikt_rows = []
     wikt_cognates = []
     wikt_by_row = {}
@@ -462,6 +483,7 @@ def build(out_dir: str, data_commit: str = "") -> dict:
         "wiktionary_word_count": str(len(wikt_rows)),
         "wiktionary_ottoman_resolved": str(sum(1 for r in wikt_rows if wikt_by_row[r["id"]].get("ottoman_resolved"))),
         "wiktionary_ottoman_unverified": str(sum(1 for r in wikt_rows if r["origin_language_code"] == "ota")),
+        "wiktionary_ottoman_reviewed": str(sum(1 for r in wikt_rows if wikt_by_row[r["id"]].get("reviewed"))),
         "wiktionary_attribution": WIKTIONARY_ATTRIBUTION if wikt_rows else "",
         "root_family_count": str(len(family_rows)),
         "cognate_count": str(len(cognate_rows)),

@@ -40,6 +40,7 @@ Köken kodunun sonundaki `?` (`hy?`) kökenin tartışmalı olduğunu işaretler
 | `corpora/generated/wiktionary_tr.json` | `etl_wiktionary.py` çıktısı (yapısal olgular; CC BY-SA 4.0 atfı) |
 | `etl_wiktionary.py` | Kaikki.org dökümünü indirir/ayrıştırır/doğrular; `cache/` gitignore'dadır |
 | `etl_ottoman.py` | Türkçe maddesi "Osmanlı Türkçesinden" diye duran (`ota`) kayıtların asıl kaynak dilini Kaikki.org **Osmanlı Türkçesi** dökümündeki maddelerle izler (Eski Anadolu Türkçesi ve Farsça üzerinden geçen zincirler dahil). Yalnızca açık etimolojisi olan, çevriyazısı uyuşan maddeler kullanılır; "possibly/probably" gibi tahminler ve karışık birleşikler alınmaz. Çıktı `corpora/generated/ottoman_resolution.json`; `build_database.py` bunu uygular, çözülemeyenler "Osmanlı Türkçesi üzerinden (asıl kaynak doğrulanmadı)" olarak kalır. `python3 -I etl_ottoman.py --dump cache/kaikki.org-dictionary-OttomanTurkish.jsonl` |
+| `corpora/generated/ottoman_review.json` | Elle incelenmiş köken kararları (`lemma|tür` → Türkçeye doğrudan veren dil); Osmanlı Türkçesi maddesiyle de çözülemeyen kayıtlara uygulanır, yalnızca köken dili olgusu taşır |
 | `corpora/generated/ottoman_resolution.json` | `etl_ottoman.py` çıktısı: `lemma|tür` → köken, kaynak dil, kaynak biçim, Osmanlıca yazım ve çevriyazı |
 
 Yeni bir korpus eklemek için `corpora/` altına `WORDS`, `FAMILIES`, `COGNATES`, `TOPONYMS` ya da `IDIOMS` dizesi

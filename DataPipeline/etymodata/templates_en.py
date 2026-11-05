@@ -108,6 +108,8 @@ def wiktionary_summary_en(w: dict, gloss_en: str, chain_tr) -> str:
     src = w.get("source_form") or w["lemma"]
     script = w.get("source_script") or ""
     sentence = WIKT_ORIGIN_SENTENCE_EN.get(origin, f"is of {name} origin")
+    if w.get("reviewed") and origin == "tr":
+        sentence = "is a native Turkish word built from Turkish roots and suffixes"
     src_text = f"*{src}*" + (f" ({script})" if script and script != src else "")
     head = f"**{w['lemma']}**" + (f" ('{first_gloss(gloss_en)}')" if gloss_en else "")
     parts = [f"{head} {sentence}; source form {src_text}. Part of speech: {pos}."]
