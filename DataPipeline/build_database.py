@@ -130,11 +130,24 @@ def apply_provenance(word_rows, derived_rows, wikt_rows, wikt_by_row, wikt) -> N
     - wiktionary_title: sözcüğün Wiktionary'deki Türkçe madde başlığı (bağlantı için; yoksa boş);
     - wiktionary_origin: editör kayıtlarında Wiktionary'nin verdiği köken (karşılaştırma; çözülmemiş/bilinmeyen ise boş)."""
     words = (wikt or {}).get("words", [])
-    title_by_norm = {}
-    for w in words:
-        title_by_norm.setdefault(normalize(w["lemma"]), w["lemma"])
-    for lemma in ((load_generated("glosses_en") or {}).get("glosses", {}) or {}):
-        title_by_norm.setdefault(normalize(lemma), lemma)
+    exact_titles = {w["lemma"] for w in words} | set(((load_generated("glosses_en") or {}).get("glosses", {}) or {}).keys())
+    titles_by_norm = defaultdict(list)
+    for t in sorted(exact_titles):
+        titles_by_norm[normalize(t)].append(t)
+
+    def title_for(lemma: str) -> str:
+        """Wiktionary madde başlığı: birebir aynısı; yoksa normalleştirilmiş eşleşme (cins adda küçük harfli başlık
+        tercih edilir — "görgü" için "Görgü" kişi adı sayfası değil)."""
+        if lemma in exact_titles:
+            return lemma
+        cands = titles_by_norm.get(normalize(lemma), [])
+        if not cands:
+            return ""
+        if lemma[:1] == lemma[:1].lower():
+            # Cins ad: yalnızca küçük harfli başlık (büyük harfli olan kişi/yer adı sayfasıdır, bağlanmaz)
+            lower = [c for c in cands if c[:1] == c[:1].lower()]
+            return lower[0] if lower else ""
+        return cands[0]
     origin_by_key, origin_by_lemma = {}, {}
     for w in words:
         origin_by_key.setdefault((w["lemma"], w["pos"]), w["origin"])
@@ -142,13 +155,13 @@ def apply_provenance(word_rows, derived_rows, wikt_rows, wikt_by_row, wikt) -> N
     for kind, rows in (("curated", word_rows), ("derived", derived_rows)):
         for r in rows:
             r["provenance"] = kind
-            r["wiktionary_title"] = title_by_norm.get(normalize(r["lemma"]), "")
+            r["wiktionary_title"] = title_for(r["lemma"])
             wo = origin_by_key.get((r["lemma"], r["pos"])) or origin_by_lemma.get(r["lemma"], "")
             r["wiktionary_origin"] = wo if wo and wo not in ("ota", "unk") else ""
     for r in wikt_rows:
         w = wikt_by_row[r["id"]]
         r["provenance"] = "review" if w.get("reviewed") else ("wiktionary_ottoman" if w.get("ottoman_resolved") else "wiktionary")
-        r["wiktionary_title"] = title_by_norm.get(normalize(r["lemma"]), w["lemma"])
+        r["wiktionary_title"] = title_for(r["lemma"]) or w["lemma"]
         r["wiktionary_origin"] = ""
 
 
