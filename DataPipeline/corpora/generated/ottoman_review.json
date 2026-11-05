@@ -22,7 +22,11 @@
     "note": "Dördüncü liste: Nişanyan maddeleriyle doğrulananlar; bileşiklerde baş ögenin dili; kaynağın 'kesin değil' dediği kararlar disputed=true (tartışmalı)",
     "count": 46
    }
-  ]
+  ],
+  "basis": {
+   "nisanyan": "Karar, Nişanyan Sözlük'teki madde(ler)le karşılaştırılarak verildi (bileşiklerde baş ögenin maddesi). Sözlük metni alınmadı; yalnızca köken dili.",
+   "editor": "Nişanyan'da maddesi yok; sözcüğün yapısı açık (Türkçe kökler/ekler ya da bilinen Slav sözcüğü), karar editörce verildi."
+  }
  },
  "decisions": {
   "Fransız|adj": {
@@ -3311,197 +3315,243 @@
   },
   "düven|n": {
    "origin": "el",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "paydos|n": {
    "origin": "el",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "lakırtı|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "kambur|adj": {
    "origin": "el",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "köstek|n": {
    "origin": "fa",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "kösteklemek|v": {
    "origin": "fa",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "yaygara|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "herhâlde|adv": {
    "origin": "ar",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "morartı|n": {
    "origin": "unk",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "morötesi|n": {
    "origin": "unk",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "böbür|n": {
    "origin": "fa",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "habire|adv": {
    "origin": "unk",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "tebeşir|n": {
    "origin": "fa",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "pay|n": {
    "origin": "tr",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "sac|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "umutlanmak|v": {
    "origin": "tr",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "umutlandırmak|v": {
    "origin": "tr",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "Yunan|adj": {
    "origin": "ar",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "zağar|n": {
    "origin": "unk",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "çetrefil|adj": {
    "origin": "unk",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "lorta|n": {
    "origin": "unk",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "yelve|n": {
    "origin": "unk",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "sunturlu|adj": {
    "origin": "unk",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "çamçak|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "çotra|n": {
    "origin": "it",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "çılbır|n": {
    "origin": "tr",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "taslamak|v": {
    "origin": "tr",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "çapraşık|adj": {
    "origin": "tr",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "çapraşıklık|n": {
    "origin": "tr",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "sırasında|postp": {
    "origin": "tr",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "topyekûn|adv": {
    "origin": "ar",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "konç|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "küt|adj": {
    "origin": "fa",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "kermen|n": {
    "origin": "tr",
    "batch": "2026-11-05d",
-   "disputed": true
+   "disputed": true,
+   "basis": "nisanyan"
   },
   "yamyam|n": {
    "origin": "fr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "dılak|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "ıklık|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "sergen|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "alacamenekşe|n": {
    "origin": "fa",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "çobançantası|n": {
    "origin": "fa",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "çobaniğnesi|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "editor"
   },
   "akhardal|n": {
    "origin": "ar",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "nisanyan"
   },
   "kargabüken|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "editor"
   },
   "öykence|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "editor"
   },
   "yandık|n": {
    "origin": "tr",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "editor"
   },
   "gavran|n": {
    "origin": "sl",
-   "batch": "2026-11-05d"
+   "batch": "2026-11-05d",
+   "basis": "editor"
   }
  }
 }

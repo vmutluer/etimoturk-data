@@ -220,6 +220,25 @@ def check_integrity(conn):
         E("bütünlük hatası (foreign key / yetim kayıt / boş alan)")
 
 
+def check_provenance(conn):
+    """Şema 6: her sözcüğün künye kaynağı dolu ve tutarlı olmalı."""
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(words)")}
+    if "provenance" not in cols:
+        print("[10] künye kaynağı: şema 6 öncesi veritabanı, atlandı")
+        return
+    empty = conn.execute("SELECT COUNT(*) FROM words WHERE provenance = ''").fetchone()[0]
+    wrong_source = conn.execute("""SELECT COUNT(*) FROM words WHERE
+        (provenance IN ('curated') AND data_source <> 'curated') OR
+        (provenance = 'derived' AND data_source <> 'derived') OR
+        (provenance IN ('wiktionary','wiktionary_ottoman','review') AND data_source <> 'wiktionary')""").fetchone()[0]
+    basis_outside_review = conn.execute("SELECT COUNT(*) FROM words WHERE provenance_basis <> '' AND provenance <> 'review'").fetchone()[0]
+    ota_resolved = conn.execute("SELECT COUNT(*) FROM words WHERE provenance IN ('wiktionary_ottoman','review') AND origin_language_code = 'ota'").fetchone()[0]
+    print(f"[10] künye kaynağı: boş {empty}, kaynak türüyle çelişen {wrong_source}, inceleme dışı dayanak {basis_outside_review}, "
+          f"çözülmüş görünüp ota kalan {ota_resolved}")
+    if empty or wrong_source or basis_outside_review or ota_resolved:
+        E("künye kaynağı tutarsız (provenance)")
+
+
 def main():
     ap = argparse.ArgumentParser(description="EtimoTürk içerik denetçisi")
     ap.add_argument("--db", default=os.path.join(HERE, "..", "data", "etymoturk.sqlite"))
@@ -240,6 +259,7 @@ def main():
     check_toponyms(conn)
     check_names(conn)
     check_integrity(conn)
+    check_provenance(conn)
     if args.report:
         with open(args.report, "w", newline="", encoding="utf-8") as fh:
             wr = csv.writer(fh)
