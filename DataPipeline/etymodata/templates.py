@@ -48,7 +48,10 @@ CREATE TABLE words (
     etymology_summary_en TEXT NOT NULL DEFAULT '',
     source_meaning_en TEXT NOT NULL DEFAULT '',
     historical_attestation_en TEXT NOT NULL DEFAULT '',
-    origin_period_en TEXT NOT NULL DEFAULT '');
+    origin_period_en TEXT NOT NULL DEFAULT '',
+    provenance TEXT NOT NULL DEFAULT '' CHECK (provenance IN ('', 'curated','derived','wiktionary','wiktionary_ottoman','review')),
+    wiktionary_title TEXT NOT NULL DEFAULT '',
+    wiktionary_origin TEXT NOT NULL DEFAULT '');
 CREATE INDEX idx_words_normalized ON words(normalized_lemma);
 CREATE INDEX idx_words_script_name ON words(original_script_name);
 CREATE INDEX idx_words_family ON words(root_family_id);
