@@ -12,7 +12,7 @@ ORIGIN_LANGUAGES_EN = {
     "el": "Greek (Rumeic)", "en": "English", "hy": "Armenian", "mn": "Mongolian", "sl": "Slavic languages",
     "sog": "Sogdian", "la": "Latin", "de": "German", "es": "Spanish", "pt": "Portuguese", "zh": "Chinese",
     "sa": "Sanskrit / Hindi", "he": "Hebrew / Aramaic", "ro": "Romanian", "hu": "Hungarian", "ka": "Georgian",
-    "nl": "Dutch", "ja": "Japanese", "ku": "Kurdish", "ota": "Ottoman Turkish (source language uncertain)",
+    "nl": "Dutch", "ja": "Japanese", "ku": "Kurdish", "ota": "Via Ottoman Turkish (ultimate source not verified)",
     "unk": "Unknown",
 }
 

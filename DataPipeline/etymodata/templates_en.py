@@ -97,7 +97,7 @@ WIKT_ORIGIN_SENTENCE_EN = {
     "it": "was borrowed from Italian (the Mediterranean trading language)",
     "el": "was borrowed from Greek through contact in Anatolia",
     "en": "was borrowed from English in the 20th century",
-    "ota": "is an Ottoman-period word whose ultimate source language cannot be determined",
+    "ota": "came into Turkish through Ottoman Turkish; its ultimate source language has not yet been verified against an open source",
 }
 
 

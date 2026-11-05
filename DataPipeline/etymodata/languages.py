@@ -27,7 +27,7 @@ ORIGIN_LANGUAGES = {
     "nl":  ("Felemenkçe",           "#7B7D7D", 22),
     "ja":  ("Japonca",              "#943126", 23),
     "ku":  ("Kürtçe",               "#6E2C00", 24),
-    "ota": ("Osmanlı Türkçesi (kaynak dil belirsiz)", "#9A7D0A", 25),
+    "ota": ("Osmanlı Türkçesi üzerinden (asıl kaynak doğrulanmadı)", "#9A7D0A", 25),
     "unk": ("Bilinmeyen",           "#95A5A6", 99),
 }
 

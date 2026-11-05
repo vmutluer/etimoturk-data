@@ -63,6 +63,44 @@ def sanitize_wiktionary(wikt: dict):
     wikt["cognates"] = [c for c in wikt.get("cognates", []) if c["foreign"]]
 
 
+# Osmanlı Türkçesi maddelerinin köken dilleri (etl_ottoman.py) → zincir aşama kodu
+OTTOMAN_STAGE = {"tr": "otk", "ar": "ar", "fa": "fa", "el": "el", "fr": "fr", "it": "it", "en": "en", "hy": "hy", "mn": "mn",
+                 "sl": "sl", "la": "la", "de": "de", "es": "es", "he": "he", "hu": "hu", "ro": "ro", "zh": "zh", "sog": "sog"}
+OTTOMAN_STAGE_BY_LANG = {"Proto-Turkic": "otk", "Old Turkic": "otk", "Ancient Greek": "grc", "Koine Greek": "grc",
+                         "Middle Persian": "pal", "Classical Persian": "fa", "Venetian": "ven", "Latin": "la"}
+
+
+def apply_ottoman_resolutions(wikt: dict) -> int:
+    """Osmanlı Türkçesi aşamasında kalan (ota) Wiktionary kayıtlarına, Osmanlı Türkçesi maddelerinden izlenen asıl
+    kökeni uygular (corpora/generated/ottoman_resolution.json, etl_ottoman.py çıktısı). Zincirin başına kaynak dil
+    aşaması eklenir; Osmanlı yazımı (özgün yazım kartı) korunur."""
+    data = load_generated("ottoman_resolution")
+    if not data:
+        return 0
+    res = data.get("resolutions", {})
+    applied = 0
+    for w in wikt.get("words", []):
+        r = res.get(f"{w['lemma']}|{w['pos']}")
+        if not r or w.get("origin") != "ota":
+            continue
+        stage = OTTOMAN_STAGE_BY_LANG.get(r.get("source_lang", ""), OTTOMAN_STAGE.get(r["origin"], r["origin"]))
+        term = clean_wiktionary_text(r.get("source_term") or "").lstrip("*")
+        chain = w.get("chain", [])
+        if chain and chain[0][0] == "ota" and r.get("ota_roman") and not re.search(r"[\u0600-\u06FF]", r["ota_roman"]):
+            # Osmanlı aşamasında Arap harfli biçim yerine çevriyazı
+            if re.search(r"[\u0600-\u06FF]", chain[0][1]):
+                chain[0] = ["ota", clean_wiktionary_text(r["ota_roman"])]
+        if term and term != "-":
+            chain = [[stage, term]] + chain
+        w["chain"] = chain
+        w["origin"] = r["origin"]
+        w["ottoman_resolved"] = True
+        if not w.get("method", "").startswith("internal:"):
+            w["method"] = "ota-chain"
+        applied += 1
+    return applied
+
+
 def attested_lemmas() -> set:
     """Açık lisanslı sözlük dökümlerinde madde başı olarak geçen lemmalar (normalize edilmiş); boş küme = denetim kapalı."""
     out = set()
@@ -152,8 +190,10 @@ def build(out_dir: str, data_commit: str = "") -> dict:
             next_id += 1
     # --- Wiktionary (Kaikki.org) ETL çıktısı -----------------------------
     wikt = load_generated("wiktionary_tr")
+    ottoman_resolved = 0
     if wikt:
         sanitize_wiktionary(wikt)
+        ottoman_resolved = apply_ottoman_resolutions(wikt)
     wikt_rows = []
     wikt_cognates = []
     wikt_by_row = {}
@@ -420,6 +460,8 @@ def build(out_dir: str, data_commit: str = "") -> dict:
         "derived_skipped_unattested": str(derived_skipped),
         "derived_policy": "yalnızca Wiktionary (Kaikki.org) dökümünde madde başı olarak tanıklanmış kural tabanlı türetmeler",
         "wiktionary_word_count": str(len(wikt_rows)),
+        "wiktionary_ottoman_resolved": str(sum(1 for r in wikt_rows if wikt_by_row[r["id"]].get("ottoman_resolved"))),
+        "wiktionary_ottoman_unverified": str(sum(1 for r in wikt_rows if r["origin_language_code"] == "ota")),
         "wiktionary_attribution": WIKTIONARY_ATTRIBUTION if wikt_rows else "",
         "root_family_count": str(len(family_rows)),
         "cognate_count": str(len(cognate_rows)),
