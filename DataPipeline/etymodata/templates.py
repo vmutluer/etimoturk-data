@@ -414,6 +414,8 @@ def make_wiktionary_row(wid: int, w: dict, cognate_count: int):
     if not chain or chain[-1][0] != stage_name("tr"):
         chain.append((stage_name("tr"), w["lemma"]))
     sentence = WIKT_ORIGIN_SENTENCE.get(origin, f"{name} kökenli bir sözcüktür")
+    if w.get("reviewed") and origin == "tr":
+        sentence = "Türkçe kökler ve eklerle oluşmuş öz Türkçe bir sözcüktür"
     src_text = f"{src}" + (f" ({script})" if script and script != src else "")
     parts = [f"{w['lemma']}, {sentence}; kaynak biçim {src_text}" + (f", İng. \"{gloss}\"" if gloss else "") + f". Sözcük türü: {pos.replace('dır', '').replace('dir', '').replace('tır', '').replace('tir', '')}."]
     if len(chain) > 1:
