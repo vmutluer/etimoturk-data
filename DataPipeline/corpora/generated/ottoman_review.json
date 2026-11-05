@@ -16,6 +16,11 @@
     "date": "2026-11-05",
     "note": "Üçüncü liste: kalan 339 sözcükten tek ve net kökeni verilenler; iki dil arasında kalanlar, Nişanyan'da maddesi olmayanlar ve şüpheli türetmeler beklemede",
     "count": 273
+   },
+   {
+    "date": "2026-11-05",
+    "note": "Dördüncü liste: Nişanyan maddeleriyle doğrulananlar; bileşiklerde baş ögenin dili; kaynağın 'kesin değil' dediği kararlar disputed=true (tartışmalı)",
+    "count": 46
    }
   ]
  },
@@ -3303,6 +3308,200 @@
   "kargılamak|v": {
    "origin": "tr",
    "batch": "2026-11-05c"
+  },
+  "düven|n": {
+   "origin": "el",
+   "batch": "2026-11-05d"
+  },
+  "paydos|n": {
+   "origin": "el",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "lakırtı|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "kambur|adj": {
+   "origin": "el",
+   "batch": "2026-11-05d"
+  },
+  "köstek|n": {
+   "origin": "fa",
+   "batch": "2026-11-05d"
+  },
+  "kösteklemek|v": {
+   "origin": "fa",
+   "batch": "2026-11-05d"
+  },
+  "yaygara|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "herhâlde|adv": {
+   "origin": "ar",
+   "batch": "2026-11-05d"
+  },
+  "morartı|n": {
+   "origin": "unk",
+   "batch": "2026-11-05d"
+  },
+  "morötesi|n": {
+   "origin": "unk",
+   "batch": "2026-11-05d"
+  },
+  "böbür|n": {
+   "origin": "fa",
+   "batch": "2026-11-05d"
+  },
+  "habire|adv": {
+   "origin": "unk",
+   "batch": "2026-11-05d"
+  },
+  "tebeşir|n": {
+   "origin": "fa",
+   "batch": "2026-11-05d"
+  },
+  "pay|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "sac|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "umutlanmak|v": {
+   "origin": "tr",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "umutlandırmak|v": {
+   "origin": "tr",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "Yunan|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05d"
+  },
+  "zağar|n": {
+   "origin": "unk",
+   "batch": "2026-11-05d"
+  },
+  "çetrefil|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05d"
+  },
+  "lorta|n": {
+   "origin": "unk",
+   "batch": "2026-11-05d"
+  },
+  "yelve|n": {
+   "origin": "unk",
+   "batch": "2026-11-05d"
+  },
+  "sunturlu|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05d"
+  },
+  "çamçak|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "çotra|n": {
+   "origin": "it",
+   "batch": "2026-11-05d"
+  },
+  "çılbır|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "taslamak|v": {
+   "origin": "tr",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "çapraşık|adj": {
+   "origin": "tr",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "çapraşıklık|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "sırasında|postp": {
+   "origin": "tr",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "topyekûn|adv": {
+   "origin": "ar",
+   "batch": "2026-11-05d"
+  },
+  "konç|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "küt|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05d"
+  },
+  "kermen|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d",
+   "disputed": true
+  },
+  "yamyam|n": {
+   "origin": "fr",
+   "batch": "2026-11-05d"
+  },
+  "dılak|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "ıklık|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "sergen|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "alacamenekşe|n": {
+   "origin": "fa",
+   "batch": "2026-11-05d"
+  },
+  "çobançantası|n": {
+   "origin": "fa",
+   "batch": "2026-11-05d"
+  },
+  "çobaniğnesi|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "akhardal|n": {
+   "origin": "ar",
+   "batch": "2026-11-05d"
+  },
+  "kargabüken|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "öykence|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "yandık|n": {
+   "origin": "tr",
+   "batch": "2026-11-05d"
+  },
+  "gavran|n": {
+   "origin": "sl",
+   "batch": "2026-11-05d"
   }
  }
 }

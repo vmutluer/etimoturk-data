@@ -115,6 +115,8 @@ def apply_ottoman_reviews(wikt: dict) -> int:
             continue
         w["origin"] = d["origin"]
         w["reviewed"] = True
+        # Kaynağın "olabilir, kesin değil" dediği kararlar tartışmalı işaretlenir
+        w["disputed"] = bool(d.get("disputed"))
         if not w.get("method", "").startswith("internal:"):
             w["method"] = "review"
         applied += 1

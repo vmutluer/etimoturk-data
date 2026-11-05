@@ -425,6 +425,8 @@ def make_wiktionary_row(wid: int, w: dict, cognate_count: int):
     method = w.get("method", "")
     if method.startswith("internal:"):
         parts.append(f"Türkçe içi türetme: {method.split(':', 1)[1]} sözcüğünden.")
+    if w.get("disputed") and origin not in ("ota", "unk"):
+        parts.append("Not: Kaynaklar bu kökeni kesin olarak vermez; tartışmalıdır.")
     parts.append("Yapısal veri: Wiktionary (Kaikki.org dökümü), CC BY-SA 4.0.")
     return {
         "id": wid,
@@ -441,7 +443,7 @@ def make_wiktionary_row(wid: int, w: dict, cognate_count: int):
         "phonetic_evolution_json": chain_to_json(chain),
         "historical_attestation": ATTESTATIONS["WIKT"],
         "is_turcism_exporter": 0,
-        "is_disputed": 1 if origin in ("ota", "unk") else 0,
+        "is_disputed": 1 if origin in ("ota", "unk") or w.get("disputed") else 0,
         "derived_from_id": None,
         "derivation_suffix": None,
         "cognate_count": cognate_count,

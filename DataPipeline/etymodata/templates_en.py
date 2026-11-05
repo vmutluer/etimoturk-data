@@ -120,6 +120,8 @@ def wiktionary_summary_en(w: dict, gloss_en: str, chain_tr) -> str:
     method = w.get("method", "")
     if method.startswith("internal:"):
         parts.append(f"Turkish-internal derivation from {method.split(':', 1)[1]}.")
+    if w.get("disputed") and origin not in ("ota", "unk"):
+        parts.append("Note: the sources do not give this origin with certainty; it is disputed.")
     parts.append("Structural data: Wiktionary (Kaikki.org dump), CC BY-SA 4.0.")
     return " ".join(parts)
 
