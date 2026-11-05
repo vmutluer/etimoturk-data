@@ -566,7 +566,7 @@ minnettar|adj|fa|minnat-dār|minnet duyan|OSM|dār-|
 kindar|adj|fa|kīn-dār|kin tutan|OSM|dār-|
 sahi|adj|ar|saḫī|cömert|EAT|S-H-W|
 sahavet|n|ar|saḫāwa|cömertlik|OSM|S-H-W|
-cömertlik|n|tr|cömert|eli açıklık|EAT||
+cömertlik|n|fa|cuvānmard|eli açıklık|EAT||
 nekes|adj|fa|nākas|alçak; cimri|EAT||
 tamah|n|ar|ṭamaʿ|açgözlülük|EAT||
 açgözlü|adj|tr|aç|doymak bilmez|OSM||

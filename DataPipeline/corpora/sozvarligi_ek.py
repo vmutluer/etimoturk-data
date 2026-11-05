@@ -290,7 +290,7 @@ olimpiyat|n|fr|olympiade|Olympia oyunları|CUM||
 satranç|n|fa|şatranc|dört kol|EAT||sa:caturaṅga>fa:şatranc>tr:satranç
 tavla|n|it|tavola|tahta|OSM||la:tabula>it:tavola>tr:tavla
 zar|n|ar|zahr|çiçek; oyun küpü|EAT||
-dama|n|fr|dame|hanım|OSM19||
+dama|n|it|dama|hanım|OSM19||
 iskambil|n|it|scambio|değiş tokuş|OSM19||
 # --- Müzik -------------------------------------------------------------------------------------------
 müzik|n|fr|musique|Musa'lara ilişkin|OSM19|mousa|grc:mousikḕ>fr:musique>tr:müzik
@@ -303,7 +303,7 @@ melodi|n|fr|mélodie|ezgili şarkı|OSM19|ōidē|
 parodi|n|fr|parodie|yan şarkı|MOD|ōidē|
 rapsodi|n|fr|rhapsodie|dikilmiş şarkı|MOD|ōidē|
 prozodi|n|fr|prosodie|şarkıya eklenen|MOD|ōidē|
-orkestra|n|fr|orchestre|dans alanı|OSM19||grc:orkhḕstra>fr:orchestre>tr:orkestra
+orkestra|n|it|orchestra|dans alanı|OSM19||grc:orkhḕstra>la:orchestra>it:orchestra>tr:orkestra
 koro|n|it|coro|dans topluluğu|OSM19||grc:khorós>la:chorus>it:coro>tr:koro
 piyano|n|it|piano|yumuşak|OSM19||
 keman|n|fa|kamān|yay|EAT||

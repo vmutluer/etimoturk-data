@@ -482,14 +482,14 @@ piston|n|fr|piston|itici|CUM||it:pistone>fr:piston>tr:piston
 silindir|n|fr|cylindre|yuvarlanan|CUM||grc:kýlindros>la:cylindrus>fr:cylindre>tr:silindir
 krank|n|en|crank|kıvrık mil|MOD||
 şanzıman|n|fr|changement|değiştirme|MOD||la:cambiare>fr:changement>tr:şanzıman
-makara|n|el?|makarás|çıkrık|OSM||
+makara|n|ar|bakara|çıkrık|EAT||
 çark|n|fa|çarḫ|tekerlek|EAT||
 dişli|n|tr|dişli|dişli çark|OSM||
 vinç|n|en|winch|kaldırma aygıtı|CUM||
 kriko|n|it|cricco|kaldırma aygıtı|CUM||
 pompa|n|it|pompa|emme basma aygıtı|OSM19||
 vana|n|fr|vanne|musluk|MOD||
-valf|n|en|valve|kapakçık|MOD||la:valva>en:valve>tr:valf
+valf|n|fr|valve|kapakçık|MOD||la:valva>fr:valve>tr:valf
 supap|n|fr|soupape|emniyet kapağı|CUM||
 boru|n|tr|boru|içi boş uzun nesne|DLT||
 körük|n|tr|körük|hava basıcı|DLT||

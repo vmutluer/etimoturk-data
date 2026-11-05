@@ -183,8 +183,8 @@ damla|n|tr|tamla|damla|DLT||
 ıslak|adj|tr|ıslak|nemli|OSM||
 kurumak|v|tr|kurı-|suyu gitmek|DLT|*kork-|
 kurutmak|v|tr|kurıt-|kurutmak|DLT||
-nemli|adj|ar|nam|rutubetli|OSM||
-nem|n|ar|nam|rutubet|OSM||
+nemli|adj|fa|nam|rutubetli|OSM||
+nem|n|fa|nam|rutubet|OSM||
 rutubet|n|ar|ruṭūba|yaşlık|EAT||
 donmak|v|tr|toŋ-|buz tutmak|DLT|*don-|
 erimek|v|tr|eri-|sıvı olmak|DLT||

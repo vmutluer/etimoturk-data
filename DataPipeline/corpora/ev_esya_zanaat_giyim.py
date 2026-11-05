@@ -43,7 +43,7 @@ döşekçi|n|tr|töşe-|döşek yapan|OSM|*döşe-|
 yorgancı|n|tr|yogurkan|yorgan diken|OSM||
 mefruşat|n|ar|mafrūşāt|döşenmişler; ev tekstili|OSM19||
 # --- Kaplar, kutular, mutfak eşyası ---
-küfe|n|el?|kófinos|büyük sırt sepeti|OSM||grc:kóphinos>el:kófinos>tr:küfe
+küfe|n|ar|quffa|büyük sırt sepeti|OSM||ar:quffa>tr:küfe
 hurç|n|ar|ḫurc|büyük heybe|EAT||
 çıkın|n|tr|çıkın|küçük bohça|OSM||
 kap|n|tr|kap|kap, kılıf, zarf|DLT|*kap-|
@@ -154,7 +154,7 @@ aba|n|ar|ʿabāʾ|yünden kaba kumaş; üstlük|EAT||
 kebe|n|tr|kebe|kalın keçe|OSM||
 kepenek|n|tr|kepenek|çoban keçesi|DLT||
 yamçı|n|tr|yamçı|kıldan yağmurluk|OSM||
-tiftik|n|tr|tiftik|keçi yünü|OSM||
+tiftik|n|fa|tiftīk|keçi yünü|OSM||
 tiftikçi|n|tr|tiftik|tiftik satan|OSM||
 mohair|n|en|mohair|tiftik|MOD||ar:muḫayyar>it:mocaiarro>en:mohair>tr:mohair
 angora|n|fr|angora|Ankara|CUM||tr:Ankara>fr:angora>tr:angora
@@ -580,7 +580,7 @@ bendir|n|ar|bandīr|büyük def|OSM||
 çalpara|n|fa|çahār-pāre|dört parça|OSM||
 nakkare|n|ar|naqqāra|küçük kös|EAT||
 kös|n|fa|kūs|büyük davul|EAT||
-trombon|n|it|trombone|büyük boru|CUM||
+trombon|n|fr|trombone|büyük boru|CUM||it:trombone>fr:trombone>tr:trombon
 tuba|n|la|tuba|boru|CUM||
 korno|n|it|corno|boynuz|CUM||la:cornu>it:corno>tr:korno
 obua|n|fr|hautbois|yüksek sesli odun|CUM||
@@ -593,7 +593,7 @@ arp|n|fr|harpe|arp|CUM||ger:harpa>fr:harpe>tr:arp
 org|n|fr|orgue|org|CUM||grc:órganon>la:organum>fr:orgue>tr:org
 armonika|n|it|armonica|uyumlu|CUM||grc:harmonikós>it:armonica>tr:armonika
 mızıka|n|it|musica|müzik|OSM19||grc:mousikḗ>it:musica>tr:mızıka
-mandolin|n|it|mandolino|küçük mandola|OSM19||
+mandolin|n|fr|mandoline|küçük mandola|OSM19||it:mandolino>fr:mandoline>tr:mandolin
 cümbüş|n|fa|cunbiş|hareket, eğlence|OSM||
 mızrap|n|ar|miḍrāb|vurma aleti|EAT||
 akort|n|fr|accord|uyum|CUM||la:accordare>fr:accord>tr:akort

@@ -95,7 +95,7 @@ tepe|n|tr|töpü|yükselti|DLT||
 vadi|n|ar|wādī|akarsu yatağı|EAT||
 yamaç|n|tr|yamaç|dağ yanı|OSM||
 bayır|n|tr|bayır|yokuş|OSM||
-dere|n|fa|darre|küçük akarsu|EAT||
+dere|n|fa|darra|küçük akarsu|EAT||
 ırmak|n|tr|ırmak|büyük akarsu|DLT||
 göl|n|tr|köl|durgun su|ORH||
 gölet|n|tr|gölet|küçük göl|DD||

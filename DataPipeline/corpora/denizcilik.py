@@ -137,7 +137,7 @@ bahir|n|ar|baḥr|deniz|EAT|B-H-R|
 bahriye|n|ar|baḥriyya|deniz kuvvetleri|OSM19|B-H-R|
 bahriyeli|n|ar|baḥriyya|deniz askeri|OSM19|B-H-R|
 umman|n|ar|ʿummān|okyanus|EAT||
-okyanus|n|fr|océan|dünyayı çevreleyen su|OSM19||grc:ōkeanós>la:oceanus>fr:océan>tr:okyanus
+okyanus|n|ar|ūqiyānūs|dünyayı çevreleyen su|OSM||grc:ōkeanós>ar:ūqiyānūs>ota:okyanus>tr:okyanus
 """
 
 FAMILIES = r"""
