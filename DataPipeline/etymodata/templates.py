@@ -50,7 +50,6 @@ CREATE TABLE words (
     historical_attestation_en TEXT NOT NULL DEFAULT '',
     origin_period_en TEXT NOT NULL DEFAULT '',
     provenance TEXT NOT NULL DEFAULT '' CHECK (provenance IN ('', 'curated','derived','wiktionary','wiktionary_ottoman','review')),
-    provenance_basis TEXT NOT NULL DEFAULT '' CHECK (provenance_basis IN ('', 'nisanyan','editor')),
     wiktionary_title TEXT NOT NULL DEFAULT '',
     wiktionary_origin TEXT NOT NULL DEFAULT '');
 CREATE INDEX idx_words_normalized ON words(normalized_lemma);

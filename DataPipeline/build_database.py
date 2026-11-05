@@ -117,8 +117,6 @@ def apply_ottoman_reviews(wikt: dict) -> int:
         w["reviewed"] = True
         # Kaynağın "olabilir, kesin değil" dediği kararlar tartışmalı işaretlenir
         w["disputed"] = bool(d.get("disputed"))
-        # Kararın dayanağı: "nisanyan" (Nişanyan Sözlük maddesiyle karşılaştırıldı) ya da "editor" (yapı açık; kaynak yok)
-        w["review_basis"] = d.get("basis", "") if d.get("basis") in ("nisanyan", "editor") else ""
         if not w.get("method", "").startswith("internal:"):
             w["method"] = "review"
         applied += 1
@@ -129,7 +127,6 @@ def apply_provenance(word_rows, derived_rows, wikt_rows, wikt_by_row, wikt) -> N
     """Her sözcüğe künye kaynağını yazar (şema 6):
     - provenance: curated (EtimoTürk editör kaydı), derived (editör kaydından Türkçe içi türetme), wiktionary,
       wiktionary_ottoman (asıl köken Wiktionary'nin Osmanlı Türkçesi maddesinden izlendi), review (ek inceleme kararı);
-    - provenance_basis: incelemenin dayanağı ("nisanyan" | "editor" | "");
     - wiktionary_title: sözcüğün Wiktionary'deki Türkçe madde başlığı (bağlantı için; yoksa boş);
     - wiktionary_origin: editör kayıtlarında Wiktionary'nin verdiği köken (karşılaştırma; çözülmemiş/bilinmeyen ise boş)."""
     words = (wikt or {}).get("words", [])
@@ -144,14 +141,13 @@ def apply_provenance(word_rows, derived_rows, wikt_rows, wikt_by_row, wikt) -> N
         origin_by_lemma.setdefault(w["lemma"], w["origin"])
     for kind, rows in (("curated", word_rows), ("derived", derived_rows)):
         for r in rows:
-            r["provenance"], r["provenance_basis"] = kind, ""
+            r["provenance"] = kind
             r["wiktionary_title"] = title_by_norm.get(normalize(r["lemma"]), "")
             wo = origin_by_key.get((r["lemma"], r["pos"])) or origin_by_lemma.get(r["lemma"], "")
             r["wiktionary_origin"] = wo if wo and wo not in ("ota", "unk") else ""
     for r in wikt_rows:
         w = wikt_by_row[r["id"]]
         r["provenance"] = "review" if w.get("reviewed") else ("wiktionary_ottoman" if w.get("ottoman_resolved") else "wiktionary")
-        r["provenance_basis"] = w.get("review_basis", "") if w.get("reviewed") else ""
         r["wiktionary_title"] = title_by_norm.get(normalize(r["lemma"]), w["lemma"])
         r["wiktionary_origin"] = ""
 
@@ -453,14 +449,14 @@ def build(out_dir: str, data_commit: str = "") -> dict:
             derived_from_id, derivation_suffix, cognate_count, data_source,
             original_script, original_script_name, transliteration, ipa, arabic_pattern, script_source,
             english_gloss, etymology_summary_en, source_meaning_en, historical_attestation_en, origin_period_en,
-            provenance, provenance_basis, wiktionary_title, wiktionary_origin)
+            provenance, wiktionary_title, wiktionary_origin)
            VALUES (:id,:lemma,:normalized_lemma,:pos,:origin_language_code,:origin_language_name,
             :origin_period,:root_family_id,:source_form,:source_meaning,:etymology_summary,
             :phonetic_evolution_json,:historical_attestation,:is_turcism_exporter,:is_disputed,
             :derived_from_id,:derivation_suffix,:cognate_count,:data_source,
             :original_script,:original_script_name,:transliteration,:ipa,:arabic_pattern,:script_source,
             :english_gloss,:etymology_summary_en,:source_meaning_en,:historical_attestation_en,:origin_period_en,
-            :provenance,:provenance_basis,:wiktionary_title,:wiktionary_origin)""", all_words)
+            :provenance,:wiktionary_title,:wiktionary_origin)""", all_words)
     cur.executemany("INSERT INTO shared_cognates VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", cognate_rows)
     cur.executemany("INSERT INTO sample_texts VALUES (:id,:title,:author,:era,:body)", SAMPLE_TEXTS)
     cur.executemany("INSERT INTO data_sources VALUES (:id,:kind,:name,:author,:year,:license,:url,:license_url,:usage,:fields,:usage_en)",
@@ -526,7 +522,6 @@ def build(out_dir: str, data_commit: str = "") -> dict:
         "wiktionary_ottoman_reviewed": str(sum(1 for r in wikt_rows if wikt_by_row[r["id"]].get("reviewed"))),
         "wiktionary_attribution": WIKTIONARY_ATTRIBUTION if wikt_rows else "",
         "provenance_counts": json.dumps(dict(sorted(Counter(r["provenance"] for r in all_words).items())), ensure_ascii=False),
-        "provenance_nisanyan_count": str(sum(1 for r in all_words if r["provenance_basis"] == "nisanyan")),
         "wiktionary_title_count": str(sum(1 for r in all_words if r["wiktionary_title"])),
         "curated_wiktionary_agree_count": str(sum(1 for r in all_words if r["wiktionary_origin"] and r["wiktionary_origin"] == r["origin_language_code"])),
         "curated_wiktionary_differ_count": str(sum(1 for r in all_words if r["wiktionary_origin"] and r["wiktionary_origin"] != r["origin_language_code"])),

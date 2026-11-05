@@ -66,8 +66,6 @@ Her sözcük, bilginin nereden geldiğini taşır; uygulama bunu künyedeki kayn
 | `wiktionary_ottoman` | Asıl köken, Wiktionary'nin Osmanlı Türkçesi maddesinden izlendi (`etl_ottoman.py`) |
 | `review` | Osmanlı Türkçesinde kalan kayıt için ek inceleme kararı (`corpora/generated/ottoman_review.json`) |
 
-`provenance_basis` inceleme kararının dayanağıdır: `nisanyan` (Nişanyan Sözlük'teki madde ile karşılaştırıldı; bileşiklerde
-baş ögenin maddesi — sözlük metni alınmaz, yalnızca köken dili) ya da `editor` (kaynakta madde yok, yapı açık).
 `wiktionary_title` sözcüğün Wiktionary'deki Türkçe madde başlığıdır (uygulamadaki "Wiktionary'de aç" bağlantısı).
 `wiktionary_origin` yalnızca editör kayıtlarında, ETL'in aynı sözcük için Wiktionary'den çıkardığı kökendir; uygulama
 bunu yalnızca köken aynıysa ("Wiktionary de aynı kökeni veriyor") gösterir. Farklı olanlar ETL ayrıştırma hatası da

@@ -231,11 +231,9 @@ def check_provenance(conn):
         (provenance IN ('curated') AND data_source <> 'curated') OR
         (provenance = 'derived' AND data_source <> 'derived') OR
         (provenance IN ('wiktionary','wiktionary_ottoman','review') AND data_source <> 'wiktionary')""").fetchone()[0]
-    basis_outside_review = conn.execute("SELECT COUNT(*) FROM words WHERE provenance_basis <> '' AND provenance <> 'review'").fetchone()[0]
     ota_resolved = conn.execute("SELECT COUNT(*) FROM words WHERE provenance IN ('wiktionary_ottoman','review') AND origin_language_code = 'ota'").fetchone()[0]
-    print(f"[10] künye kaynağı: boş {empty}, kaynak türüyle çelişen {wrong_source}, inceleme dışı dayanak {basis_outside_review}, "
-          f"çözülmüş görünüp ota kalan {ota_resolved}")
-    if empty or wrong_source or basis_outside_review or ota_resolved:
+    print(f"[10] künye kaynağı: boş {empty}, kaynak türüyle çelişen {wrong_source}, çözülmüş görünüp ota kalan {ota_resolved}")
+    if empty or wrong_source or ota_resolved:
         E("künye kaynağı tutarsız (provenance)")
 
 
