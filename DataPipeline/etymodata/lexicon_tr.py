@@ -610,7 +610,7 @@ armut|n|fa|amrūd|armut|EAT||
 erik|n|tr|erük|erik|DLT||
 kavun|n|tr|kagun|kavun|DLT||
 ayva|n|tr|avya|ayva|DLT||
-kayısı|n|el?|kaísi|kayısı|OSM||
+kayısı|n|ar|qaysī|kayısı|EAT||ar:qaysī>tr:kayısı
 çilek|n|tr|çilek|çilek|OSM||
 fındık|n|ar|funduq|fındık|EAT||ar:funduq>tr:fındık
 kestane|n|el|kástano|kestane|EAT||
