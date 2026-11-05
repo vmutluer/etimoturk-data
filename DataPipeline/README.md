@@ -1,6 +1,6 @@
 # DataPipeline
 
-`python3 build_database.py [--out App/Resources]` — şema sürümü 4; her tabloda Türkçe alanların yanında `*_en` İngilizce alanları üretilir (`meta.languages_supported = tr,en`).
+`python3 build_database.py [--out App/Resources]` — şema sürümü 6 (künye kaynağı: `provenance`, `wiktionary_title`, `wiktionary_origin`); her tabloda Türkçe alanların yanında `*_en` İngilizce alanları üretilir (`meta.languages_supported = tr,en`).
 
 | Dosya | İçerik |
 |---|---|

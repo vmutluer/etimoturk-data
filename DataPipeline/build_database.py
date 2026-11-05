@@ -15,7 +15,7 @@ import re
 import sqlite3
 import sys
 import time
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -37,7 +37,7 @@ from etymodata.enrich import ScriptEnricher
 from etymodata import derivation, templates, audit_rules
 from etymodata.templates import normalize
 
-SCHEMA_VERSION = 5
+SCHEMA_VERSION = 6
 
 _REF_MARKUP = re.compile(r"\s*<[a-z]+[:\s].*$", re.S)  # <ref:…>, <pos:…>, <ety:…>, <alt:…> şablon kalıntıları
 _TAGS = re.compile(r"<[^>]*>")
@@ -121,6 +121,48 @@ def apply_ottoman_reviews(wikt: dict) -> int:
             w["method"] = "review"
         applied += 1
     return applied
+
+
+def apply_provenance(word_rows, derived_rows, wikt_rows, wikt_by_row, wikt) -> None:
+    """Her sözcüğe künye kaynağını yazar (şema 6):
+    - provenance: curated (EtimoTürk editör kaydı), derived (editör kaydından Türkçe içi türetme), wiktionary,
+      wiktionary_ottoman (asıl köken Wiktionary'nin Osmanlı Türkçesi maddesinden izlendi), review (ek inceleme kararı);
+    - wiktionary_title: sözcüğün Wiktionary'deki Türkçe madde başlığı (bağlantı için; yoksa boş);
+    - wiktionary_origin: editör kayıtlarında Wiktionary'nin verdiği köken (karşılaştırma; çözülmemiş/bilinmeyen ise boş)."""
+    words = (wikt or {}).get("words", [])
+    exact_titles = {w["lemma"] for w in words} | set(((load_generated("glosses_en") or {}).get("glosses", {}) or {}).keys())
+    titles_by_norm = defaultdict(list)
+    for t in sorted(exact_titles):
+        titles_by_norm[normalize(t)].append(t)
+
+    def title_for(lemma: str) -> str:
+        """Wiktionary madde başlığı: birebir aynısı; yoksa normalleştirilmiş eşleşme (cins adda küçük harfli başlık
+        tercih edilir — "görgü" için "Görgü" kişi adı sayfası değil)."""
+        if lemma in exact_titles:
+            return lemma
+        cands = titles_by_norm.get(normalize(lemma), [])
+        if not cands:
+            return ""
+        if lemma[:1] == lemma[:1].lower():
+            # Cins ad: yalnızca küçük harfli başlık (büyük harfli olan kişi/yer adı sayfasıdır, bağlanmaz)
+            lower = [c for c in cands if c[:1] == c[:1].lower()]
+            return lower[0] if lower else ""
+        return cands[0]
+    origin_by_key, origin_by_lemma = {}, {}
+    for w in words:
+        origin_by_key.setdefault((w["lemma"], w["pos"]), w["origin"])
+        origin_by_lemma.setdefault(w["lemma"], w["origin"])
+    for kind, rows in (("curated", word_rows), ("derived", derived_rows)):
+        for r in rows:
+            r["provenance"] = kind
+            r["wiktionary_title"] = title_for(r["lemma"])
+            wo = origin_by_key.get((r["lemma"], r["pos"])) or origin_by_lemma.get(r["lemma"], "")
+            r["wiktionary_origin"] = wo if wo and wo not in ("ota", "unk") else ""
+    for r in wikt_rows:
+        w = wikt_by_row[r["id"]]
+        r["provenance"] = "review" if w.get("reviewed") else ("wiktionary_ottoman" if w.get("ottoman_resolved") else "wiktionary")
+        r["wiktionary_title"] = title_for(r["lemma"]) or w["lemma"]
+        r["wiktionary_origin"] = ""
 
 
 def attested_lemmas() -> set:
@@ -245,6 +287,9 @@ def build(out_dir: str, data_commit: str = "") -> dict:
             next_id += 1
         wikt_cognates = wikt.get("cognates", [])
     all_words = word_rows + derived_rows + wikt_rows
+
+    # --- künye kaynağı (şema 6): bilginin nereden geldiği + Wiktionary sayfası ------------------
+    apply_provenance(word_rows, derived_rows, wikt_rows, wikt_by_row, wikt)
 
     # --- özgün alfabe, vezin ve IPA zenginleştirmesi (şema 2) ----------------
     overrides, override_names = {}, {}
@@ -416,13 +461,15 @@ def build(out_dir: str, data_commit: str = "") -> dict:
             phonetic_evolution_json, historical_attestation, is_turcism_exporter, is_disputed,
             derived_from_id, derivation_suffix, cognate_count, data_source,
             original_script, original_script_name, transliteration, ipa, arabic_pattern, script_source,
-            english_gloss, etymology_summary_en, source_meaning_en, historical_attestation_en, origin_period_en)
+            english_gloss, etymology_summary_en, source_meaning_en, historical_attestation_en, origin_period_en,
+            provenance, wiktionary_title, wiktionary_origin)
            VALUES (:id,:lemma,:normalized_lemma,:pos,:origin_language_code,:origin_language_name,
             :origin_period,:root_family_id,:source_form,:source_meaning,:etymology_summary,
             :phonetic_evolution_json,:historical_attestation,:is_turcism_exporter,:is_disputed,
             :derived_from_id,:derivation_suffix,:cognate_count,:data_source,
             :original_script,:original_script_name,:transliteration,:ipa,:arabic_pattern,:script_source,
-            :english_gloss,:etymology_summary_en,:source_meaning_en,:historical_attestation_en,:origin_period_en)""", all_words)
+            :english_gloss,:etymology_summary_en,:source_meaning_en,:historical_attestation_en,:origin_period_en,
+            :provenance,:wiktionary_title,:wiktionary_origin)""", all_words)
     cur.executemany("INSERT INTO shared_cognates VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", cognate_rows)
     cur.executemany("INSERT INTO sample_texts VALUES (:id,:title,:author,:era,:body)", SAMPLE_TEXTS)
     cur.executemany("INSERT INTO data_sources VALUES (:id,:kind,:name,:author,:year,:license,:url,:license_url,:usage,:fields,:usage_en)",
@@ -487,6 +534,10 @@ def build(out_dir: str, data_commit: str = "") -> dict:
         "wiktionary_ottoman_unverified": str(sum(1 for r in wikt_rows if r["origin_language_code"] == "ota")),
         "wiktionary_ottoman_reviewed": str(sum(1 for r in wikt_rows if wikt_by_row[r["id"]].get("reviewed"))),
         "wiktionary_attribution": WIKTIONARY_ATTRIBUTION if wikt_rows else "",
+        "provenance_counts": json.dumps(dict(sorted(Counter(r["provenance"] for r in all_words).items())), ensure_ascii=False),
+        "wiktionary_title_count": str(sum(1 for r in all_words if r["wiktionary_title"])),
+        "curated_wiktionary_agree_count": str(sum(1 for r in all_words if r["wiktionary_origin"] and r["wiktionary_origin"] == r["origin_language_code"])),
+        "curated_wiktionary_differ_count": str(sum(1 for r in all_words if r["wiktionary_origin"] and r["wiktionary_origin"] != r["origin_language_code"])),
         "root_family_count": str(len(family_rows)),
         "cognate_count": str(len(cognate_rows)),
         "false_friend_count": str(sum(1 for r in cognate_rows if r[10])),

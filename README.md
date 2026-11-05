@@ -9,7 +9,7 @@ Veri **CC BY-SA 4.0**, betikler **MIT** lisansıyla sunulur (bkz. [LICENSE.md](L
 
 | Yol | Açıklama |
 |---|---|
-| `data/etymoturk.sqlite` | Uygulamanın kullandığı veritabanı (şema 5, FTS5). 17.246 sözcük (11.272 denetlenmiş künye, 825 tanıklanmış türetme, 5.149 Wiktionary kaydı), 1.351 kök ailesi, 12.446 "uluslarla ortak sözcük" (28 dil), 291 yer adı, 325 deyim kökeni, 428 kişi adı kökeni (`person_names`, 30'u tartışmalı) — Türkçe ve İngilizce |
+| `data/etymoturk.sqlite` | Uygulamanın kullandığı veritabanı (şema 6, FTS5). 17.246 sözcük (11.272 denetlenmiş künye, 825 tanıklanmış türetme, 5.149 Wiktionary kaydı), 1.351 kök ailesi, 12.446 "uluslarla ortak sözcük" (28 dil), 291 yer adı, 325 deyim kökeni, 428 kişi adı kökeni (`person_names`, 30'u tartışmalı) — Türkçe ve İngilizce |
 | `data/etymoturk.json` | Aynı verinin JSON yedeği |
 | `data/denetim_raporu.csv` | Son içerik denetiminin şüpheli kayıt listesi (inceleme için uyarılar) |
 | `DataPipeline/` | Korpuslar (`corpora/*.py`, `etymodata/*.py`), İngilizce çeviriler (`english/*.tsv`), Wiktionary ETL, `build_database.py`, biçimsel doğrulayıcı `validate_corpora.py`, içerik denetçisi `audit_database.py` |
@@ -53,6 +53,23 @@ içinde köken alanına `?` eklenerek işaretlenir (`is_disputed = 1`): parçala
 alanları öteki görüşleri verir; hikâye "kökeni kesin olarak bilinmeyen… en yaygın açıklamaya göre" diye başlar ve
 uygulama bu adları "Adın Kökeni" oyununda sormaz. DSL `corpora/kisi_adlari_kadin.py` başında açıklanmıştır. Peygamber
 ve sahabe adlarında İbranice/Arapça asıl ile Türkçeye giriş biçimi ayrı verilir.
+
+## Künye kaynağı (`words.provenance`, şema 6)
+
+Her sözcük, bilginin nereden geldiğini taşır; uygulama bunu künyedeki kaynak rozetinde gösterir:
+
+| `provenance` | Anlamı |
+|---|---|
+| `curated` | EtimoTürk editör kaydı (`corpora/`, `etymodata/lexicon_*`) |
+| `derived` | Editör kaydından kural tabanlı Türkçe içi türetme (Wiktionary'de madde başı olarak tanıklanmış) |
+| `wiktionary` | Wiktionary (Kaikki.org dökümü) yapısal etimoloji verisi |
+| `wiktionary_ottoman` | Asıl köken, Wiktionary'nin Osmanlı Türkçesi maddesinden izlendi (`etl_ottoman.py`) |
+| `review` | Osmanlı Türkçesinde kalan kayıt için ek inceleme kararı (`corpora/generated/ottoman_review.json`) |
+
+`wiktionary_title` sözcüğün Wiktionary'deki Türkçe madde başlığıdır (uygulamadaki "Wiktionary'de aç" bağlantısı).
+`wiktionary_origin` yalnızca editör kayıtlarında, ETL'in aynı sözcük için Wiktionary'den çıkardığı kökendir; uygulama
+bunu yalnızca köken aynıysa ("Wiktionary de aynı kökeni veriyor") gösterir. Farklı olanlar ETL ayrıştırma hatası da
+içerebildiği için (ör. türetmelerde kökün dili) gösterilmez; denetim için `meta.curated_wiktionary_differ_count`.
 
 ## Düzeltme göndermek
 
