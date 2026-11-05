@@ -6,13 +6,38 @@
     "date": "2026-11-05",
     "note": "Toplu kesin liste: standart Arapça alıntılar ve öz Türkçe türetmeler",
     "count": 342
+   },
+   {
+    "date": "2026-11-05",
+    "note": "İkinci liste: Farsça, Fransızca, İtalyanca, Yunanca, Ermenice ve diğer diller; türetmelerde kökün dili; kaynaklarda belirsiz olanlar 'unk'",
+    "count": 206
    }
   ]
  },
  "decisions": {
+  "Fransız|adj": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
+  "Galata|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
   "Maruni|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "abadi|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "abdestbozan|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "aborda|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
   },
   "aceleten|adv": {
    "origin": "ar",
@@ -26,6 +51,10 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "adamcıl|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "adaş|n": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -34,9 +63,21 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "adilane|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "adlı|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "afacan|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "aftos|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
   },
   "ahdî|adj": {
    "origin": "ar",
@@ -62,10 +103,6 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
-  "aksak|adj": {
-   "origin": "tr",
-   "batch": "2026-11-05"
-  },
   "aksakal|n": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -74,9 +111,33 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "aksak|adj": {
+   "origin": "tr",
+   "batch": "2026-11-05"
+  },
+  "aksan|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "aktris|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "alabora|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
+  },
+  "alacabalıkçıl|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
   "alacakarga|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "alacakokarca|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
   },
   "alacık|n": {
    "origin": "tr",
@@ -94,9 +155,21 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "amaçlamak|v": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "amil|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "anaforlamak|v": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
+  "angut|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
   },
   "apansız|adv": {
    "origin": "tr",
@@ -122,12 +195,16 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
-  "as|n": {
-   "origin": "tr",
-   "batch": "2026-11-05"
+  "arşivlemek|v": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
   },
   "asli|adj": {
    "origin": "ar",
+   "batch": "2026-11-05"
+  },
+  "as|n": {
+   "origin": "tr",
    "batch": "2026-11-05"
   },
   "asılmak|v": {
@@ -154,6 +231,10 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "ayvadana|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
   "ayyaş|n": {
    "origin": "ar",
    "batch": "2026-11-05"
@@ -166,9 +247,25 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "ayıt|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "azar|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "azgın|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "azmetmek|v": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "aznavur|n": {
+   "origin": "hy",
+   "batch": "2026-11-05b"
   },
   "açıcı|n": {
    "origin": "tr",
@@ -182,9 +279,29 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "aşina|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "babaerkil|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "babafingo|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
+  },
+  "bacakkalemi|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
+  "bacakçı|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
+  "bahane|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "balayı|n": {
    "origin": "tr",
@@ -194,9 +311,17 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "balgamlı|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "balgam|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "baro|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
   },
   "bastırmak|v": {
    "origin": "tr",
@@ -218,6 +343,10 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "belkim|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "belsoğukluğu|n": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -230,9 +359,29 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "beraberce|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "berbat|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "berhudar|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "bertaraf|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "beşerî|adj": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "bihaber|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "bilfiil|adv": {
    "origin": "ar",
@@ -250,6 +399,10 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "bitap|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "bitevi|adv": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -257,6 +410,14 @@
   "bitişik|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "bitüm|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "bocalamak|v": {
+   "origin": "it",
+   "batch": "2026-11-05b"
   },
   "boklu|adj": {
    "origin": "tr",
@@ -269,6 +430,10 @@
   "bozuntu|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "branda|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
   },
   "bulamaç|n": {
    "origin": "tr",
@@ -310,17 +475,57 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "cafcaf|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "cansiparane|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "canıgönülden|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "canım|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "caraskal|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "cayır|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "cağ|n": {
+   "origin": "hy",
+   "batch": "2026-11-05b"
+  },
+  "cerbeze|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
   },
   "cet|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "cibre|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
   "cici|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "curcuna|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "cüce|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
   },
   "cücük|n": {
    "origin": "tr",
@@ -334,11 +539,11 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
-  "cıvık|adj": {
-   "origin": "tr",
-   "batch": "2026-11-05"
+  "cılk|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
   },
-  "da|conj": {
+  "cıvık|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
   },
@@ -349,6 +554,10 @@
   "danışman|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "darağacı|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "darmadağın|adj": {
    "origin": "tr",
@@ -370,9 +579,17 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "da|conj": {
+   "origin": "tr",
+   "batch": "2026-11-05"
+  },
   "defaten|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "defol|intj": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
   },
   "delişmen|adj": {
    "origin": "tr",
@@ -381,6 +598,14 @@
   "derken|adv": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "dertop|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "devamlı|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
   },
   "devren|adv": {
    "origin": "ar",
@@ -398,6 +623,10 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "dikte|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
   "dilcik|n": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -409,6 +638,10 @@
   "dinen|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "dingo|n": {
+   "origin": "en",
+   "batch": "2026-11-05b"
   },
   "diriltmek|v": {
    "origin": "tr",
@@ -450,9 +683,17 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "doz|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
   "doğrusu|adv": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "drahoma|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
   },
   "durağan|adj": {
    "origin": "tr",
@@ -461,6 +702,10 @@
   "döküntü|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "dümbelek|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "ebcet|n": {
    "origin": "ar",
@@ -486,6 +731,10 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "efe|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
   "ekseriya|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
@@ -502,9 +751,25 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "engel|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
   "enikonu|adv": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "enternasyonal|adj": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "entrika|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
+  },
+  "erişte|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "ertesi|adj": {
    "origin": "tr",
@@ -513,6 +778,10 @@
   "esasen|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "esaslı|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
   },
   "esham|n": {
    "origin": "ar",
@@ -538,9 +807,17 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "evvelce|adv": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "eyvallah|intj": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "ezbere|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "ezici|adj": {
    "origin": "tr",
@@ -550,17 +827,57 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "ezkaza|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "eğreti|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "fahrenhayt|n": {
+   "origin": "de",
+   "batch": "2026-11-05b"
+  },
+  "farfara|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "faşizm|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
   },
   "fen|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "feriştah|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "fikren|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "fiyasko|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
+  },
+  "flama|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
+  },
+  "flört|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "frengi|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "fulya|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
   },
   "fâni|adj": {
    "origin": "ar",
@@ -582,13 +899,33 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "gafilane|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "gamze|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "gangava|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
   "gani|adj": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "gariban|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "garipleşmek|v": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "gazino|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
   },
   "gebermek|v": {
    "origin": "tr",
@@ -597,6 +934,10 @@
   "gerinmek|v": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "geveze|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
   },
   "gezinti|n": {
    "origin": "tr",
@@ -610,6 +951,14 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "gidişat|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
+  "girift|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "girinti|n": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -621,6 +970,10 @@
   "gittikçe|adv": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "giyotin|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
   },
   "gönlünce|adv": {
    "origin": "tr",
@@ -638,6 +991,10 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "göğe|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
+  },
   "güleğen|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -650,11 +1007,11 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
-  "gürültü|n": {
+  "gürültülü|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
   },
-  "gürültülü|adj": {
+  "gürültü|n": {
    "origin": "tr",
    "batch": "2026-11-05"
   },
@@ -674,6 +1031,18 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "hacıyatmaz|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "haddizatında|adv": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "hafife|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "hafriyat|n": {
    "origin": "ar",
    "batch": "2026-11-05"
@@ -681,6 +1050,22 @@
   "hakim|adj": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "hakkında|postp": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "halleşmek|v": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "hamarat|adj": {
+   "origin": "hy",
+   "batch": "2026-11-05b"
+  },
+  "harar|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
   },
   "haricen|adv": {
    "origin": "ar",
@@ -702,13 +1087,41 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "havacıva|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
   "havadis|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "havlıcan|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "hayde|intj": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
+  "haşarı|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "helalleşmek|v": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "helezon|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "helik|n": {
+   "origin": "hy",
+   "batch": "2026-11-05b"
+  },
+  "helme|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
   },
   "himar|n": {
    "origin": "ar",
@@ -718,6 +1131,10 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "hinterlant|n": {
+   "origin": "de",
+   "batch": "2026-11-05b"
+  },
   "hissiyat|n": {
    "origin": "ar",
    "batch": "2026-11-05"
@@ -725,6 +1142,10 @@
   "hissî|adj": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "hodan|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
   },
   "hoplamak|v": {
    "origin": "tr",
@@ -734,17 +1155,37 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "horozbina|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
   "hukuki|adj": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "hunhar|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "hâlen|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "hâletiruhiye|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "hörgüç|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "höşmerim|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "hülya|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
   },
   "hürmeten|adv": {
    "origin": "ar",
@@ -753,6 +1194,10 @@
   "hüviyet|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "hırdavat|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "ibne|n": {
    "origin": "ar",
@@ -810,15 +1255,19 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "insanoğlu|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "ipince|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
   },
-  "irs|n": {
+  "irsen|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
-  "irsen|adv": {
+  "irs|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
@@ -833,6 +1282,14 @@
   "isilik|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "ispit|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
+  "isteka|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
   },
   "istihfaf|n": {
    "origin": "ar",
@@ -866,11 +1323,11 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
-  "ivedi|adj": {
+  "ivedilikle|adv": {
    "origin": "tr",
    "batch": "2026-11-05"
   },
-  "ivedilikle|adv": {
+  "ivedi|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
   },
@@ -906,17 +1363,49 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "kadavra|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
+  },
   "kafa|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "kahya|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "kaka|adj": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
+  "kak|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
+  "kalas|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
   },
   "kalben|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "kalburüstü|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "kalpazan|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "kalık|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "kamusal|adj": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
   },
   "kanunen|adv": {
    "origin": "ar",
@@ -925,6 +1414,22 @@
   "karakulak|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "karekod|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "karekök|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "kargaşa|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "kartalgözü|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
   },
   "karışık|adj": {
    "origin": "tr",
@@ -937,6 +1442,14 @@
   "kasti|adj": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "katakulli|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "katbekat|adv": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
   },
   "katık|n": {
    "origin": "tr",
@@ -954,6 +1467,10 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "kazara|adv": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "kazıntı|n": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -962,9 +1479,17 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "kaşalot|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
   "kaşıklamak|v": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "kediayağı|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
   },
   "kedigözü|n": {
    "origin": "tr",
@@ -974,21 +1499,73 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "keklikgözü|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
+  "kelem|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "kelepir|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "keleş|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
+  "kelle|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "kerata|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
   "kerhen|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "kete|n": {
+   "origin": "hy",
+   "batch": "2026-11-05b"
+  },
+  "kevaşe|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "keyfince|adv": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
   },
   "kez|n": {
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "keş|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "kifayet|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "kikla|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
+  "kiren|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
   "kitre|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "klan|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
   },
   "kocabaş|n": {
    "origin": "tr",
@@ -998,6 +1575,18 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "kodak|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "kofana|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
+  "kof|adj": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
   "kokmuş|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -1006,9 +1595,25 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "komedya|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
+  },
+  "konsolide|adj": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
   "konukevi|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "konukçuluk|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
+  },
+  "konukçu|n": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
   },
   "koparmak|v": {
    "origin": "tr",
@@ -1021,6 +1626,10 @@
   "kopuntu|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "kor|adj": {
+   "origin": "tr",
+   "batch": "2026-11-05b"
   },
   "kucak|n": {
    "origin": "tr",
@@ -1062,13 +1671,17 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "kötümserlik|n": {
+   "origin": "tr",
+   "batch": "2026-11-05"
+  },
   "kötümser|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
   },
-  "kötümserlik|n": {
-   "origin": "tr",
-   "batch": "2026-11-05"
+  "külek|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
   },
   "külliyat|n": {
    "origin": "ar",
@@ -1078,9 +1691,33 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "küncü|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "künye|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "küşne|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "kılıbık|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "kımıl|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "kındıra|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
+  "kırmız|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
   },
   "kırnak|adj": {
    "origin": "tr",
@@ -1097,6 +1734,10 @@
   "kıtaat|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "kıtıpiyos|adj": {
+   "origin": "el",
+   "batch": "2026-11-05b"
   },
   "kıvrık|adj": {
    "origin": "tr",
@@ -1118,19 +1759,51 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "lavaş|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "lavman|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "leylekayağı|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "leylekburnu|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "leylekgagası|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "livata|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "lord|n": {
+   "origin": "en",
+   "batch": "2026-11-05b"
   },
   "madenî|adj": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
-  "makrama|n": {
-   "origin": "ar",
-   "batch": "2026-11-05"
+  "magnezit|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
   },
-  "malul|adj": {
+  "mahmuzcu|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "mahya|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "makrama|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
@@ -1138,21 +1811,53 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "malul|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05"
+  },
+  "manat|n": {
+   "origin": "sl",
+   "batch": "2026-11-05b"
+  },
   "maneviyat|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "manita|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
   },
   "mantıken|adv": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "marangozhane|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
+  "mars|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "marsık|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
   "maslak|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "mastika|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
   "masumiyet|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "matmazel|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
   },
   "mavera|n": {
    "origin": "ar",
@@ -1178,6 +1883,18 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "melas|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "melez|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "memnuniyetle|adv": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "memuriyet|n": {
    "origin": "ar",
    "batch": "2026-11-05"
@@ -1190,6 +1907,10 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "meyan|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "meymenet|n": {
    "origin": "ar",
    "batch": "2026-11-05"
@@ -1198,11 +1919,11 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
-  "meziyet|n": {
-   "origin": "ar",
-   "batch": "2026-11-05"
+  "mezbuhane|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
-  "mezun|adj": {
+  "meziyet|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
@@ -1210,13 +1931,29 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "mezun|adj": {
+   "origin": "ar",
+   "batch": "2026-11-05"
+  },
   "meşruiyet|n": {
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "mis|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "miço|n": {
+   "origin": "it",
+   "batch": "2026-11-05b"
+  },
   "muhaberat|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "muhafazakâr|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "mukadderat|n": {
    "origin": "ar",
@@ -1242,6 +1979,10 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "muğlaklık|n": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "muğlak|adj": {
    "origin": "ar",
    "batch": "2026-11-05"
@@ -1261,6 +2002,14 @@
   "mülhiye|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "mürdümük|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "mürver|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "müsait|adj": {
    "origin": "ar",
@@ -1302,6 +2051,14 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "müşkülpesent|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "mıcır|n": {
+   "origin": "hy",
+   "batch": "2026-11-05b"
+  },
   "mır|n": {
    "origin": "tr",
    "batch": "2026-11-05"
@@ -1322,6 +2079,14 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "namevcut|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "naçizane|adv": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "nebevi|adj": {
    "origin": "ar",
    "batch": "2026-11-05"
@@ -1334,6 +2099,14 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "neticede|adv": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
+  "neticesinde|postp": {
+   "origin": "ar",
+   "batch": "2026-11-05b"
+  },
   "nevale|n": {
    "origin": "ar",
    "batch": "2026-11-05"
@@ -1342,13 +2115,29 @@
    "origin": "ar",
    "batch": "2026-11-05"
   },
+  "nikbin|adj": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "niye|adv": {
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "numune|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
   "nâzım|n": {
    "origin": "ar",
    "batch": "2026-11-05"
+  },
+  "oje|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "omlet|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
   },
   "onar|adv": {
    "origin": "tr",
@@ -1358,9 +2147,17 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "ondülasyon|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
   "onmaz|adj": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "orospu|n": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
   },
   "orun|n": {
    "origin": "tr",
@@ -1374,9 +2171,41 @@
    "origin": "tr",
    "batch": "2026-11-05"
   },
+  "padavra|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
+  "palavra|n": {
+   "origin": "es",
+   "batch": "2026-11-05b"
+  },
+  "paralamak|v": {
+   "origin": "fa",
+   "batch": "2026-11-05b"
+  },
+  "pat|n": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
   "patırtı|n": {
    "origin": "tr",
    "batch": "2026-11-05"
+  },
+  "pavurya|n": {
+   "origin": "el",
+   "batch": "2026-11-05b"
+  },
+  "seremoni|n": {
+   "origin": "fr",
+   "batch": "2026-11-05b"
+  },
+  "sünepe|adj": {
+   "origin": "unk",
+   "batch": "2026-11-05b"
+  },
+  "şut|n": {
+   "origin": "en",
+   "batch": "2026-11-05b"
   }
  }
 }
