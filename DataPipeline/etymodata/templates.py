@@ -416,6 +416,8 @@ def make_wiktionary_row(wid: int, w: dict, cognate_count: int):
     sentence = WIKT_ORIGIN_SENTENCE.get(origin, f"{name} kökenli bir sözcüktür")
     if w.get("reviewed") and origin == "tr":
         sentence = "Türkçe kökler ve eklerle oluşmuş öz Türkçe bir sözcüktür"
+    if w.get("reviewed") and origin == "unk":
+        sentence = "kökeni kaynaklarda belirsiz ya da tartışmalı olan bir sözcüktür"
     src_text = f"{src}" + (f" ({script})" if script and script != src else "")
     parts = [f"{w['lemma']}, {sentence}; kaynak biçim {src_text}" + (f", İng. \"{gloss}\"" if gloss else "") + f". Sözcük türü: {pos.replace('dır', '').replace('dir', '').replace('tır', '').replace('tir', '')}."]
     if len(chain) > 1:
@@ -439,7 +441,7 @@ def make_wiktionary_row(wid: int, w: dict, cognate_count: int):
         "phonetic_evolution_json": chain_to_json(chain),
         "historical_attestation": ATTESTATIONS["WIKT"],
         "is_turcism_exporter": 0,
-        "is_disputed": 1 if origin == "ota" else 0,
+        "is_disputed": 1 if origin in ("ota", "unk") else 0,
         "derived_from_id": None,
         "derivation_suffix": None,
         "cognate_count": cognate_count,
