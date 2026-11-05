@@ -1,6 +1,6 @@
 {
  "meta": {
-  "source": "Elle köken incelemesi: Wiktionary'de kökeni Osmanlı Türkçesinde kalan sözcükler için Türkçeye doğrudan veren dil (Volkan Mutluer'in onayıyla; ölçüt: Nişanyan Sözlük ve TDK'nin esas aldığı doğrudan veren dil). Yalnızca köken dili olgusu; sözlük metni alınmamıştır.",
+  "source": "Elle köken incelemesi: Wiktionary'de kökeni Osmanlı Türkçesinde kalan sözcükler için Türkçeye doğrudan veren dil (Volkan Mutluer'in onayıyla). Yalnızca köken dili olgusu; sözlük metni alınmamıştır.",
   "batches": [
    {
     "date": "2026-11-05",
@@ -14,12 +14,12 @@
    },
    {
     "date": "2026-11-05",
-    "note": "Üçüncü liste: kalan 339 sözcükten tek ve net kökeni verilenler; iki dil arasında kalanlar, Nişanyan'da maddesi olmayanlar ve şüpheli türetmeler beklemede",
+    "note": "Üçüncü liste: kalan 339 sözcükten tek ve net kökeni verilenler; iki dil arasında kalanlar, kaynakta maddesi bulunmayanlar ve şüpheli türetmeler beklemede",
     "count": 273
    },
    {
     "date": "2026-11-05",
-    "note": "Dördüncü liste: Nişanyan maddeleriyle doğrulananlar; bileşiklerde baş ögenin dili; kaynağın 'kesin değil' dediği kararlar disputed=true (tartışmalı)",
+    "note": "Dördüncü liste: kalan kayıtların incelemesi; bileşiklerde baş ögenin dili; kaynağın 'kesin değil' dediği kararlar disputed=true (tartışmalı)",
     "count": 46
    }
   ]
