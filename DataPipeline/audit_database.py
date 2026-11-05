@@ -98,7 +98,7 @@ def check_wiktionary_layer(conn, wikt):
             report_rows.append(["wiktionary_script_heuristic", lemma, pos, origin, "", w["origin"], w["source_form"], "harf sezgisi"])
     ota = conn.execute("SELECT COUNT(*) FROM words WHERE data_source='wiktionary' AND origin_language_code='ota'").fetchone()[0]
     undisputed_ota = conn.execute("SELECT COUNT(*) FROM words WHERE origin_language_code='ota' AND is_disputed=0").fetchone()[0]
-    print(f"[2] Wiktionary katmanı: {heuristic} harf-sezgisi kökeni, {ota} kayıt 'ota' (kaynak dil belirsiz)")
+    print(f"[2] Wiktionary katmanı: {heuristic} harf-sezgisi kökeni, {ota} kayıt 'ota' (Osmanlı Türkçesi üzerinden, asıl kaynak doğrulanmadı)")
     if heuristic:
         E(f"{heuristic} Wiktionary kaydı harf sezgisiyle Arapça/Farsça sayılmış")
     if undisputed_ota:

@@ -398,7 +398,7 @@ WIKT_ORIGIN_SENTENCE = {
     "it": "İtalyancadan (Akdeniz ticaret dili) alınmıştır",
     "el": "Yunancadan (Rumca) Anadolu komşuluğuyla alınmıştır",
     "en": "İngilizceden 20. yüzyılda alınmıştır",
-    "ota": "Osmanlı Türkçesi döneminde kullanılan, kaynak dili kesin belirlenemeyen bir sözcüktür",
+    "ota": "Türkçeye Osmanlı Türkçesi üzerinden geçmiş bir sözcüktür; asıl kaynak dili açık bir kaynakla henüz doğrulanmadı",
 }
 
 
