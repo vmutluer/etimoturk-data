@@ -14,6 +14,8 @@
      bileşiklere yakıştırılmış "Eski Türkçe" aşaması bulunmamalı
   7. Yer adları: koordinatlar Türkiye sınırları içinde; 81 il eksiksiz
   8. Bütünlük: yetim kayıtlar, boş zorunlu alanlar
+  9. Kişi adları; 10. künye kaynağı (şema 6)
+ 11. Metin temizliği: Türkçe olmayan küçük harf izi (i̇) kalmamalı; yer adı künyelerinde ek fiil ünlü uyumuna uymalı
 
 Kullanım: python3 DataPipeline/audit_database.py [--db App/Resources/etymoturk.sqlite] [--report rapor.csv] [--min-agreement 0.90]
 Çıkış kodu 0 = tüm eşikler sağlandı; 1 = en az bir hata. Uyarılar (W) çıkış kodunu etkilemez.
@@ -33,6 +35,7 @@ sys.path.insert(0, HERE)
 
 from etymodata.audit_rules import TURKIC_TARGETS, is_excluded
 from etymodata.phase4 import IDIOM_NARRATIVE_SOURCES
+from etymodata.phase4_rows import copula, tr_lower
 from etymodata.parsing import load_generated
 from etymodata.templates import normalize
 
@@ -220,6 +223,28 @@ def check_integrity(conn):
         E("bütünlük hatası (foreign key / yetim kayıt / boş alan)")
 
 
+def check_text_hygiene(conn):
+    """[11] metin temizliği: Türkçe olmayan küçük harf dönüşümü izi (i + U+0307) kalmamalı; yer adı künyelerindeki
+    ek fiil ("bir ilçedir", "bir antik kenttir", "bir göldür") ünlü uyumuna ve ünsüz benzeşmesine uymalı."""
+    tables = [r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE '%fts%'")]
+    dotted = 0
+    for t in tables:
+        for col in [r[1] for r in conn.execute(f"PRAGMA table_info({t})") if r[2].upper() in ("TEXT", "")]:
+            n = conn.execute(f"SELECT COUNT(*) FROM {t} WHERE instr({col}, char(775)) > 0").fetchone()[0]
+            if n:
+                dotted += n
+                W(f"{t}.{col}: {n} satırda birleşen üst nokta (U+0307)")
+    bad_copula = []
+    for name, kind, kind_name, summary in conn.execute("SELECT name, kind, kind_name, summary FROM toponyms WHERE kind <> 'il'"):
+        if f" bir {copula(tr_lower(kind_name))};" not in summary:
+            bad_copula.append(name)
+    print(f"[11] metin temizliği: U+0307 içeren alan {dotted}, ek fiili hatalı yer adı künyesi {len(bad_copula)}")
+    if dotted:
+        E(f"{dotted} metin alanında Türkçe olmayan küçük harf dönüşümü izi (i̇)")
+    if bad_copula:
+        E(f"{len(bad_copula)} yer adı künyesinde ek fiil hatalı (ör. {', '.join(bad_copula[:5])})")
+
+
 def check_provenance(conn):
     """Şema 6: her sözcüğün künye kaynağı dolu ve tutarlı olmalı."""
     cols = {r[1] for r in conn.execute("PRAGMA table_info(words)")}
@@ -258,6 +283,7 @@ def main():
     check_names(conn)
     check_integrity(conn)
     check_provenance(conn)
+    check_text_hygiene(conn)
     if args.report:
         with open(args.report, "w", newline="", encoding="utf-8") as fh:
             wr = csv.writer(fh)
