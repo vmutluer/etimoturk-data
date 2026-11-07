@@ -11,6 +11,28 @@ def toponym_stage_name(code: str) -> str:
     return TOPONYM_STAGE_NAMES.get(code, code)
 
 
+_TR_CAPITAL_I = str.maketrans({"I": "ı", "İ": "i"})
+_COPULA_VOWEL = {"a": "ı", "ı": "ı", "â": "ı", "e": "i", "i": "i", "î": "i",
+                 "o": "u", "u": "u", "û": "u", "ö": "ü", "ü": "ü"}
+_VOICELESS = set("çfhkpsşt")
+
+
+def tr_lower(text: str) -> str:
+    """Türkçe küçük harf: İ→i, I→ı. (Python'un lower()'ı "İ"yi "i" + birleşen üst nokta (U+0307) yapar.)"""
+    return text.translate(_TR_CAPITAL_I).lower()
+
+
+def copula(word: str) -> str:
+    """Ek fiil -DIr: dört yönlü ünlü uyumu ve ünsüz benzeşmesiyle eklenir.
+
+    "ilçe" → "ilçedir", "antik kent" → "antik kenttir", "dağ" → "dağdır", "göl" → "göldür", "akarsu" → "akarsudur".
+    """
+    vowel = next((_COPULA_VOWEL[ch] for ch in reversed(word) if ch in _COPULA_VOWEL), "i")
+    letters = [ch for ch in word if ch.isalpha()]
+    consonant = "t" if letters and letters[-1] in _VOICELESS else "d"
+    return f"{word}{consonant}{vowel}r"
+
+
 def _chain_text(chain) -> str:
     return " → ".join(f"{toponym_stage_name(c)} *{f}*" for c, f in chain)
 
@@ -24,7 +46,7 @@ def toponym_summary(t) -> str:
     if t.kind == "il":
         parts.append(f"{t.name}, {t.region} Bölgesi'nde bir il merkezidir; adı {origin_name} kökenlidir.")
     else:
-        parts.append(f"{t.name}, {t.province} ilinde bir {kind_name.lower()}dir; adı {origin_name} kökenlidir.")
+        parts.append(f"{t.name}, {t.province} ilinde bir {copula(tr_lower(kind_name))}; adı {origin_name} kökenlidir.")
     if len(t.chain) > 1:
         parts.append(f"En eski bilinen biçimi {toponym_stage_name(first_code)} *{first_form}* olup adın yolculuğu: {_chain_text(t.chain)}.")
     parts.append(f"Anlamı: {t.meaning}.")
